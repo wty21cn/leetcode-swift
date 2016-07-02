@@ -7,7 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B76B77DB1D281C190093657C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77DA1D281C190093657C /* main.swift */; };
+		B76B78121D281C7C0093657C /* q013-roman-to-integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77E51D281C7C0093657C /* q013-roman-to-integer.swift */; };
+		B76B78131D281C7C0093657C /* q021-merge-two-sorted-lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77E61D281C7C0093657C /* q021-merge-two-sorted-lists.swift */; };
+		B76B78141D281C7C0093657C /* q024-swap-nodes-in-pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77E71D281C7C0093657C /* q024-swap-nodes-in-pairs.swift */; };
+		B76B78151D281C7C0093657C /* q070-climbing-stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77E81D281C7C0093657C /* q070-climbing-stairs.swift */; };
+		B76B78161D281C7C0093657C /* q083-remove-duplicates-from-sorted-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77E91D281C7C0093657C /* q083-remove-duplicates-from-sorted-list.swift */; };
+		B76B78171D281C7C0093657C /* q100-same-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77EA1D281C7C0093657C /* q100-same-tree.swift */; };
+		B76B78181D281C7C0093657C /* q104-maximum-depth-of-binary-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77EB1D281C7C0093657C /* q104-maximum-depth-of-binary-tree.swift */; };
+		B76B78191D281C7C0093657C /* q121-best-time-to-buy-and-sell-stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77EC1D281C7C0093657C /* q121-best-time-to-buy-and-sell-stock.swift */; };
+		B76B781A1D281C7C0093657C /* q141-linked-list-cycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77ED1D281C7C0093657C /* q141-linked-list-cycle.swift */; };
+		B76B781B1D281C7C0093657C /* q160-majority-element.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77EE1D281C7C0093657C /* q160-majority-element.swift */; };
+		B76B781C1D281C7C0093657C /* q171-excel-sheet-column-number.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77EF1D281C7C0093657C /* q171-excel-sheet-column-number.swift */; };
+		B76B781D1D281C7C0093657C /* q191-number-of-1-bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77F11D281C7C0093657C /* q191-number-of-1-bits.swift */; };
+		B76B781E1D281C7C0093657C /* q202-happy-number.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77F21D281C7C0093657C /* q202-happy-number.swift */; };
+		B76B781F1D281C7C0093657C /* q206-reverse-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77F31D281C7C0093657C /* q206-reverse-linked-list.swift */; };
+		B76B78201D281C7C0093657C /* q217-contains-duplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77F41D281C7C0093657C /* q217-contains-duplicate.swift */; };
+		B76B78211D281C7C0093657C /* q226-invert-binary-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77F51D281C7C0093657C /* q226-invert-binary-tree.swift */; };
+		B76B78221D281C7C0093657C /* q231-power-of-two.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77F61D281C7C0093657C /* q231-power-of-two.swift */; };
+		B76B78231D281C7C0093657C /* q235-lowest-common-ancestor-of-a-binary-search-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77F81D281C7C0093657C /* q235-lowest-common-ancestor-of-a-binary-search-tree.swift */; };
+		B76B78241D281C7C0093657C /* q237-delete-node-in-a-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77FA1D281C7C0093657C /* q237-delete-node-in-a-linked-list.swift */; };
+		B76B78251D281C7C0093657C /* q242-valid-anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77FB1D281C7C0093657C /* q242-valid-anagram.swift */; };
+		B76B78261D281C7C0093657C /* q258-add-digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77FC1D281C7C0093657C /* q258-add-digits.swift */; };
+		B76B78271D281C7C0093657C /* q263-ugly-number.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77FD1D281C7C0093657C /* q263-ugly-number.swift */; };
+		B76B78281D281C7C0093657C /* q283-move-zeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77FE1D281C7C0093657C /* q283-move-zeroes.swift */; };
+		B76B78291D281C7C0093657C /* q292-nim-games.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77FF1D281C7C0093657C /* q292-nim-games.swift */; };
+		B76B782A1D281C7C0093657C /* q326-power-of-three.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78001D281C7C0093657C /* q326-power-of-three.swift */; };
+		B76B782B1D281C7C0093657C /* q334-everse-string.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78011D281C7C0093657C /* q334-everse-string.swift */; };
+		B76B782C1D281C7C0093657C /* q345-reverse-vowels-of-a-string.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78021D281C7C0093657C /* q345-reverse-vowels-of-a-string.swift */; };
+		B76B782D1D281C7C0093657C /* q349-Intersection-of-two-arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78031D281C7C0093657C /* q349-Intersection-of-two-arrays.swift */; };
+		B76B782E1D281C7C0093657C /* q350-intersection-of-two-arrays-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78041D281C7C0093657C /* q350-intersection-of-two-arrays-ii.swift */; };
+		B76B782F1D281C7C0093657C /* q371-sum-of-two-integers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78051D281C7C0093657C /* q371-sum-of-two-integers.swift */; };
+		B76B78301D281C7C0093657C /* q122-best-time-to-buy-and-sell-stock-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78081D281C7C0093657C /* q122-best-time-to-buy-and-sell-stock-ii.swift */; };
+		B76B78311D281C7C0093657C /* BinaryTreeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B780A1D281C7C0093657C /* BinaryTreeHelper.swift */; };
+		B76B78321D281C7C0093657C /* LinkedListHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B780B1D281C7C0093657C /* LinkedListHelper.swift */; };
+		B76B78331D281C7C0093657C /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B780C1D281C7C0093657C /* ListNode.swift */; };
+		B76B78341D281C7C0093657C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B780D1D281C7C0093657C /* main.swift */; };
+		B76B78351D281C7C0093657C /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B780E1D281C7C0093657C /* TreeNode.swift */; };
+		B76B78361D281C7C0093657C /* template.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78111D281C7C0093657C /* template.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +60,50 @@
 
 /* Begin PBXFileReference section */
 		B76B77D71D281C190093657C /* leetcode-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B76B77DA1D281C190093657C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B76B77E11D281C400093657C /* util */ = {isa = PBXFileReference; lastKnownFileType = folder; path = util; sourceTree = "<group>"; };
+		B76B77E21D281C560093657C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B76B77E31D281C660093657C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B76B77E51D281C7C0093657C /* q013-roman-to-integer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q013-roman-to-integer.swift"; sourceTree = "<group>"; };
+		B76B77E61D281C7C0093657C /* q021-merge-two-sorted-lists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q021-merge-two-sorted-lists.swift"; sourceTree = "<group>"; };
+		B76B77E71D281C7C0093657C /* q024-swap-nodes-in-pairs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q024-swap-nodes-in-pairs.swift"; sourceTree = "<group>"; };
+		B76B77E81D281C7C0093657C /* q070-climbing-stairs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q070-climbing-stairs.swift"; sourceTree = "<group>"; };
+		B76B77E91D281C7C0093657C /* q083-remove-duplicates-from-sorted-list.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q083-remove-duplicates-from-sorted-list.swift"; sourceTree = "<group>"; };
+		B76B77EA1D281C7C0093657C /* q100-same-tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q100-same-tree.swift"; sourceTree = "<group>"; };
+		B76B77EB1D281C7C0093657C /* q104-maximum-depth-of-binary-tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q104-maximum-depth-of-binary-tree.swift"; sourceTree = "<group>"; };
+		B76B77EC1D281C7C0093657C /* q121-best-time-to-buy-and-sell-stock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q121-best-time-to-buy-and-sell-stock.swift"; sourceTree = "<group>"; };
+		B76B77ED1D281C7C0093657C /* q141-linked-list-cycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q141-linked-list-cycle.swift"; sourceTree = "<group>"; };
+		B76B77EE1D281C7C0093657C /* q160-majority-element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q160-majority-element.swift"; sourceTree = "<group>"; };
+		B76B77EF1D281C7C0093657C /* q171-excel-sheet-column-number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q171-excel-sheet-column-number.swift"; sourceTree = "<group>"; };
+		B76B77F01D281C7C0093657C /* q191-number-of-1-bits.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = "q191-number-of-1-bits.py"; sourceTree = "<group>"; };
+		B76B77F11D281C7C0093657C /* q191-number-of-1-bits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q191-number-of-1-bits.swift"; sourceTree = "<group>"; };
+		B76B77F21D281C7C0093657C /* q202-happy-number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q202-happy-number.swift"; sourceTree = "<group>"; };
+		B76B77F31D281C7C0093657C /* q206-reverse-linked-list.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q206-reverse-linked-list.swift"; sourceTree = "<group>"; };
+		B76B77F41D281C7C0093657C /* q217-contains-duplicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q217-contains-duplicate.swift"; sourceTree = "<group>"; };
+		B76B77F51D281C7C0093657C /* q226-invert-binary-tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q226-invert-binary-tree.swift"; sourceTree = "<group>"; };
+		B76B77F61D281C7C0093657C /* q231-power-of-two.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q231-power-of-two.swift"; sourceTree = "<group>"; };
+		B76B77F71D281C7C0093657C /* q235-lowest-common-ancestor-of-a-binary-search-tree.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = "q235-lowest-common-ancestor-of-a-binary-search-tree.py"; sourceTree = "<group>"; };
+		B76B77F81D281C7C0093657C /* q235-lowest-common-ancestor-of-a-binary-search-tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q235-lowest-common-ancestor-of-a-binary-search-tree.swift"; sourceTree = "<group>"; };
+		B76B77F91D281C7C0093657C /* q237-delete-node-in-a-linked-list.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = "q237-delete-node-in-a-linked-list.py"; sourceTree = "<group>"; };
+		B76B77FA1D281C7C0093657C /* q237-delete-node-in-a-linked-list.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q237-delete-node-in-a-linked-list.swift"; sourceTree = "<group>"; };
+		B76B77FB1D281C7C0093657C /* q242-valid-anagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q242-valid-anagram.swift"; sourceTree = "<group>"; };
+		B76B77FC1D281C7C0093657C /* q258-add-digits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q258-add-digits.swift"; sourceTree = "<group>"; };
+		B76B77FD1D281C7C0093657C /* q263-ugly-number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q263-ugly-number.swift"; sourceTree = "<group>"; };
+		B76B77FE1D281C7C0093657C /* q283-move-zeroes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q283-move-zeroes.swift"; sourceTree = "<group>"; };
+		B76B77FF1D281C7C0093657C /* q292-nim-games.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q292-nim-games.swift"; sourceTree = "<group>"; };
+		B76B78001D281C7C0093657C /* q326-power-of-three.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q326-power-of-three.swift"; sourceTree = "<group>"; };
+		B76B78011D281C7C0093657C /* q334-everse-string.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q334-everse-string.swift"; sourceTree = "<group>"; };
+		B76B78021D281C7C0093657C /* q345-reverse-vowels-of-a-string.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q345-reverse-vowels-of-a-string.swift"; sourceTree = "<group>"; };
+		B76B78031D281C7C0093657C /* q349-Intersection-of-two-arrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q349-Intersection-of-two-arrays.swift"; sourceTree = "<group>"; };
+		B76B78041D281C7C0093657C /* q350-intersection-of-two-arrays-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q350-intersection-of-two-arrays-ii.swift"; sourceTree = "<group>"; };
+		B76B78051D281C7C0093657C /* q371-sum-of-two-integers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q371-sum-of-two-integers.swift"; sourceTree = "<group>"; };
+		B76B78081D281C7C0093657C /* q122-best-time-to-buy-and-sell-stock-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q122-best-time-to-buy-and-sell-stock-ii.swift"; sourceTree = "<group>"; };
+		B76B780A1D281C7C0093657C /* BinaryTreeHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTreeHelper.swift; sourceTree = "<group>"; };
+		B76B780B1D281C7C0093657C /* LinkedListHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedListHelper.swift; sourceTree = "<group>"; };
+		B76B780C1D281C7C0093657C /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		B76B780D1D281C7C0093657C /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B76B780E1D281C7C0093657C /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		B76B78101D281C7C0093657C /* template.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = template.py; sourceTree = "<group>"; };
+		B76B78111D281C7C0093657C /* template.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = template.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +120,10 @@
 		B76B77CE1D281C190093657C = {
 			isa = PBXGroup;
 			children = (
+				B76B77E21D281C560093657C /* LICENSE */,
+				B76B77E31D281C660093657C /* README.md */,
 				B76B77D91D281C190093657C /* leetcode-swift */,
+				B76B77E11D281C400093657C /* util */,
 				B76B77D81D281C190093657C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,9 +139,89 @@
 		B76B77D91D281C190093657C /* leetcode-swift */ = {
 			isa = PBXGroup;
 			children = (
-				B76B77DA1D281C190093657C /* main.swift */,
+				B76B77E41D281C7C0093657C /* Easy */,
+				B76B78061D281C7C0093657C /* Hard */,
+				B76B78071D281C7C0093657C /* Medium */,
+				B76B78091D281C7C0093657C /* Shared */,
+				B76B780F1D281C7C0093657C /* Template */,
 			);
 			path = "leetcode-swift";
+			sourceTree = "<group>";
+		};
+		B76B77E41D281C7C0093657C /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				B76B77E51D281C7C0093657C /* q013-roman-to-integer.swift */,
+				B76B77E61D281C7C0093657C /* q021-merge-two-sorted-lists.swift */,
+				B76B77E71D281C7C0093657C /* q024-swap-nodes-in-pairs.swift */,
+				B76B77E81D281C7C0093657C /* q070-climbing-stairs.swift */,
+				B76B77E91D281C7C0093657C /* q083-remove-duplicates-from-sorted-list.swift */,
+				B76B77EA1D281C7C0093657C /* q100-same-tree.swift */,
+				B76B77EB1D281C7C0093657C /* q104-maximum-depth-of-binary-tree.swift */,
+				B76B77EC1D281C7C0093657C /* q121-best-time-to-buy-and-sell-stock.swift */,
+				B76B77ED1D281C7C0093657C /* q141-linked-list-cycle.swift */,
+				B76B77EE1D281C7C0093657C /* q160-majority-element.swift */,
+				B76B77EF1D281C7C0093657C /* q171-excel-sheet-column-number.swift */,
+				B76B77F01D281C7C0093657C /* q191-number-of-1-bits.py */,
+				B76B77F11D281C7C0093657C /* q191-number-of-1-bits.swift */,
+				B76B77F21D281C7C0093657C /* q202-happy-number.swift */,
+				B76B77F31D281C7C0093657C /* q206-reverse-linked-list.swift */,
+				B76B77F41D281C7C0093657C /* q217-contains-duplicate.swift */,
+				B76B77F51D281C7C0093657C /* q226-invert-binary-tree.swift */,
+				B76B77F61D281C7C0093657C /* q231-power-of-two.swift */,
+				B76B77F71D281C7C0093657C /* q235-lowest-common-ancestor-of-a-binary-search-tree.py */,
+				B76B77F81D281C7C0093657C /* q235-lowest-common-ancestor-of-a-binary-search-tree.swift */,
+				B76B77F91D281C7C0093657C /* q237-delete-node-in-a-linked-list.py */,
+				B76B77FA1D281C7C0093657C /* q237-delete-node-in-a-linked-list.swift */,
+				B76B77FB1D281C7C0093657C /* q242-valid-anagram.swift */,
+				B76B77FC1D281C7C0093657C /* q258-add-digits.swift */,
+				B76B77FD1D281C7C0093657C /* q263-ugly-number.swift */,
+				B76B77FE1D281C7C0093657C /* q283-move-zeroes.swift */,
+				B76B77FF1D281C7C0093657C /* q292-nim-games.swift */,
+				B76B78001D281C7C0093657C /* q326-power-of-three.swift */,
+				B76B78011D281C7C0093657C /* q334-everse-string.swift */,
+				B76B78021D281C7C0093657C /* q345-reverse-vowels-of-a-string.swift */,
+				B76B78031D281C7C0093657C /* q349-Intersection-of-two-arrays.swift */,
+				B76B78041D281C7C0093657C /* q350-intersection-of-two-arrays-ii.swift */,
+				B76B78051D281C7C0093657C /* q371-sum-of-two-integers.swift */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		B76B78061D281C7C0093657C /* Hard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hard;
+			sourceTree = "<group>";
+		};
+		B76B78071D281C7C0093657C /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				B76B78081D281C7C0093657C /* q122-best-time-to-buy-and-sell-stock-ii.swift */,
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		B76B78091D281C7C0093657C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B76B780A1D281C7C0093657C /* BinaryTreeHelper.swift */,
+				B76B780B1D281C7C0093657C /* LinkedListHelper.swift */,
+				B76B780C1D281C7C0093657C /* ListNode.swift */,
+				B76B780D1D281C7C0093657C /* main.swift */,
+				B76B780E1D281C7C0093657C /* TreeNode.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B76B780F1D281C7C0093657C /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				B76B78101D281C7C0093657C /* template.py */,
+				B76B78111D281C7C0093657C /* template.swift */,
+			);
+			path = Template;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +281,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B76B77DB1D281C190093657C /* main.swift in Sources */,
+				B76B782C1D281C7C0093657C /* q345-reverse-vowels-of-a-string.swift in Sources */,
+				B76B78341D281C7C0093657C /* main.swift in Sources */,
+				B76B78291D281C7C0093657C /* q292-nim-games.swift in Sources */,
+				B76B781F1D281C7C0093657C /* q206-reverse-linked-list.swift in Sources */,
+				B76B781E1D281C7C0093657C /* q202-happy-number.swift in Sources */,
+				B76B78231D281C7C0093657C /* q235-lowest-common-ancestor-of-a-binary-search-tree.swift in Sources */,
+				B76B78141D281C7C0093657C /* q024-swap-nodes-in-pairs.swift in Sources */,
+				B76B78311D281C7C0093657C /* BinaryTreeHelper.swift in Sources */,
+				B76B78171D281C7C0093657C /* q100-same-tree.swift in Sources */,
+				B76B78181D281C7C0093657C /* q104-maximum-depth-of-binary-tree.swift in Sources */,
+				B76B781D1D281C7C0093657C /* q191-number-of-1-bits.swift in Sources */,
+				B76B78361D281C7C0093657C /* template.swift in Sources */,
+				B76B78351D281C7C0093657C /* TreeNode.swift in Sources */,
+				B76B78301D281C7C0093657C /* q122-best-time-to-buy-and-sell-stock-ii.swift in Sources */,
+				B76B78161D281C7C0093657C /* q083-remove-duplicates-from-sorted-list.swift in Sources */,
+				B76B78211D281C7C0093657C /* q226-invert-binary-tree.swift in Sources */,
+				B76B78191D281C7C0093657C /* q121-best-time-to-buy-and-sell-stock.swift in Sources */,
+				B76B78321D281C7C0093657C /* LinkedListHelper.swift in Sources */,
+				B76B781C1D281C7C0093657C /* q171-excel-sheet-column-number.swift in Sources */,
+				B76B782D1D281C7C0093657C /* q349-Intersection-of-two-arrays.swift in Sources */,
+				B76B782E1D281C7C0093657C /* q350-intersection-of-two-arrays-ii.swift in Sources */,
+				B76B782A1D281C7C0093657C /* q326-power-of-three.swift in Sources */,
+				B76B78261D281C7C0093657C /* q258-add-digits.swift in Sources */,
+				B76B781B1D281C7C0093657C /* q160-majority-element.swift in Sources */,
+				B76B78221D281C7C0093657C /* q231-power-of-two.swift in Sources */,
+				B76B78131D281C7C0093657C /* q021-merge-two-sorted-lists.swift in Sources */,
+				B76B78151D281C7C0093657C /* q070-climbing-stairs.swift in Sources */,
+				B76B781A1D281C7C0093657C /* q141-linked-list-cycle.swift in Sources */,
+				B76B78331D281C7C0093657C /* ListNode.swift in Sources */,
+				B76B782F1D281C7C0093657C /* q371-sum-of-two-integers.swift in Sources */,
+				B76B782B1D281C7C0093657C /* q334-everse-string.swift in Sources */,
+				B76B78201D281C7C0093657C /* q217-contains-duplicate.swift in Sources */,
+				B76B78251D281C7C0093657C /* q242-valid-anagram.swift in Sources */,
+				B76B78271D281C7C0093657C /* q263-ugly-number.swift in Sources */,
+				B76B78241D281C7C0093657C /* q237-delete-node-in-a-linked-list.swift in Sources */,
+				B76B78121D281C7C0093657C /* q013-roman-to-integer.swift in Sources */,
+				B76B78281D281C7C0093657C /* q283-move-zeroes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
