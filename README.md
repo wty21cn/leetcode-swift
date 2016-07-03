@@ -1,6 +1,6 @@
 # LeetCode Solution Swift 
 [![language badge](https://img.shields.io/badge/language-swift%202.2-orange.svg)](https://github.com/apple/swift)
-[![progress](https://img.shields.io/badge/progress-%20%20Updating%2037%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
+[![progress](https://img.shields.io/badge/progress-%20%20Updating%2038%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
 [![license badge](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 ## About
@@ -171,6 +171,7 @@ If you want a full list of questions, please check [leetcode.com](https://leetco
 | 292 | [Nim Games](https://leetcode.com/problems/nim-games) | [swift](./leetcode-swift/Easy/q292-nim-games.swift) | Easy |  |
 | 326 | [Power Of Three](https://leetcode.com/problems/power-of-three) | [swift](./leetcode-swift/Easy/q326-power-of-three.swift) | Easy |  |
 | 334 | [Everse String](https://leetcode.com/problems/everse-string) | [swift](./leetcode-swift/Easy/q334-everse-string.swift) | Easy |  |
+| 342 | [Power Of Four](https://leetcode.com/problems/power-of-four) | [swift](./leetcode-swift/Easy/q342-power-of-four.swift) | Easy |  |
 | 345 | [Reverse Vowels Of A String](https://leetcode.com/problems/reverse-vowels-of-a-string) | [swift](./leetcode-swift/Easy/q345-reverse-vowels-of-a-string.swift) | Easy |  |
 | 349 | [Intersection Of Two Arrays](https://leetcode.com/problems/Intersection-of-two-arrays) | [swift](./leetcode-swift/Easy/q349-Intersection-of-two-arrays.swift) | Easy |  |
 | 350 | [Intersection Of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii) | [swift](./leetcode-swift/Easy/q350-intersection-of-two-arrays-ii.swift) | Easy |  |
