@@ -52,6 +52,7 @@
 		B76B78421D292ADD0093657C /* q111-minimum-depth-of-binary-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78411D292ADD0093657C /* q111-minimum-depth-of-binary-tree.swift */; };
 		B76B78441D29323D0093657C /* q342-power-of-four.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78431D29323D0093657C /* q342-power-of-four.swift */; };
 		B76B78461D294D910093657C /* q27-remove-element.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78451D294D910093657C /* q27-remove-element.swift */; };
+		B76B78481D295B510093657C /* q101-symmetric-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78471D295B510093657C /* q101-symmetric-tree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -120,6 +121,7 @@
 		B76B78411D292ADD0093657C /* q111-minimum-depth-of-binary-tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q111-minimum-depth-of-binary-tree.swift"; sourceTree = "<group>"; };
 		B76B78431D29323D0093657C /* q342-power-of-four.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q342-power-of-four.swift"; sourceTree = "<group>"; };
 		B76B78451D294D910093657C /* q27-remove-element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q27-remove-element.swift"; sourceTree = "<group>"; };
+		B76B78471D295B510093657C /* q101-symmetric-tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q101-symmetric-tree.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +208,7 @@
 				B76B78051D281C7C0093657C /* q371-sum-of-two-integers.swift */,
 				B76B78431D29323D0093657C /* q342-power-of-four.swift */,
 				B76B78451D294D910093657C /* q27-remove-element.swift */,
+				B76B78471D295B510093657C /* q101-symmetric-tree.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 			files = (
 				B76B782C1D281C7C0093657C /* q345-reverse-vowels-of-a-string.swift in Sources */,
 				B76B78341D281C7C0093657C /* main.swift in Sources */,
+				B76B78481D295B510093657C /* q101-symmetric-tree.swift in Sources */,
 				B76B78291D281C7C0093657C /* q292-nim-games.swift in Sources */,
 				B76B781F1D281C7C0093657C /* q206-reverse-linked-list.swift in Sources */,
 				B76B781E1D281C7C0093657C /* q202-happy-number.swift in Sources */,
