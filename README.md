@@ -40,7 +40,7 @@ struct q371 {
 
 ## Notes 
 ### Helper Class
-There are lots of problems on LeetCode OJ using two data structures: Linked List and Binary Tree. LeetCode OJ use following serialized format to decribe a binary tree.
+There are lots of problems on LeetCode OJ using two data structures: Linked List and Binary Tree. LeetCode OJ use following serialized format to describe a binary tree.
 
 > The input `[1,nil,2,3]` represents the serialized format of a binary tree using level order traversal, where nil signifies a path terminator where no node exists below.
 > 
