@@ -1,6 +1,6 @@
 # LeetCode Solution Swift 
 [![language badge](https://img.shields.io/badge/language-swift%202.2-orange.svg)](https://github.com/apple/swift)
-[![progress](https://img.shields.io/badge/progress-%20%20Updating%2032%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
+[![progress](https://img.shields.io/badge/progress-%20%20Updating%2033%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
 [![license badge](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 ## About
@@ -115,6 +115,7 @@ If you want a full list of questions, please check [leetcode.com](https://leetco
 | 198 | [House Robber](https://leetcode.com/problems/house-robber) | [swift](./leetcode-swift/Easy/q198-house-robber.swift) | Easy |  |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | [swift](./leetcode-swift/Easy/q202-happy-number.swift) | Easy |  |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | [swift](./leetcode-swift/Easy/q206-reverse-linked-list.swift) | Easy |  |
+| 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii) | [swift](./leetcode-swift/Medium/q213-house-robber-ii.swift) | Medium |  |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | [swift](./leetcode-swift/Easy/q217-contains-duplicate.swift) | Easy |  |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) | [swift](./leetcode-swift/Easy/q226-invert-binary-tree.swift) | Easy |  |
 | 231 | [Power Of Two](https://leetcode.com/problems/power-of-two) | [swift](./leetcode-swift/Easy/q231-power-of-two.swift) | Easy |  |
