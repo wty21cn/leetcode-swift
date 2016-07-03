@@ -1,6 +1,6 @@
 # LeetCode Solution Swift 
 [![language badge](https://img.shields.io/badge/language-swift%202.2-orange.svg)](https://github.com/apple/swift)
-[![progress](https://img.shields.io/badge/progress-%20%20Updating%2034%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
+[![progress](https://img.shields.io/badge/progress-%20%20Updating%2035%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
 [![license badge](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 ## About
@@ -146,6 +146,7 @@ If you want a full list of questions, please check [leetcode.com](https://leetco
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree) | [swift](./leetcode-swift/Easy/q100-same-tree.swift) | Easy |  |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | [swift](./leetcode-swift/Easy/q102-binary-tree-level-order-traversal.swift) | Easy |  |
 | 104 | [Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) | [swift](./leetcode-swift/Easy/q104-maximum-depth-of-binary-tree.swift) | Easy |  |
+| 107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | [swift](./leetcode-swift/Easy/q107-binary-tree-level-order-traversal-ii.swift) | Easy |  |
 | 121 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | [swift](./leetcode-swift/Easy/q121-best-time-to-buy-and-sell-stock.swift) | Easy |  |
 | 122 | [Best Time To Buy And Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) | [swift](./leetcode-swift/Medium/q122-best-time-to-buy-and-sell-stock-ii.swift) | Medium |  |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | [swift](./leetcode-swift/Easy/q141-linked-list-cycle.swift) | Easy |  |
