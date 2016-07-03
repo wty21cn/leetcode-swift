@@ -32,6 +32,8 @@
  
  Dynamic Programming
  
+ Solution 1:
+ 
  formula     : dp[i] = max(dp[i - 2] + nums[i], dp[i - 1])
  boundary    : dp[s] = nums[s], dp[s + 1] = nums[s], dp[s - 1] = dp[s - 2], s = 0..<nums.endIndex
  explaination:
@@ -43,6 +45,11 @@
     You should choose a starting house s to rob where s belongs to 0..<nums.endIndex, and then the boundary becomes you can not rob the house before and after s.
             dp[s + 1] = nums[s]
             dp[s - 1] = dp[s - 2]
+ 
+ Solution 2:
+
+ Optimize time from O(N^2) to O(N), and space from O(N) to O(1)
+ The idea is that if you choose to rob nums[0], then nums[last] cannot be robbed, if you choose not to rob nums[0], then nums[last] can be robbed.  This two option can cover all the houses.
  
  */
 
@@ -83,7 +90,30 @@ struct q213 {
         }
     }
     
+    class Solution2 {
+        func rob(nums: [Int], start: Int, end: Int) -> Int {
+            var dp1 = 0
+            var dp2 = 0
+            for index in start..<end {
+                let current = max(dp1, dp2 + nums[index])
+                dp2 = dp1
+                dp1 = current
+            }
+            return dp1
+        }
+        func rob(nums: [Int]) -> Int {
+            if nums.isEmpty { return 0 }
+            if nums.count == 1 { return nums[0] }
+            if nums.count == 2 { return max(nums[0],nums[1]) }
+            
+            return max(rob(nums, start: 0, end: nums.endIndex.predecessor()), rob(nums, start: 1, end: nums.endIndex))
+            
+        }
+    }
+    
     static func getSolution() -> Void {
         print(Solution().rob([1,2,3,4,5,1,2,3,4,5]))
+        print(Solution2().rob([1,2,3,4,5,1,2,3,4,5]))
+
     }
 }
