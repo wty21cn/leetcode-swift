@@ -6,7 +6,7 @@
 ## About
 This project aims to provide swift version solutions for algorithm problems on [LeetCode Online Judge](https://leetcode.com/problemset/algorithms/).
 
-For current stage, the main target is to provide solutions for all problems, so there will be no well-considered test cases provided, also Xcode unit test is not included. But all the solutions here can pass the related problems on LeetCode Online Judge System.
+For current stage, the main target is to provide solutions for all problems, so there will be no well-considered test cases provided, also Xcode unit test is not included. But all the solutions here can pass the related problems on LeetCode OJ.
 
 Some of the algorithm analyses will be provide alongside the solutions, some may not, and will be updated in the future.
 
@@ -40,9 +40,48 @@ struct q371 {
 
 ## Notes 
 ### Helper Class
-There are lots of problems on LeetCode use two data structure: Linked List and Binary Tree. So the helper class: [LinkedListBuilder/LinkedListPrinter](./leetcode-solution-swift/Shared/LinkedListHelper.swift) and [BinaryTreeBuilder/BinaryTreePrinter](./leetcode-solution-swift/Shared/BinaryTreeHelper.swift) will be very useful.
+There are lots of problems on LeetCode OJ using two data structures: Linked List and Binary Tree. LeetCode OJ use following serialized format to decribe a binary tree.
 
-Build linked list and complicated binary tree in just one line:
+> The input `[1,nil,2,3]` represents the serialized format of a binary tree using level order traversal, where nil signifies a path terminator where no node exists below.
+> 
+> Some examples:
+> 
+> * `[]`
+> 
+```
+Empty tree. The root is a reference to nil
+```
+> * `[1,2,3]`
+>
+```
+       1
+      / \
+     2   3
+```
+> * `[1,nil,2,3]`
+> 
+```
+       1
+        \
+         2
+        /
+       3
+```
+> * `[5,4,7,3,nil,2,nil,-1,nil,9]`
+> 
+```
+       5
+      / \
+     4   7
+    /   /
+   3   2
+  /   /
+ -1  9
+```
+
+The helper class: [LinkedListBuilder/LinkedListPrinter](./leetcode-solution-swift/Shared/LinkedListHelper.swift) and [BinaryTreeBuilder/BinaryTreePrinter](./leetcode-solution-swift/Shared/BinaryTreeHelper.swift) comply to this serialized format and is very useful to deserialize and visualize these two data structures.
+
+They can be used to build linked list and complicated binary tree in just one line:
 
 ```swift
 let root = BinaryTreeBuilder.buildTreeWithNodes([10,7,12,6,9,11,15,nil,3,8,nil,nil,nil,13,16])
@@ -50,7 +89,7 @@ let root = BinaryTreeBuilder.buildTreeWithNodes([10,7,12,6,9,11,15,nil,3,8,nil,n
 let head = LinkedListBuilder.buildLinkedListWithNodes([1,2,3,4,5,6,7])
 ```
 
-Print linked list and binary tree graphically for easy debugging:
+Print linked list and binary tree visually for easy debugging:
 
 ```swift
 LinkedListPrinter.print(head!)
