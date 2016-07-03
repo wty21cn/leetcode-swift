@@ -62,7 +62,22 @@ struct q342 {
         }
     }
     
+    class SolutionFollowUp {
+        func isPowerOfFour(num: Int) -> Bool {
+            if num <= 0 { return false }
+            
+            if num & (num - 1) == 0 {
+                let check = 0b10101010101010101010101010101010
+                return num & check == 0
+                
+            } else {
+                return false
+            }
+        }
+    }
+    
     static func getSolution() -> Void {
         print(Solution().isPowerOfFour(8))
+        print(SolutionFollowUp().isPowerOfFour(8))
     }
 }
