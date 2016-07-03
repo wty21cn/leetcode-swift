@@ -145,6 +145,7 @@ If you want a full list of questions, please check [leetcode.com](https://leetco
 | 83 | [Remove Duplicates From Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [swift](./leetcode-swift/Easy/q083-remove-duplicates-from-sorted-list.swift) | Easy |  |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree) | [swift](./leetcode-swift/Easy/q100-same-tree.swift) | Easy |  |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | [swift](./leetcode-swift/Easy/q102-binary-tree-level-order-traversal.swift) | Easy |  |
+| 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal) | [swift](./leetcode-swift/Medium/q103-binary-tree-zigzag-level-order-traversal.swift) | Medium |  |
 | 104 | [Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) | [swift](./leetcode-swift/Easy/q104-maximum-depth-of-binary-tree.swift) | Easy |  |
 | 107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | [swift](./leetcode-swift/Easy/q107-binary-tree-level-order-traversal-ii.swift) | Easy |  |
 | 121 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | [swift](./leetcode-swift/Easy/q121-best-time-to-buy-and-sell-stock.swift) | Easy |  |
