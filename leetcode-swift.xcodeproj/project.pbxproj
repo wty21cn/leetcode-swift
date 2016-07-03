@@ -50,6 +50,7 @@
 		B76B783E1D2903150093657C /* q107-binary-tree-level-order-traversal-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B783D1D2903150093657C /* q107-binary-tree-level-order-traversal-ii.swift */; };
 		B76B78401D290CD90093657C /* q103-binary-tree-zigzag-level-order-traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B783F1D290CD90093657C /* q103-binary-tree-zigzag-level-order-traversal.swift */; };
 		B76B78421D292ADD0093657C /* q111-minimum-depth-of-binary-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78411D292ADD0093657C /* q111-minimum-depth-of-binary-tree.swift */; };
+		B76B78441D29323D0093657C /* q342-power-of-four.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78431D29323D0093657C /* q342-power-of-four.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -116,6 +117,7 @@
 		B76B783D1D2903150093657C /* q107-binary-tree-level-order-traversal-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q107-binary-tree-level-order-traversal-ii.swift"; sourceTree = "<group>"; };
 		B76B783F1D290CD90093657C /* q103-binary-tree-zigzag-level-order-traversal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q103-binary-tree-zigzag-level-order-traversal.swift"; sourceTree = "<group>"; };
 		B76B78411D292ADD0093657C /* q111-minimum-depth-of-binary-tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q111-minimum-depth-of-binary-tree.swift"; sourceTree = "<group>"; };
+		B76B78431D29323D0093657C /* q342-power-of-four.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q342-power-of-four.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,13 +171,17 @@
 				B76B77E81D281C7C0093657C /* q070-climbing-stairs.swift */,
 				B76B77E91D281C7C0093657C /* q083-remove-duplicates-from-sorted-list.swift */,
 				B76B77EA1D281C7C0093657C /* q100-same-tree.swift */,
+				B76B783B1D28F24C0093657C /* q102-binary-tree-level-order-traversal.swift */,
 				B76B77EB1D281C7C0093657C /* q104-maximum-depth-of-binary-tree.swift */,
+				B76B783D1D2903150093657C /* q107-binary-tree-level-order-traversal-ii.swift */,
+				B76B78411D292ADD0093657C /* q111-minimum-depth-of-binary-tree.swift */,
 				B76B77EC1D281C7C0093657C /* q121-best-time-to-buy-and-sell-stock.swift */,
 				B76B77ED1D281C7C0093657C /* q141-linked-list-cycle.swift */,
 				B76B77EE1D281C7C0093657C /* q160-majority-element.swift */,
 				B76B77EF1D281C7C0093657C /* q171-excel-sheet-column-number.swift */,
 				B76B77F01D281C7C0093657C /* q191-number-of-1-bits.py */,
 				B76B77F11D281C7C0093657C /* q191-number-of-1-bits.swift */,
+				B76B78371D28B3A90093657C /* q198-house-robber.swift */,
 				B76B77F21D281C7C0093657C /* q202-happy-number.swift */,
 				B76B77F31D281C7C0093657C /* q206-reverse-linked-list.swift */,
 				B76B77F41D281C7C0093657C /* q217-contains-duplicate.swift */,
@@ -196,10 +202,7 @@
 				B76B78031D281C7C0093657C /* q349-Intersection-of-two-arrays.swift */,
 				B76B78041D281C7C0093657C /* q350-intersection-of-two-arrays-ii.swift */,
 				B76B78051D281C7C0093657C /* q371-sum-of-two-integers.swift */,
-				B76B78371D28B3A90093657C /* q198-house-robber.swift */,
-				B76B783B1D28F24C0093657C /* q102-binary-tree-level-order-traversal.swift */,
-				B76B783D1D2903150093657C /* q107-binary-tree-level-order-traversal-ii.swift */,
-				B76B78411D292ADD0093657C /* q111-minimum-depth-of-binary-tree.swift */,
+				B76B78431D29323D0093657C /* q342-power-of-four.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				B76B78181D281C7C0093657C /* q104-maximum-depth-of-binary-tree.swift in Sources */,
 				B76B781D1D281C7C0093657C /* q191-number-of-1-bits.swift in Sources */,
 				B76B78361D281C7C0093657C /* template.swift in Sources */,
+				B76B78441D29323D0093657C /* q342-power-of-four.swift in Sources */,
 				B76B78351D281C7C0093657C /* TreeNode.swift in Sources */,
 				B76B78301D281C7C0093657C /* q122-best-time-to-buy-and-sell-stock-ii.swift in Sources */,
 				B76B78161D281C7C0093657C /* q083-remove-duplicates-from-sorted-list.swift in Sources */,
