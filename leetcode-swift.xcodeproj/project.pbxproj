@@ -44,6 +44,7 @@
 		B76B78341D281C7C0093657C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B780D1D281C7C0093657C /* main.swift */; };
 		B76B78351D281C7C0093657C /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B780E1D281C7C0093657C /* TreeNode.swift */; };
 		B76B78361D281C7C0093657C /* template.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78111D281C7C0093657C /* template.swift */; };
+		B76B78381D28B3A90093657C /* q198-house-robber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78371D28B3A90093657C /* q198-house-robber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -104,6 +105,7 @@
 		B76B780E1D281C7C0093657C /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		B76B78101D281C7C0093657C /* template.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = template.py; sourceTree = "<group>"; };
 		B76B78111D281C7C0093657C /* template.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = template.swift; sourceTree = "<group>"; };
+		B76B78371D28B3A90093657C /* q198-house-robber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q198-house-robber.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 				B76B78031D281C7C0093657C /* q349-Intersection-of-two-arrays.swift */,
 				B76B78041D281C7C0093657C /* q350-intersection-of-two-arrays-ii.swift */,
 				B76B78051D281C7C0093657C /* q371-sum-of-two-integers.swift */,
+				B76B78371D28B3A90093657C /* q198-house-robber.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				B76B78291D281C7C0093657C /* q292-nim-games.swift in Sources */,
 				B76B781F1D281C7C0093657C /* q206-reverse-linked-list.swift in Sources */,
 				B76B781E1D281C7C0093657C /* q202-happy-number.swift in Sources */,
+				B76B78381D28B3A90093657C /* q198-house-robber.swift in Sources */,
 				B76B78231D281C7C0093657C /* q235-lowest-common-ancestor-of-a-binary-search-tree.swift in Sources */,
 				B76B78141D281C7C0093657C /* q024-swap-nodes-in-pairs.swift in Sources */,
 				B76B78311D281C7C0093657C /* BinaryTreeHelper.swift in Sources */,
@@ -439,6 +443,7 @@
 				B76B77E01D281C190093657C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
