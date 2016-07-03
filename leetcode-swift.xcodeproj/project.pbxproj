@@ -51,6 +51,7 @@
 		B76B78401D290CD90093657C /* q103-binary-tree-zigzag-level-order-traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B783F1D290CD90093657C /* q103-binary-tree-zigzag-level-order-traversal.swift */; };
 		B76B78421D292ADD0093657C /* q111-minimum-depth-of-binary-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78411D292ADD0093657C /* q111-minimum-depth-of-binary-tree.swift */; };
 		B76B78441D29323D0093657C /* q342-power-of-four.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78431D29323D0093657C /* q342-power-of-four.swift */; };
+		B76B78461D294D910093657C /* q27-remove-element.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78451D294D910093657C /* q27-remove-element.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -118,6 +119,7 @@
 		B76B783F1D290CD90093657C /* q103-binary-tree-zigzag-level-order-traversal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q103-binary-tree-zigzag-level-order-traversal.swift"; sourceTree = "<group>"; };
 		B76B78411D292ADD0093657C /* q111-minimum-depth-of-binary-tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q111-minimum-depth-of-binary-tree.swift"; sourceTree = "<group>"; };
 		B76B78431D29323D0093657C /* q342-power-of-four.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q342-power-of-four.swift"; sourceTree = "<group>"; };
+		B76B78451D294D910093657C /* q27-remove-element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q27-remove-element.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +205,7 @@
 				B76B78041D281C7C0093657C /* q350-intersection-of-two-arrays-ii.swift */,
 				B76B78051D281C7C0093657C /* q371-sum-of-two-integers.swift */,
 				B76B78431D29323D0093657C /* q342-power-of-four.swift */,
+				B76B78451D294D910093657C /* q27-remove-element.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				B76B78201D281C7C0093657C /* q217-contains-duplicate.swift in Sources */,
 				B76B78251D281C7C0093657C /* q242-valid-anagram.swift in Sources */,
 				B76B78271D281C7C0093657C /* q263-ugly-number.swift in Sources */,
+				B76B78461D294D910093657C /* q27-remove-element.swift in Sources */,
 				B76B78241D281C7C0093657C /* q237-delete-node-in-a-linked-list.swift in Sources */,
 				B76B78121D281C7C0093657C /* q013-roman-to-integer.swift in Sources */,
 				B76B78281D281C7C0093657C /* q283-move-zeroes.swift in Sources */,
