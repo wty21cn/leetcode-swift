@@ -35,6 +35,8 @@
         1.Robbing house i, which means you didn't rob house i - 1
         2.Giving up house i, which means you can get the same value when when you chose to rob house i - 1
  
+ Solution2 optimize space from O(N) to O(1)
+ 
  */
 
 import Foundation
@@ -56,7 +58,21 @@ struct q198 {
         }
     }
     
+    class Solution2 {
+        func rob(nums: [Int]) -> Int {
+            var dp1 = 0
+            var dp2 = 0
+            for index in nums.startIndex..<nums.endIndex {
+                let current = max(dp1, dp2 + nums[index])
+                dp2 = dp1
+                dp1 = current
+            }
+            return dp1
+        }
+    }
+    
     static func getSolution() -> Void {
-        print(Solution().rob([2,1]))
+        print(Solution().rob([1,2,3,4,5,1,2,3,4,5]))
+        print(Solution2().rob([1,2,3,4,5,1,2,3,4,5]))
     }
 }
