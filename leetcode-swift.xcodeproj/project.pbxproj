@@ -62,6 +62,7 @@
 		B76B78561D2A1FAD0093657C /* q119-pascals-triangle-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78551D2A1FAD0093657C /* q119-pascals-triangle-ii.swift */; };
 		B76B78581D2A24630093657C /* q9-palindrome-number.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78571D2A24630093657C /* q9-palindrome-number.swift */; };
 		B76B785A1D2A2DBE0093657C /* q7-reverse-integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78591D2A2DBE0093657C /* q7-reverse-integer.swift */; };
+		B76B785C1D2A4D2F0093657C /* q112-path-sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B785B1D2A4D2F0093657C /* q112-path-sum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -140,6 +141,7 @@
 		B76B78551D2A1FAD0093657C /* q119-pascals-triangle-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q119-pascals-triangle-ii.swift"; sourceTree = "<group>"; };
 		B76B78571D2A24630093657C /* q9-palindrome-number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q9-palindrome-number.swift"; sourceTree = "<group>"; };
 		B76B78591D2A2DBE0093657C /* q7-reverse-integer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q7-reverse-integer.swift"; sourceTree = "<group>"; };
+		B76B785B1D2A4D2F0093657C /* q112-path-sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q112-path-sum.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +238,7 @@
 				B76B78551D2A1FAD0093657C /* q119-pascals-triangle-ii.swift */,
 				B76B78571D2A24630093657C /* q9-palindrome-number.swift */,
 				B76B78591D2A2DBE0093657C /* q7-reverse-integer.swift */,
+				B76B785B1D2A4D2F0093657C /* q112-path-sum.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 				B76B78321D281C7C0093657C /* LinkedListHelper.swift in Sources */,
 				B76B781C1D281C7C0093657C /* q171-excel-sheet-column-number.swift in Sources */,
 				B76B782D1D281C7C0093657C /* q349-Intersection-of-two-arrays.swift in Sources */,
+				B76B785C1D2A4D2F0093657C /* q112-path-sum.swift in Sources */,
 				B76B782E1D281C7C0093657C /* q350-intersection-of-two-arrays-ii.swift in Sources */,
 				B76B782A1D281C7C0093657C /* q326-power-of-three.swift in Sources */,
 				B76B78261D281C7C0093657C /* q258-add-digits.swift in Sources */,
