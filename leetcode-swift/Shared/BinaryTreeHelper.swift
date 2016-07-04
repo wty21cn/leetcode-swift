@@ -54,16 +54,19 @@ class BinaryTreePrinter {
     private static let indentStrRightChild  = " ┌"
     private static let indentStrLeftChild   = " └"
     
-    static func print(root: BinaryTreeNodePrintable) -> Void {
-        
-        if let rc = root.rightSubTree() {
-            printSubtree(rc, isRightSubtree: true, indent: "")
-        }
-        
-        Swift.print(root.presentation())
-        
-        if let lc = root.leftSubTree() {
-            printSubtree(lc, isRightSubtree: false, indent: "")
+    static func print(root: BinaryTreeNodePrintable?) -> Void {
+        if let root = root {
+            if let rc = root.rightSubTree() {
+                printSubtree(rc, isRightSubtree: true, indent: "")
+            }
+            
+            Swift.print(root.presentation())
+            
+            if let lc = root.leftSubTree() {
+                printSubtree(lc, isRightSubtree: false, indent: "")
+            }
+        } else {
+            Swift.print("nil")
         }
         
     }

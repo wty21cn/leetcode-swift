@@ -36,17 +36,20 @@ class LinkedListPrinter {
     
     private static let indent = "-->"
     
-    static func print(node: ListNodePrintable) -> Void {
-        var node = node
-        while true  {
-            Swift.print(node.presentation(), terminator: "")
-            if let n = node.successor() {
-                Swift.print(indent, terminator: "")
-                node = n
-            } else {
-                Swift.print("")
-                return
+    static func print(node: ListNodePrintable?) -> Void {
+        if var node = node {
+            while true  {
+                Swift.print(node.presentation(), terminator: "")
+                if let n = node.successor() {
+                    Swift.print(indent, terminator: "")
+                    node = n
+                } else {
+                    Swift.print("")
+                    return
+                }
             }
+        } else {
+            Swift.print("nil")
         }
     }
 }
