@@ -65,6 +65,7 @@
 		B76B785C1D2A4D2F0093657C /* q112-path-sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B785B1D2A4D2F0093657C /* q112-path-sum.swift */; };
 		B76B785F1D2A5C330093657C /* q36-valid-sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B785E1D2A5C330093657C /* q36-valid-sudoku.swift */; };
 		B7B3206F1D2A694F004920E2 /* q225-implement-stack-using-queues.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B3206E1D2A694F004920E2 /* q225-implement-stack-using-queues.swift */; };
+		B7B320711D2A8EA6004920E2 /* q299-bulls-and-cows.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B320701D2A8EA6004920E2 /* q299-bulls-and-cows.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -146,6 +147,7 @@
 		B76B785B1D2A4D2F0093657C /* q112-path-sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q112-path-sum.swift"; sourceTree = "<group>"; };
 		B76B785E1D2A5C330093657C /* q36-valid-sudoku.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q36-valid-sudoku.swift"; sourceTree = "<group>"; };
 		B7B3206E1D2A694F004920E2 /* q225-implement-stack-using-queues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q225-implement-stack-using-queues.swift"; sourceTree = "<group>"; };
+		B7B320701D2A8EA6004920E2 /* q299-bulls-and-cows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q299-bulls-and-cows.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +247,7 @@
 				B76B785B1D2A4D2F0093657C /* q112-path-sum.swift */,
 				B76B785E1D2A5C330093657C /* q36-valid-sudoku.swift */,
 				B7B3206E1D2A694F004920E2 /* q225-implement-stack-using-queues.swift */,
+				B7B320701D2A8EA6004920E2 /* q299-bulls-and-cows.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -394,6 +397,7 @@
 				B76B78421D292ADD0093657C /* q111-minimum-depth-of-binary-tree.swift in Sources */,
 				B76B782B1D281C7C0093657C /* q334-everse-string.swift in Sources */,
 				B76B78201D281C7C0093657C /* q217-contains-duplicate.swift in Sources */,
+				B7B320711D2A8EA6004920E2 /* q299-bulls-and-cows.swift in Sources */,
 				B76B784E1D2A017F0093657C /* q232-implement-queue-using-stacks.swift in Sources */,
 				B76B78581D2A24630093657C /* q9-palindrome-number.swift in Sources */,
 				B76B78251D281C7C0093657C /* q242-valid-anagram.swift in Sources */,
