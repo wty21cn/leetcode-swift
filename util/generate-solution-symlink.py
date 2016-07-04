@@ -20,10 +20,10 @@ def make_centralized_solution_links(dir_path):
         
         re_str = re.compile('^q')
         symlink_name = re_str.sub('L', path.basename(file))
-        print(symlink_name)
+#        print(symlink_name)
         
         rel_path = path.relpath(path.abspath(file), dir_path)
-        print(path.join(dir_path, symlink_name) + ' ---> ' + rel_path)
+#        print(path.join(dir_path, symlink_name) + ' ---> ' + rel_path)
         symlink(rel_path, path.join(dir_path, symlink_name))
     print('Total %d symbolic links created in directory "%s"' % (len(swift_source_codes), path.abspath(dir_path)))
 
@@ -53,7 +53,7 @@ def make_category_solution_links(dir_path):
                         symlink_name = re_str.sub('L', path.basename(file))
                         
                         rel_path = path.relpath(path.abspath(file), category_dir_path)
-                        print(path.join(category_dir_path, path.basename(file)) + ' ---> ' + rel_path)
+#                        print(path.join(category_dir_path, path.basename(file)) + ' ---> ' + rel_path)
                         symlink(rel_path, path.join(category_dir_path, symlink_name))
                         symlink_num += 1
                     break
