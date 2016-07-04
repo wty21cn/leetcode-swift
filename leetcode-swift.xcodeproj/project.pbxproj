@@ -56,6 +56,7 @@
 		B76B784A1D2974370093657C /* q66-plus-one.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78491D2974370093657C /* q66-plus-one.swift */; };
 		B76B784C1D298C890093657C /* q110-balanced-binary-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B784B1D298C890093657C /* q110-balanced-binary-tree.swift */; };
 		B76B784E1D2A017F0093657C /* q232-implement-queue-using-stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B784D1D2A017F0093657C /* q232-implement-queue-using-stacks.swift */; };
+		B76B78501D2A07900093657C /* q118-pascals-triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B784F1D2A07900093657C /* q118-pascals-triangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -128,6 +129,7 @@
 		B76B78491D2974370093657C /* q66-plus-one.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q66-plus-one.swift"; sourceTree = "<group>"; };
 		B76B784B1D298C890093657C /* q110-balanced-binary-tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q110-balanced-binary-tree.swift"; sourceTree = "<group>"; };
 		B76B784D1D2A017F0093657C /* q232-implement-queue-using-stacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q232-implement-queue-using-stacks.swift"; sourceTree = "<group>"; };
+		B76B784F1D2A07900093657C /* q118-pascals-triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q118-pascals-triangle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 				B76B78491D2974370093657C /* q66-plus-one.swift */,
 				B76B784B1D298C890093657C /* q110-balanced-binary-tree.swift */,
 				B76B784D1D2A017F0093657C /* q232-implement-queue-using-stacks.swift */,
+				B76B784F1D2A07900093657C /* q118-pascals-triangle.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B76B78501D2A07900093657C /* q118-pascals-triangle.swift in Sources */,
 				B76B782C1D281C7C0093657C /* q345-reverse-vowels-of-a-string.swift in Sources */,
 				B76B78341D281C7C0093657C /* main.swift in Sources */,
 				B76B78481D295B510093657C /* q101-symmetric-tree.swift in Sources */,
