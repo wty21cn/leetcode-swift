@@ -1,6 +1,6 @@
 # LeetCode Solution Swift 
 [![language badge](https://img.shields.io/badge/language-swift%202.2-orange.svg)](https://github.com/apple/swift)
-[![progress](https://img.shields.io/badge/progress-%20%20Updating%2050%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
+[![progress](https://img.shields.io/badge/progress-%20%20Updating%2051%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
 [![license badge](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 ## About
@@ -147,6 +147,7 @@ If you want a full list of questions, please check [leetcode.com](https://leetco
 | 24 | [Swap Nodes In Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | [swift](./leetcode-swift/Easy/q024-swap-nodes-in-pairs.swift) | Easy |  |
 | 26 | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/emove-duplicates-from-sorted-array) | [swift](./leetcode-swift/Easy/q26-remove-duplicates-from-sorted-array.swift) | Easy |  |
 | 27 | [Remove Element](https://leetcode.com/problems/emove-element) | [swift](./leetcode-swift/Easy/q27-remove-element.swift) | Easy |  |
+| 36 | [Valid Sudoku](https://leetcode.com/problems/alid-sudoku) | [swift](./leetcode-swift/Easy/q36-valid-sudoku.swift) | Easy |  |
 | 66 | [Plus One](https://leetcode.com/problems/lus-one) | [swift](./leetcode-swift/Easy/q66-plus-one.swift) | Easy |  |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [swift](./leetcode-swift/Easy/q070-climbing-stairs.swift) | Easy |  |
 | 83 | [Remove Duplicates From Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [swift](./leetcode-swift/Easy/q083-remove-duplicates-from-sorted-list.swift) | Easy |  |
