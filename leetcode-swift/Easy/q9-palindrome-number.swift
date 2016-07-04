@@ -36,8 +36,8 @@ struct q9 {
     
     class Solution {
         func isPalindrome(x: Int) -> Bool {
-            if x < 0 && x / 10 == 0 {
-                 return false
+            if x < 0 || x % 10 == 0 {
+                 return x == 0
             } 
             var x = x
             var halfReversedX = 0
@@ -54,7 +54,7 @@ struct q9 {
         print(Solution().isPalindrome(12344321))
         print(Solution().isPalindrome(123421))
         print(Solution().isPalindrome(0))
-        print(Solution().isPalindrome(-1))
+        print(Solution().isPalindrome(10))
         
     }
 }
