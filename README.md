@@ -1,6 +1,6 @@
 # LeetCode Solution Swift 
 [![language badge](https://img.shields.io/badge/language-swift%202.2-orange.svg)](https://github.com/apple/swift)
-[![progress](https://img.shields.io/badge/progress-%20%20Updating%2045%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
+[![progress](https://img.shields.io/badge/progress-%20%20Updating%2046%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
 [![license badge](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 ## About
@@ -160,6 +160,7 @@ If you want a full list of questions, please check [leetcode.com](https://leetco
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | [swift](./leetcode-swift/Easy/q141-linked-list-cycle.swift) | Easy |  |
 | 160 | [Majority Element](https://leetcode.com/problems/majority-element) | [swift](./leetcode-swift/Easy/q160-majority-element.swift) | Easy |  |
 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number) | [swift](./leetcode-swift/Easy/q171-excel-sheet-column-number.swift) | Easy |  |
+| 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) | [swift](./leetcode-swift/Easy/q172-factorial-trailing-zeroes.swift) | Easy |  |
 | 191 | [Number Of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | [swift](./leetcode-swift/Easy/q191-number-of-1-bits.swift) | Easy |  |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber) | [swift](./leetcode-swift/Easy/q198-house-robber.swift) | Easy |  |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | [swift](./leetcode-swift/Easy/q202-happy-number.swift) | Easy |  |
