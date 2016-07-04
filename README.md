@@ -155,6 +155,7 @@ If you want a full list of questions, please check [leetcode.com](https://leetco
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree) | [swift](./leetcode-swift/Easy/q110-balanced-binary-tree.swift) | Easy |  |
 | 111 | [Minimum Depth Of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | [swift](./leetcode-swift/Easy/q111-minimum-depth-of-binary-tree.swift) | Easy |  |
 | 118 | [Pascals Triangle](https://leetcode.com/problems/pascals-triangle) | [swift](./leetcode-swift/Easy/q118-pascals-triangle.swift) | Easy |  |
+| 119 | [Pascals Triangle II](https://leetcode.com/problems/pascals-triangle-ii) | [swift](./leetcode-swift/Easy/q119-pascals-triangle-ii.swift) | Easy |  |
 | 121 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | [swift](./leetcode-swift/Easy/q121-best-time-to-buy-and-sell-stock.swift) | Easy |  |
 | 122 | [Best Time To Buy And Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) | [swift](./leetcode-swift/Medium/q122-best-time-to-buy-and-sell-stock-ii.swift) | Medium |  |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | [swift](./leetcode-swift/Easy/q141-linked-list-cycle.swift) | Easy |  |
