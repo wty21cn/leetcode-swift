@@ -1,6 +1,6 @@
 # LeetCode Solution Swift 
 [![language badge](https://img.shields.io/badge/language-swift%202.2-orange.svg)](https://github.com/apple/swift)
-[![progress](https://img.shields.io/badge/progress-%20%20Updating%2048%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
+[![progress](https://img.shields.io/badge/progress-%20%20Updating%2049%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
 [![license badge](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 ## About
@@ -10,6 +10,8 @@ For current stage, the main target is to provide solutions for all problems, so 
 
 Some of the algorithm analyses will be provide alongside the solutions, some may not, and will be updated in the future.
 
+
+## HowTo
 To run a specific solution, please change the question number in [main.swift](./leetcode-solution-swift/Shared/main.swift),  e.g. `q371.getSolution()` to run solution for question 371 "Sum Of Two Integers". 
 
 And modify `static func getSolution()` in `struct Q0371` to provide test cases
