@@ -1,6 +1,6 @@
 # LeetCode Solution Swift 
 [![language badge](https://img.shields.io/badge/language-swift%202.2-orange.svg)](https://github.com/apple/swift)
-[![progress](https://img.shields.io/badge/progress-%20%20Updating%2044%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
+[![progress](https://img.shields.io/badge/progress-%20%20Updating%2045%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
 [![license badge](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 ## About
@@ -141,6 +141,7 @@ If you want a full list of questions, please check [leetcode.com](https://leetco
 | 13 | [Roman To Integer](https://leetcode.com/problems/roman-to-integer) | [swift](./leetcode-swift/Easy/q013-roman-to-integer.swift) | Easy |  |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | [swift](./leetcode-swift/Easy/q021-merge-two-sorted-lists.swift) | Easy |  |
 | 24 | [Swap Nodes In Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | [swift](./leetcode-swift/Easy/q024-swap-nodes-in-pairs.swift) | Easy |  |
+| 26 | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/emove-duplicates-from-sorted-array) | [swift](./leetcode-swift/Easy/q26-remove-duplicates-from-sorted-array.swift) | Easy |  |
 | 27 | [Remove Element](https://leetcode.com/problems/emove-element) | [swift](./leetcode-swift/Easy/q27-remove-element.swift) | Easy |  |
 | 66 | [Plus One](https://leetcode.com/problems/lus-one) | [swift](./leetcode-swift/Easy/q66-plus-one.swift) | Easy |  |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [swift](./leetcode-swift/Easy/q070-climbing-stairs.swift) | Easy |  |
