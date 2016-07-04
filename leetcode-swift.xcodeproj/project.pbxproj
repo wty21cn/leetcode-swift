@@ -64,6 +64,7 @@
 		B76B785A1D2A2DBE0093657C /* q7-reverse-integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78591D2A2DBE0093657C /* q7-reverse-integer.swift */; };
 		B76B785C1D2A4D2F0093657C /* q112-path-sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B785B1D2A4D2F0093657C /* q112-path-sum.swift */; };
 		B76B785F1D2A5C330093657C /* q36-valid-sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B785E1D2A5C330093657C /* q36-valid-sudoku.swift */; };
+		B7B3206F1D2A694F004920E2 /* q225-implement-stack-using-queues.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B3206E1D2A694F004920E2 /* q225-implement-stack-using-queues.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -144,6 +145,7 @@
 		B76B78591D2A2DBE0093657C /* q7-reverse-integer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q7-reverse-integer.swift"; sourceTree = "<group>"; };
 		B76B785B1D2A4D2F0093657C /* q112-path-sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q112-path-sum.swift"; sourceTree = "<group>"; };
 		B76B785E1D2A5C330093657C /* q36-valid-sudoku.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q36-valid-sudoku.swift"; sourceTree = "<group>"; };
+		B7B3206E1D2A694F004920E2 /* q225-implement-stack-using-queues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q225-implement-stack-using-queues.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +244,7 @@
 				B76B78591D2A2DBE0093657C /* q7-reverse-integer.swift */,
 				B76B785B1D2A4D2F0093657C /* q112-path-sum.swift */,
 				B76B785E1D2A5C330093657C /* q36-valid-sudoku.swift */,
+				B7B3206E1D2A694F004920E2 /* q225-implement-stack-using-queues.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 				B76B781A1D281C7C0093657C /* q141-linked-list-cycle.swift in Sources */,
 				B76B78561D2A1FAD0093657C /* q119-pascals-triangle-ii.swift in Sources */,
 				B76B78331D281C7C0093657C /* ListNode.swift in Sources */,
+				B7B3206F1D2A694F004920E2 /* q225-implement-stack-using-queues.swift in Sources */,
 				B76B782F1D281C7C0093657C /* q371-sum-of-two-integers.swift in Sources */,
 				B76B78421D292ADD0093657C /* q111-minimum-depth-of-binary-tree.swift in Sources */,
 				B76B782B1D281C7C0093657C /* q334-everse-string.swift in Sources */,
