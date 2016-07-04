@@ -1,6 +1,6 @@
 # LeetCode Solution Swift 
 [![language badge](https://img.shields.io/badge/language-swift%202.2-orange.svg)](https://github.com/apple/swift)
-[![progress](https://img.shields.io/badge/progress-%20%20Updating%2052%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
+[![progress](https://img.shields.io/badge/progress-%20%20Updating%2053%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
 [![license badge](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 ## About
@@ -185,6 +185,7 @@ If you want a full list of questions, please check [leetcode.com](https://leetco
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | [swift](./leetcode-swift/Easy/q263-ugly-number.swift) | Easy |  |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes) | [swift](./leetcode-swift/Easy/q283-move-zeroes.swift) | Easy |  |
 | 292 | [Nim Games](https://leetcode.com/problems/nim-games) | [swift](./leetcode-swift/Easy/q292-nim-games.swift) | Easy |  |
+| 299 | [Bulls And Cows](https://leetcode.com/problems/bulls-and-cows) | [swift](./leetcode-swift/Easy/q299-bulls-and-cows.swift) | Easy |  |
 | 326 | [Power Of Three](https://leetcode.com/problems/power-of-three) | [swift](./leetcode-swift/Easy/q326-power-of-three.swift) | Easy |  |
 | 334 | [Everse String](https://leetcode.com/problems/everse-string) | [swift](./leetcode-swift/Easy/q334-everse-string.swift) | Easy |  |
 | 342 | [Power Of Four](https://leetcode.com/problems/power-of-four) | [swift](./leetcode-swift/Easy/q342-power-of-four.swift) | Easy |  |
