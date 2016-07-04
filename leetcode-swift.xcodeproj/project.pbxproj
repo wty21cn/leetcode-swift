@@ -60,6 +60,7 @@
 		B76B78521D2A0B2A0093657C /* q26-remove-duplicates-from-sorted-array.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78511D2A0B2A0093657C /* q26-remove-duplicates-from-sorted-array.swift */; };
 		B76B78541D2A0EB00093657C /* q172-factorial-trailing-zeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78531D2A0EB00093657C /* q172-factorial-trailing-zeroes.swift */; };
 		B76B78561D2A1FAD0093657C /* q119-pascals-triangle-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78551D2A1FAD0093657C /* q119-pascals-triangle-ii.swift */; };
+		B76B78581D2A24630093657C /* q9-palindrome-number.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78571D2A24630093657C /* q9-palindrome-number.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -136,6 +137,7 @@
 		B76B78511D2A0B2A0093657C /* q26-remove-duplicates-from-sorted-array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q26-remove-duplicates-from-sorted-array.swift"; sourceTree = "<group>"; };
 		B76B78531D2A0EB00093657C /* q172-factorial-trailing-zeroes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q172-factorial-trailing-zeroes.swift"; sourceTree = "<group>"; };
 		B76B78551D2A1FAD0093657C /* q119-pascals-triangle-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q119-pascals-triangle-ii.swift"; sourceTree = "<group>"; };
+		B76B78571D2A24630093657C /* q9-palindrome-number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q9-palindrome-number.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +232,7 @@
 				B76B78511D2A0B2A0093657C /* q26-remove-duplicates-from-sorted-array.swift */,
 				B76B78531D2A0EB00093657C /* q172-factorial-trailing-zeroes.swift */,
 				B76B78551D2A1FAD0093657C /* q119-pascals-triangle-ii.swift */,
+				B76B78571D2A24630093657C /* q9-palindrome-number.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				B76B782B1D281C7C0093657C /* q334-everse-string.swift in Sources */,
 				B76B78201D281C7C0093657C /* q217-contains-duplicate.swift in Sources */,
 				B76B784E1D2A017F0093657C /* q232-implement-queue-using-stacks.swift in Sources */,
+				B76B78581D2A24630093657C /* q9-palindrome-number.swift in Sources */,
 				B76B78251D281C7C0093657C /* q242-valid-anagram.swift in Sources */,
 				B76B78271D281C7C0093657C /* q263-ugly-number.swift in Sources */,
 				B76B78461D294D910093657C /* q27-remove-element.swift in Sources */,
