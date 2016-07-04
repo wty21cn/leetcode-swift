@@ -1,8 +1,8 @@
 //
 //  q112-path-sum.swift
 //  leetcode-swift
-//  Source*   :
-//  Category* :
+//  Source*   :  https://leetcode.com/problems/path-sum/
+//  Category* :  DFS
 //
 //  Created by Tianyu Wang on 16/7/4.
 //  Github    :  http://github.com/wty21cn
