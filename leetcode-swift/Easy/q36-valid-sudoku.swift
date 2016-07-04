@@ -4,7 +4,7 @@
 //  Source*   :  https://leetcode.com/problems/valid-sudoku/
 //  Category* :  Hash
 //
-//  Created by Tianyu Wang on 16/7/1.
+//  Created by Tianyu Wang on 16/7/4.
 //  Github    :  http://github.com/wty21cn
 //  Website   :  http://wty.im
 //  Linkedin  :  https://www.linkedin.com/in/wty21cn
