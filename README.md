@@ -1,6 +1,6 @@
 # LeetCode Solution Swift 
 [![language badge](https://img.shields.io/badge/language-swift%202.2-orange.svg)](https://github.com/apple/swift)
-[![progress](https://img.shields.io/badge/progress-%20%20Updating%2046%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
+[![progress](https://img.shields.io/badge/progress-%20%20Updating%2048%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
 [![license badge](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 ## About
@@ -138,6 +138,7 @@ If you want a full list of questions, please check [leetcode.com](https://leetco
 
 |   #   |       Title        |     Solution      |    Difficulty   |       Note       |
 | :---: | :----------------: | :---------------: | :-------------: | :--------------: |
+| 9 | [Palindrome Number](https://leetcode.com/problems/lindrome-number) | [swift](./leetcode-swift/Easy/q9-palindrome-number.swift) | Easy |  |
 | 13 | [Roman To Integer](https://leetcode.com/problems/roman-to-integer) | [swift](./leetcode-swift/Easy/q013-roman-to-integer.swift) | Easy |  |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | [swift](./leetcode-swift/Easy/q021-merge-two-sorted-lists.swift) | Easy |  |
 | 24 | [Swap Nodes In Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | [swift](./leetcode-swift/Easy/q024-swap-nodes-in-pairs.swift) | Easy |  |
