@@ -63,6 +63,7 @@
 		B76B78581D2A24630093657C /* q9-palindrome-number.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78571D2A24630093657C /* q9-palindrome-number.swift */; };
 		B76B785A1D2A2DBE0093657C /* q7-reverse-integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78591D2A2DBE0093657C /* q7-reverse-integer.swift */; };
 		B76B785C1D2A4D2F0093657C /* q112-path-sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B785B1D2A4D2F0093657C /* q112-path-sum.swift */; };
+		B76B785F1D2A5C330093657C /* q36-valid-sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B785E1D2A5C330093657C /* q36-valid-sudoku.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -142,6 +143,7 @@
 		B76B78571D2A24630093657C /* q9-palindrome-number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q9-palindrome-number.swift"; sourceTree = "<group>"; };
 		B76B78591D2A2DBE0093657C /* q7-reverse-integer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q7-reverse-integer.swift"; sourceTree = "<group>"; };
 		B76B785B1D2A4D2F0093657C /* q112-path-sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q112-path-sum.swift"; sourceTree = "<group>"; };
+		B76B785E1D2A5C330093657C /* q36-valid-sudoku.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q36-valid-sudoku.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +241,7 @@
 				B76B78571D2A24630093657C /* q9-palindrome-number.swift */,
 				B76B78591D2A2DBE0093657C /* q7-reverse-integer.swift */,
 				B76B785B1D2A4D2F0093657C /* q112-path-sum.swift */,
+				B76B785E1D2A5C330093657C /* q36-valid-sudoku.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B76B785F1D2A5C330093657C /* q36-valid-sudoku.swift in Sources */,
 				B76B78501D2A07900093657C /* q118-pascals-triangle.swift in Sources */,
 				B76B782C1D281C7C0093657C /* q345-reverse-vowels-of-a-string.swift in Sources */,
 				B76B78341D281C7C0093657C /* main.swift in Sources */,
