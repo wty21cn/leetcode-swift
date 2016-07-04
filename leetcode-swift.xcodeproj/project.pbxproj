@@ -61,6 +61,7 @@
 		B76B78541D2A0EB00093657C /* q172-factorial-trailing-zeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78531D2A0EB00093657C /* q172-factorial-trailing-zeroes.swift */; };
 		B76B78561D2A1FAD0093657C /* q119-pascals-triangle-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78551D2A1FAD0093657C /* q119-pascals-triangle-ii.swift */; };
 		B76B78581D2A24630093657C /* q9-palindrome-number.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78571D2A24630093657C /* q9-palindrome-number.swift */; };
+		B76B785A1D2A2DBE0093657C /* q7-reverse-integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78591D2A2DBE0093657C /* q7-reverse-integer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -138,6 +139,7 @@
 		B76B78531D2A0EB00093657C /* q172-factorial-trailing-zeroes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q172-factorial-trailing-zeroes.swift"; sourceTree = "<group>"; };
 		B76B78551D2A1FAD0093657C /* q119-pascals-triangle-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q119-pascals-triangle-ii.swift"; sourceTree = "<group>"; };
 		B76B78571D2A24630093657C /* q9-palindrome-number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q9-palindrome-number.swift"; sourceTree = "<group>"; };
+		B76B78591D2A2DBE0093657C /* q7-reverse-integer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q7-reverse-integer.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +235,7 @@
 				B76B78531D2A0EB00093657C /* q172-factorial-trailing-zeroes.swift */,
 				B76B78551D2A1FAD0093657C /* q119-pascals-triangle-ii.swift */,
 				B76B78571D2A24630093657C /* q9-palindrome-number.swift */,
+				B76B78591D2A2DBE0093657C /* q7-reverse-integer.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 				B76B78351D281C7C0093657C /* TreeNode.swift in Sources */,
 				B76B78301D281C7C0093657C /* q122-best-time-to-buy-and-sell-stock-ii.swift in Sources */,
 				B76B78161D281C7C0093657C /* q083-remove-duplicates-from-sorted-list.swift in Sources */,
+				B76B785A1D2A2DBE0093657C /* q7-reverse-integer.swift in Sources */,
 				B76B78211D281C7C0093657C /* q226-invert-binary-tree.swift in Sources */,
 				B76B783E1D2903150093657C /* q107-binary-tree-level-order-traversal-ii.swift in Sources */,
 				B76B783C1D28F24C0093657C /* q102-binary-tree-level-order-traversal.swift in Sources */,

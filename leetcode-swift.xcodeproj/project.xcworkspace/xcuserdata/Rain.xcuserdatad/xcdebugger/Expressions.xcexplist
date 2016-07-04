@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "q7.Solution.reverse(Int) -&gt; Int:q7-reverse-integer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Int32.min">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "q232.Queue.push(Int) -&gt; ():q232-implement-queue-using-stacks.swift">
+      </ContextState>
+      <ContextState
+         contextName = "q232.Queue.pop() -&gt; Int:q232-implement-queue-using-stacks.swift">
+      </ContextState>
+      <ContextState
+         contextName = "q118.Solution.generate(Int) -&gt; [[Int]]:q118-pascals-triangle.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
