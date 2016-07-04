@@ -59,6 +59,7 @@
 		B76B78501D2A07900093657C /* q118-pascals-triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B784F1D2A07900093657C /* q118-pascals-triangle.swift */; };
 		B76B78521D2A0B2A0093657C /* q26-remove-duplicates-from-sorted-array.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78511D2A0B2A0093657C /* q26-remove-duplicates-from-sorted-array.swift */; };
 		B76B78541D2A0EB00093657C /* q172-factorial-trailing-zeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78531D2A0EB00093657C /* q172-factorial-trailing-zeroes.swift */; };
+		B76B78561D2A1FAD0093657C /* q119-pascals-triangle-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B78551D2A1FAD0093657C /* q119-pascals-triangle-ii.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -134,6 +135,7 @@
 		B76B784F1D2A07900093657C /* q118-pascals-triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q118-pascals-triangle.swift"; sourceTree = "<group>"; };
 		B76B78511D2A0B2A0093657C /* q26-remove-duplicates-from-sorted-array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q26-remove-duplicates-from-sorted-array.swift"; sourceTree = "<group>"; };
 		B76B78531D2A0EB00093657C /* q172-factorial-trailing-zeroes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q172-factorial-trailing-zeroes.swift"; sourceTree = "<group>"; };
+		B76B78551D2A1FAD0093657C /* q119-pascals-triangle-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q119-pascals-triangle-ii.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +229,7 @@
 				B76B784F1D2A07900093657C /* q118-pascals-triangle.swift */,
 				B76B78511D2A0B2A0093657C /* q26-remove-duplicates-from-sorted-array.swift */,
 				B76B78531D2A0EB00093657C /* q172-factorial-trailing-zeroes.swift */,
+				B76B78551D2A1FAD0093657C /* q119-pascals-triangle-ii.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 				B76B78151D281C7C0093657C /* q070-climbing-stairs.swift in Sources */,
 				B76B784C1D298C890093657C /* q110-balanced-binary-tree.swift in Sources */,
 				B76B781A1D281C7C0093657C /* q141-linked-list-cycle.swift in Sources */,
+				B76B78561D2A1FAD0093657C /* q119-pascals-triangle-ii.swift in Sources */,
 				B76B78331D281C7C0093657C /* ListNode.swift in Sources */,
 				B76B782F1D281C7C0093657C /* q371-sum-of-two-integers.swift in Sources */,
 				B76B78421D292ADD0093657C /* q111-minimum-depth-of-binary-tree.swift in Sources */,
