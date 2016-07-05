@@ -70,6 +70,7 @@
 		B7B320751D2B679B004920E2 /* q219-contains-duplicate-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B320741D2B679B004920E2 /* q219-contains-duplicate-ii.swift */; };
 		B7B320771D2B6DD0004920E2 /* q205-isomorphic-strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B320761D2B6DD0004920E2 /* q205-isomorphic-strings.swift */; };
 		B7B320791D2B8A77004920E2 /* q88-merge-sorted-array.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B320781D2B8A77004920E2 /* q88-merge-sorted-array.swift */; };
+		B7B3207B1D2B91B5004920E2 /* q160-intersection-of-two-linked-lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B3207A1D2B91B5004920E2 /* q160-intersection-of-two-linked-lists.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -156,6 +157,7 @@
 		B7B320741D2B679B004920E2 /* q219-contains-duplicate-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q219-contains-duplicate-ii.swift"; sourceTree = "<group>"; };
 		B7B320761D2B6DD0004920E2 /* q205-isomorphic-strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q205-isomorphic-strings.swift"; sourceTree = "<group>"; };
 		B7B320781D2B8A77004920E2 /* q88-merge-sorted-array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q88-merge-sorted-array.swift"; sourceTree = "<group>"; };
+		B7B3207A1D2B91B5004920E2 /* q160-intersection-of-two-linked-lists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q160-intersection-of-two-linked-lists.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +262,7 @@
 				B7B320741D2B679B004920E2 /* q219-contains-duplicate-ii.swift */,
 				B7B320761D2B6DD0004920E2 /* q205-isomorphic-strings.swift */,
 				B7B320781D2B8A77004920E2 /* q88-merge-sorted-array.swift */,
+				B7B3207A1D2B91B5004920E2 /* q160-intersection-of-two-linked-lists.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 				B76B78351D281C7C0093657C /* TreeNode.swift in Sources */,
 				B76B78301D281C7C0093657C /* q122-best-time-to-buy-and-sell-stock-ii.swift in Sources */,
 				B76B78161D281C7C0093657C /* q083-remove-duplicates-from-sorted-list.swift in Sources */,
+				B7B3207B1D2B91B5004920E2 /* q160-intersection-of-two-linked-lists.swift in Sources */,
 				B76B785A1D2A2DBE0093657C /* q7-reverse-integer.swift in Sources */,
 				B76B78211D281C7C0093657C /* q226-invert-binary-tree.swift in Sources */,
 				B76B783E1D2903150093657C /* q107-binary-tree-level-order-traversal-ii.swift in Sources */,
