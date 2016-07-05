@@ -2,7 +2,7 @@
 //  q88-merge-sorted-array.swift
 //  leetcode-swift
 //  Source*   :  https://leetcode.com/problems/merge-sorted-array/
-//  Category* :
+//  Category* :  Array
 //
 //  Created by Tianyu Wang on 16/7/5.
 //  Github    :  http://github.com/wty21cn
