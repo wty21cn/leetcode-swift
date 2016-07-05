@@ -67,6 +67,7 @@
 		B7B3206F1D2A694F004920E2 /* q225-implement-stack-using-queues.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B3206E1D2A694F004920E2 /* q225-implement-stack-using-queues.swift */; };
 		B7B320711D2A8EA6004920E2 /* q299-bulls-and-cows.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B320701D2A8EA6004920E2 /* q299-bulls-and-cows.swift */; };
 		B7B320731D2B4DBD004920E2 /* q223-rectangle-area.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B320721D2B4DBD004920E2 /* q223-rectangle-area.swift */; };
+		B7B320751D2B679B004920E2 /* q219-contains-duplicate-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B320741D2B679B004920E2 /* q219-contains-duplicate-ii.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -150,6 +151,7 @@
 		B7B3206E1D2A694F004920E2 /* q225-implement-stack-using-queues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q225-implement-stack-using-queues.swift"; sourceTree = "<group>"; };
 		B7B320701D2A8EA6004920E2 /* q299-bulls-and-cows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q299-bulls-and-cows.swift"; sourceTree = "<group>"; };
 		B7B320721D2B4DBD004920E2 /* q223-rectangle-area.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q223-rectangle-area.swift"; sourceTree = "<group>"; };
+		B7B320741D2B679B004920E2 /* q219-contains-duplicate-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q219-contains-duplicate-ii.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +253,7 @@
 				B7B3206E1D2A694F004920E2 /* q225-implement-stack-using-queues.swift */,
 				B7B320701D2A8EA6004920E2 /* q299-bulls-and-cows.swift */,
 				B7B320721D2B4DBD004920E2 /* q223-rectangle-area.swift */,
+				B7B320741D2B679B004920E2 /* q219-contains-duplicate-ii.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B76B785F1D2A5C330093657C /* q36-valid-sudoku.swift in Sources */,
+				B7B320751D2B679B004920E2 /* q219-contains-duplicate-ii.swift in Sources */,
 				B76B78501D2A07900093657C /* q118-pascals-triangle.swift in Sources */,
 				B76B782C1D281C7C0093657C /* q345-reverse-vowels-of-a-string.swift in Sources */,
 				B76B78341D281C7C0093657C /* main.swift in Sources */,
