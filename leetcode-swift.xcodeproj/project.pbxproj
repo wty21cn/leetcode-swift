@@ -73,6 +73,7 @@
 		B7B3207B1D2B91B5004920E2 /* q160-intersection-of-two-linked-lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B3207A1D2B91B5004920E2 /* q160-intersection-of-two-linked-lists.swift */; };
 		B7B3207D1D2BAA5C004920E2 /* q19-remove-nth-node-from-end-of-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B3207C1D2BAA5C004920E2 /* q19-remove-nth-node-from-end-of-list.swift */; };
 		B7B3207F1D2BB75E004920E2 /* q290-word-pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B3207E1D2BB75E004920E2 /* q290-word-pattern.swift */; };
+		B7B320821D2BC6B0004920E2 /* q20-valid-parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B320811D2BC6B0004920E2 /* q20-valid-parentheses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -162,6 +163,7 @@
 		B7B3207A1D2B91B5004920E2 /* q160-intersection-of-two-linked-lists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q160-intersection-of-two-linked-lists.swift"; sourceTree = "<group>"; };
 		B7B3207C1D2BAA5C004920E2 /* q19-remove-nth-node-from-end-of-list.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q19-remove-nth-node-from-end-of-list.swift"; sourceTree = "<group>"; };
 		B7B3207E1D2BB75E004920E2 /* q290-word-pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q290-word-pattern.swift"; sourceTree = "<group>"; };
+		B7B320811D2BC6B0004920E2 /* q20-valid-parentheses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q20-valid-parentheses.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,6 +271,7 @@
 				B7B3207A1D2B91B5004920E2 /* q160-intersection-of-two-linked-lists.swift */,
 				B7B3207C1D2BAA5C004920E2 /* q19-remove-nth-node-from-end-of-list.swift */,
 				B7B3207E1D2BB75E004920E2 /* q290-word-pattern.swift */,
+				B7B320811D2BC6B0004920E2 /* q20-valid-parentheses.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 				B76B784C1D298C890093657C /* q110-balanced-binary-tree.swift in Sources */,
 				B76B781A1D281C7C0093657C /* q141-linked-list-cycle.swift in Sources */,
 				B76B78561D2A1FAD0093657C /* q119-pascals-triangle-ii.swift in Sources */,
+				B7B320821D2BC6B0004920E2 /* q20-valid-parentheses.swift in Sources */,
 				B76B78331D281C7C0093657C /* ListNode.swift in Sources */,
 				B7B3206F1D2A694F004920E2 /* q225-implement-stack-using-queues.swift in Sources */,
 				B76B782F1D281C7C0093657C /* q371-sum-of-two-integers.swift in Sources */,
