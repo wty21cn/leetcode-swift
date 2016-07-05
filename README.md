@@ -94,11 +94,11 @@ let head = LinkedListBuilder.buildLinkedListWithNodes([1,2,3,4,5,6,7])
 Print linked list and binary tree visually for easy debugging:
 
 ```swift
-LinkedListPrinter.print(head!)
+print(head)
 
 1-->2-->3-->4-->5-->6-->7
 
-BinaryTreePrinter.print(root!)
+print(root)
 
          ┌───── 15
  ┌───── 14
