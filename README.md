@@ -174,6 +174,7 @@ If you want a full list of questions, please check [leetcode.com](https://leetco
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | [swift](./leetcode-swift/Easy/q206-reverse-linked-list.swift) | Easy |  |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii) | [swift](./leetcode-swift/Medium/q213-house-robber-ii.swift) | Medium |  |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | [swift](./leetcode-swift/Easy/q217-contains-duplicate.swift) | Easy |  |
+| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | [swift](./leetcode-swift/Easy/q219-contains-duplicate-ii.swift) | Easy |  |
 | 223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area) | [swift](./leetcode-swift/Easy/q223-rectangle-area.swift) | Easy |  |
 | 225 | [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues) | [swift](./leetcode-swift/Easy/q225-implement-stack-using-queues.swift) | Easy |  |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) | [swift](./leetcode-swift/Easy/q226-invert-binary-tree.swift) | Easy |  |
