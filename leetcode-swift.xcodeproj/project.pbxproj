@@ -71,6 +71,7 @@
 		B7B320771D2B6DD0004920E2 /* q205-isomorphic-strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B320761D2B6DD0004920E2 /* q205-isomorphic-strings.swift */; };
 		B7B320791D2B8A77004920E2 /* q88-merge-sorted-array.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B320781D2B8A77004920E2 /* q88-merge-sorted-array.swift */; };
 		B7B3207B1D2B91B5004920E2 /* q160-intersection-of-two-linked-lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B3207A1D2B91B5004920E2 /* q160-intersection-of-two-linked-lists.swift */; };
+		B7B3207D1D2BAA5C004920E2 /* q19-remove-nth-node-from-end-of-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B3207C1D2BAA5C004920E2 /* q19-remove-nth-node-from-end-of-list.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -158,6 +159,7 @@
 		B7B320761D2B6DD0004920E2 /* q205-isomorphic-strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q205-isomorphic-strings.swift"; sourceTree = "<group>"; };
 		B7B320781D2B8A77004920E2 /* q88-merge-sorted-array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q88-merge-sorted-array.swift"; sourceTree = "<group>"; };
 		B7B3207A1D2B91B5004920E2 /* q160-intersection-of-two-linked-lists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q160-intersection-of-two-linked-lists.swift"; sourceTree = "<group>"; };
+		B7B3207C1D2BAA5C004920E2 /* q19-remove-nth-node-from-end-of-list.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q19-remove-nth-node-from-end-of-list.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +265,7 @@
 				B7B320761D2B6DD0004920E2 /* q205-isomorphic-strings.swift */,
 				B7B320781D2B8A77004920E2 /* q88-merge-sorted-array.swift */,
 				B7B3207A1D2B91B5004920E2 /* q160-intersection-of-two-linked-lists.swift */,
+				B7B3207C1D2BAA5C004920E2 /* q19-remove-nth-node-from-end-of-list.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				B76B784A1D2974370093657C /* q66-plus-one.swift in Sources */,
 				B76B78311D281C7C0093657C /* BinaryTreeHelper.swift in Sources */,
 				B76B78171D281C7C0093657C /* q100-same-tree.swift in Sources */,
+				B7B3207D1D2BAA5C004920E2 /* q19-remove-nth-node-from-end-of-list.swift in Sources */,
 				B76B78401D290CD90093657C /* q103-binary-tree-zigzag-level-order-traversal.swift in Sources */,
 				B76B78181D281C7C0093657C /* q104-maximum-depth-of-binary-tree.swift in Sources */,
 				B76B781D1D281C7C0093657C /* q191-number-of-1-bits.swift in Sources */,
