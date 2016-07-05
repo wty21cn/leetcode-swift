@@ -1,6 +1,6 @@
 # LeetCode Solution Swift 
 [![language badge](https://img.shields.io/badge/language-swift%202.2-orange.svg)](https://github.com/apple/swift)
-[![progress](https://img.shields.io/badge/progress-%20%20Updating%2055%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
+[![progress](https://img.shields.io/badge/progress-%20%20Updating%2056%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
 [![license badge](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 ## About
@@ -151,6 +151,7 @@ If you want a full list of questions, please check [leetcode.com](https://leetco
 | 66 | [Plus One](https://leetcode.com/problems/lus-one) | [swift](./leetcode-swift/Easy/q66-plus-one.swift) | Easy |  |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [swift](./leetcode-swift/Easy/q070-climbing-stairs.swift) | Easy |  |
 | 83 | [Remove Duplicates From Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [swift](./leetcode-swift/Easy/q083-remove-duplicates-from-sorted-list.swift) | Easy |  |
+| 88 | [Merge Sorted Array](https://leetcode.com/problems/erge-sorted-array) | [swift](./leetcode-swift/Easy/q88-merge-sorted-array.swift) | Easy |  |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree) | [swift](./leetcode-swift/Easy/q100-same-tree.swift) | Easy |  |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) | [swift](./leetcode-swift/Easy/q101-symmetric-tree.swift) | Easy |  |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | [swift](./leetcode-swift/Easy/q102-binary-tree-level-order-traversal.swift) | Easy |  |
