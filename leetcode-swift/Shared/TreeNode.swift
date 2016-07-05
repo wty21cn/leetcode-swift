@@ -10,7 +10,7 @@
 
 import Foundation
 
-class TreeNode: BinaryTreeNodePrintable {
+class TreeNode: BinaryTreeNodePrintable, CustomStringConvertible {
     var val: Int
     var left: TreeNode?
     var right: TreeNode?
@@ -34,6 +34,12 @@ class TreeNode: BinaryTreeNodePrintable {
     func presentation() -> String {
         return "\(val)"
     }
+
+//MARK: - CustomStringConvertible Protocol {
     
+    var description: String {
+        BinaryTreePrinter.print(self)
+        return ""
+    }
     
 }

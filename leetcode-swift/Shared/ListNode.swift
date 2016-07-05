@@ -10,7 +10,7 @@
 
 import Foundation
 
-public class ListNode: ListNodePrintable {
+public class ListNode: ListNodePrintable, CustomStringConvertible {
     public var val: Int
     public var next: ListNode?
     public var length: Int {
@@ -34,6 +34,13 @@ public class ListNode: ListNodePrintable {
     
     func successor() -> ListNodePrintable? {
         return next
+    }
+    
+//MARK: - CustomStringConvertible Protocol {
+    
+    public var description: String {
+        LinkedListPrinter.print(self)
+        return ""
     }
     
 }
