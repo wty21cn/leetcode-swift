@@ -37,7 +37,7 @@ struct q20 {
                     if stack.isEmpty {
                         return false
                     } else {
-                        if rule.indexOf(char)! - rule.indexOf(stack.last!)! == 1 {
+                        if rule.indexOf(char)! - rule.indexOf(stack.last!)! == 1 {  //barckets matched
                             stack.removeLast()
                         } else {
                             return false
