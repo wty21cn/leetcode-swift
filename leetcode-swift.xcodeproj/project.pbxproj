@@ -69,6 +69,7 @@
 		B7B320731D2B4DBD004920E2 /* q223-rectangle-area.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B320721D2B4DBD004920E2 /* q223-rectangle-area.swift */; };
 		B7B320751D2B679B004920E2 /* q219-contains-duplicate-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B320741D2B679B004920E2 /* q219-contains-duplicate-ii.swift */; };
 		B7B320771D2B6DD0004920E2 /* q205-isomorphic-strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B320761D2B6DD0004920E2 /* q205-isomorphic-strings.swift */; };
+		B7B320791D2B8A77004920E2 /* q88-merge-sorted-array.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B320781D2B8A77004920E2 /* q88-merge-sorted-array.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -154,6 +155,7 @@
 		B7B320721D2B4DBD004920E2 /* q223-rectangle-area.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q223-rectangle-area.swift"; sourceTree = "<group>"; };
 		B7B320741D2B679B004920E2 /* q219-contains-duplicate-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q219-contains-duplicate-ii.swift"; sourceTree = "<group>"; };
 		B7B320761D2B6DD0004920E2 /* q205-isomorphic-strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q205-isomorphic-strings.swift"; sourceTree = "<group>"; };
+		B7B320781D2B8A77004920E2 /* q88-merge-sorted-array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q88-merge-sorted-array.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +259,7 @@
 				B7B320721D2B4DBD004920E2 /* q223-rectangle-area.swift */,
 				B7B320741D2B679B004920E2 /* q219-contains-duplicate-ii.swift */,
 				B7B320761D2B6DD0004920E2 /* q205-isomorphic-strings.swift */,
+				B7B320781D2B8A77004920E2 /* q88-merge-sorted-array.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				B76B78501D2A07900093657C /* q118-pascals-triangle.swift in Sources */,
 				B76B782C1D281C7C0093657C /* q345-reverse-vowels-of-a-string.swift in Sources */,
 				B76B78341D281C7C0093657C /* main.swift in Sources */,
+				B7B320791D2B8A77004920E2 /* q88-merge-sorted-array.swift in Sources */,
 				B76B78481D295B510093657C /* q101-symmetric-tree.swift in Sources */,
 				B76B78291D281C7C0093657C /* q292-nim-games.swift in Sources */,
 				B7B320771D2B6DD0004920E2 /* q205-isomorphic-strings.swift in Sources */,
