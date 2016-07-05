@@ -13,6 +13,14 @@ import Foundation
 public class ListNode: ListNodePrintable {
     public var val: Int
     public var next: ListNode?
+    public var length: Int {
+        if let nextNode = next {
+            return nextNode.length + 1
+        } else {
+            return 1
+        }
+    }
+    
     public init(_ val: Int) {
             self.val = val
             self.next = nil
