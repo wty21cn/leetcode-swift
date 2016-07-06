@@ -11,6 +11,28 @@
 //  Mail      :  mailto:wty21cn@gmail.com
 
 
+/***************************************************************************************
+ *
+ * Given a binary tree, return all root-to-leaf paths.
+ *
+ * For example, given the following binary tree:
+ *
+ *    1
+ *  /   \
+ * 2     3
+ *  \
+ *   5
+ *
+ * All root-to-leaf paths are:
+ * ["1->2->5", "1->3"]
+ *
+ * Credits:
+ * Special thanks to @jianchao.li.fighter for adding this problem and creating all test
+ * cases.
+ *
+ ***************************************************************************************/
+
+
 import Foundation
 
 struct q257 {
@@ -22,16 +44,15 @@ struct q257 {
             
             if let node = node {
                 
-                switch (node.left, node.right) {
-                case (nil,nil):
+                if node.left == nil && node.right != nil {
                     treePaths.append(path + "->\(node.val)")
-                case (_, nil):
-                    DFS(node: node.left, path: path + "->\(node.val)")
-                case (nil, _):
-                    DFS(node: node.right, path: path + "->\(node.val)")
-                case (_, _):
-                    DFS(node: node.left, path: path + "->\(node.val)")
-                    DFS(node: node.right, path: path + "->\(node.val)")
+                } else {
+                    if node.left != nil {
+                        DFS(node: node.left, path: path + "->\(node.val)")
+                    }
+                    if node.right != nil {
+                        DFS(node: node.right, path: path + "->\(node.val)")
+                    }
                 }
             }
         }
