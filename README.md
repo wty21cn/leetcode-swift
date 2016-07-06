@@ -140,22 +140,22 @@ If you want a full list of questions, please check [leetcode.com](https://leetco
 
 |   #   |       Title        |     Solution      |    Difficulty   |       Note       |
 | :---: | :----------------: | :---------------: | :-------------: | :--------------: |
-| 7 | [Reverse Integer](https://leetcode.com/problems/verse-integer) | [swift](./leetcode-swift/Easy/q7-reverse-integer.swift) | Easy |  |
-| 9 | [Palindrome Number](https://leetcode.com/problems/lindrome-number) | [swift](./leetcode-swift/Easy/q9-palindrome-number.swift) | Easy |  |
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer) | [swift](./leetcode-swift/Easy/q007-reverse-integer.swift) | Easy |  |
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | [swift](./leetcode-swift/Easy/q009-palindrome-number.swift) | Easy |  |
 | 13 | [Roman To Integer](https://leetcode.com/problems/roman-to-integer) | [swift](./leetcode-swift/Easy/q013-roman-to-integer.swift) | Easy |  |
-| 19 | [Remove Nth Node From End Of List](https://leetcode.com/problems/emove-nth-node-from-end-of-list) | [swift](./leetcode-swift/Easy/q19-remove-nth-node-from-end-of-list.swift) | Easy |  |
-| 20 | [Valid Parentheses](https://leetcode.com/problems/alid-parentheses) | [swift](./leetcode-swift/Easy/q20-valid-parentheses.swift) | Easy |  |
+| 19 | [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | [swift](./leetcode-swift/Easy/q019-remove-nth-node-from-end-of-list.swift) | Easy |  |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | [swift](./leetcode-swift/Easy/q020-valid-parentheses.swift) | Easy |  |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | [swift](./leetcode-swift/Easy/q021-merge-two-sorted-lists.swift) | Easy |  |
 | 24 | [Swap Nodes In Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | [swift](./leetcode-swift/Easy/q024-swap-nodes-in-pairs.swift) | Easy |  |
-| 26 | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/emove-duplicates-from-sorted-array) | [swift](./leetcode-swift/Easy/q26-remove-duplicates-from-sorted-array.swift) | Easy |  |
-| 27 | [Remove Element](https://leetcode.com/problems/emove-element) | [swift](./leetcode-swift/Easy/q27-remove-element.swift) | Easy |  |
-| 36 | [Valid Sudoku](https://leetcode.com/problems/alid-sudoku) | [swift](./leetcode-swift/Easy/q36-valid-sudoku.swift) | Easy |  |
-| 38 | [Count And Say](https://leetcode.com/problems/ount-and-say) | [swift](./leetcode-swift/Easy/q38-count-and-say.swift) | Easy |  |
-| 58 | [Length Of Last Word](https://leetcode.com/problems/ength-of-last-word) | [swift](./leetcode-swift/Easy/q58-length-of-last-word.swift) | Easy |  |
-| 66 | [Plus One](https://leetcode.com/problems/lus-one) | [swift](./leetcode-swift/Easy/q66-plus-one.swift) | Easy |  |
+| 26 | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | [swift](./leetcode-swift/Easy/q026-remove-duplicates-from-sorted-array.swift) | Easy |  |
+| 27 | [Remove Element](https://leetcode.com/problems/remove-element) | [swift](./leetcode-swift/Easy/q027-remove-element.swift) | Easy |  |
+| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | [swift](./leetcode-swift/Easy/q036-valid-sudoku.swift) | Easy |  |
+| 38 | [Count And Say](https://leetcode.com/problems/count-and-say) | [swift](./leetcode-swift/Easy/q038-count-and-say.swift) | Easy |  |
+| 58 | [Length Of Last Word](https://leetcode.com/problems/length-of-last-word) | [swift](./leetcode-swift/Easy/q058-length-of-last-word.swift) | Easy |  |
+| 66 | [Plus One](https://leetcode.com/problems/plus-one) | [swift](./leetcode-swift/Easy/q066-plus-one.swift) | Easy |  |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [swift](./leetcode-swift/Easy/q070-climbing-stairs.swift) | Easy |  |
 | 83 | [Remove Duplicates From Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [swift](./leetcode-swift/Easy/q083-remove-duplicates-from-sorted-list.swift) | Easy |  |
-| 88 | [Merge Sorted Array](https://leetcode.com/problems/erge-sorted-array) | [swift](./leetcode-swift/Easy/q88-merge-sorted-array.swift) | Easy |  |
+| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | [swift](./leetcode-swift/Easy/q088-merge-sorted-array.swift) | Easy |  |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree) | [swift](./leetcode-swift/Easy/q100-same-tree.swift) | Easy |  |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) | [swift](./leetcode-swift/Easy/q101-symmetric-tree.swift) | Easy |  |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | [swift](./leetcode-swift/Easy/q102-binary-tree-level-order-traversal.swift) | Easy |  |
