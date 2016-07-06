@@ -1,6 +1,6 @@
 # LeetCode Solution Swift 
 [![language badge](https://img.shields.io/badge/language-swift%202.2-orange.svg)](https://github.com/apple/swift)
-[![progress](https://img.shields.io/badge/progress-%20%20Updating%2061%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
+[![progress](https://img.shields.io/badge/progress-%20%20Updating%2062%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
 [![license badge](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 ## About
@@ -188,6 +188,7 @@ If you want a full list of questions, please check [leetcode.com](https://leetco
 | 235 | [Lowest Common Ancestor Of A Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | [swift](./leetcode-swift/Easy/q235-lowest-common-ancestor-of-a-binary-search-tree.swift) | Easy |  |
 | 237 | [Delete Node In A Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) | [swift](./leetcode-swift/Easy/q237-delete-node-in-a-linked-list.swift) | Easy |  |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | [swift](./leetcode-swift/Easy/q242-valid-anagram.swift) | Easy |  |
+| 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths) | [swift](./leetcode-swift/Easy/q257-binary-tree-paths.swift) | Easy |  |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits) | [swift](./leetcode-swift/Easy/q258-add-digits.swift) | Easy |  |
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | [swift](./leetcode-swift/Easy/q263-ugly-number.swift) | Easy |  |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes) | [swift](./leetcode-swift/Easy/q283-move-zeroes.swift) | Easy |  |
