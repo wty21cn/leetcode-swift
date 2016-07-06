@@ -76,6 +76,7 @@
 		B7B320821D2BC6B0004920E2 /* q20-valid-parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B320811D2BC6B0004920E2 /* q20-valid-parentheses.swift */; };
 		B7E9B2941D2CA40E00D78ECC /* q257-binary-tree-paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E9B2931D2CA40E00D78ECC /* q257-binary-tree-paths.swift */; };
 		B7E9B2961D2CB1A200D78ECC /* q38-count-and-say.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E9B2951D2CB1A200D78ECC /* q38-count-and-say.swift */; };
+		B7E9B2981D2CC3D600D78ECC /* q58-length-of-last-word.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E9B2971D2CC3D600D78ECC /* q58-length-of-last-word.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -168,6 +169,7 @@
 		B7B320811D2BC6B0004920E2 /* q20-valid-parentheses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q20-valid-parentheses.swift"; sourceTree = "<group>"; };
 		B7E9B2931D2CA40E00D78ECC /* q257-binary-tree-paths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q257-binary-tree-paths.swift"; sourceTree = "<group>"; };
 		B7E9B2951D2CB1A200D78ECC /* q38-count-and-say.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q38-count-and-say.swift"; sourceTree = "<group>"; };
+		B7E9B2971D2CC3D600D78ECC /* q58-length-of-last-word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q58-length-of-last-word.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,6 +280,7 @@
 				B7B320811D2BC6B0004920E2 /* q20-valid-parentheses.swift */,
 				B7E9B2931D2CA40E00D78ECC /* q257-binary-tree-paths.swift */,
 				B7E9B2951D2CB1A200D78ECC /* q38-count-and-say.swift */,
+				B7E9B2971D2CC3D600D78ECC /* q58-length-of-last-word.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -416,6 +419,7 @@
 				B76B781C1D281C7C0093657C /* q171-excel-sheet-column-number.swift in Sources */,
 				B76B782D1D281C7C0093657C /* q349-Intersection-of-two-arrays.swift in Sources */,
 				B76B785C1D2A4D2F0093657C /* q112-path-sum.swift in Sources */,
+				B7E9B2981D2CC3D600D78ECC /* q58-length-of-last-word.swift in Sources */,
 				B76B782E1D281C7C0093657C /* q350-intersection-of-two-arrays-ii.swift in Sources */,
 				B76B782A1D281C7C0093657C /* q326-power-of-three.swift in Sources */,
 				B76B78261D281C7C0093657C /* q258-add-digits.swift in Sources */,
