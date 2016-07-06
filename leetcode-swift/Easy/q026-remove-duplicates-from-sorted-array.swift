@@ -1,5 +1,5 @@
 //
-//  q26-remove-duplicates-from-sorted-array.swift
+//  q026-remove-duplicates-from-sorted-array.swift
 //  leetcode-swift
 //  Source*   :  https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 //  Category* :  Array TwoPointers

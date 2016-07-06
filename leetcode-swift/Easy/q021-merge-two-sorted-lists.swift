@@ -22,7 +22,7 @@
 
 import Foundation
 
-struct q021 {
+struct q21 {
     
     class Solution {
         func mergeTwoLists(l1: ListNode?, _ l2: ListNode?) -> ListNode? {

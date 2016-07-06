@@ -36,7 +36,7 @@
 
 import Foundation
 
-struct q7 {
+struct q007 {
     
     class Solution {
         func reverse(x: Int) -> Int {

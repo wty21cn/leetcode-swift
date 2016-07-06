@@ -1,5 +1,5 @@
 //
-//  q88-merge-sorted-array.swift
+//  q088-merge-sorted-array.swift
 //  leetcode-swift
 //  Source*   :  https://leetcode.com/problems/merge-sorted-array/
 //  Category* :  Array

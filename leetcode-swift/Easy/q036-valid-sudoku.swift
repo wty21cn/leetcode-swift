@@ -1,5 +1,5 @@
 //
-//  q36-valid-sudoku.swift
+//  q036-valid-sudoku.swift
 //  leetcode-swift
 //  Source*   :  https://leetcode.com/problems/valid-sudoku/
 //  Category* :  Hash

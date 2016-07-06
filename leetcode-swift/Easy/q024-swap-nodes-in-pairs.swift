@@ -13,7 +13,7 @@
 
 import Foundation
 
-struct q024 {
+struct q24 {
     
     class Solution {
         func swapPairs(head: ListNode?) -> ListNode? {

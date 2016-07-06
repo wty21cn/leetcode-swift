@@ -30,7 +30,7 @@
 
 import Foundation
 
-struct q070 {
+struct q70 {
     
     class Solution {
         func climbStairs(n: Int) -> Int {

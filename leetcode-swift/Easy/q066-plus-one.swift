@@ -1,5 +1,5 @@
 //
-//  q66-plus-one.swift
+//  q066-plus-one.swift
 //  leetcode-swift
 //  Source*   :  https://leetcode.com/problems/plus-one/
 //  Category* :  Array

@@ -25,7 +25,7 @@
 
 import Foundation
 
-struct q083 {
+struct q83 {
     
     class Solution {
         func deleteDuplicates(head: ListNode?) -> ListNode? {

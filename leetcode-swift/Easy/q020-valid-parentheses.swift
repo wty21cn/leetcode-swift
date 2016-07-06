@@ -1,5 +1,5 @@
 //
-//  q20-valid-parentheses.swift
+//  q020-valid-parentheses.swift
 //  leetcode-swift
 //  Source*   :  https://leetcode.com/problems/valid-parentheses/
 //  Category* :  Stack
