@@ -77,6 +77,7 @@
 		B7E9B2941D2CA40E00D78ECC /* q257-binary-tree-paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E9B2931D2CA40E00D78ECC /* q257-binary-tree-paths.swift */; };
 		B7E9B2961D2CB1A200D78ECC /* q038-count-and-say.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E9B2951D2CB1A200D78ECC /* q038-count-and-say.swift */; };
 		B7E9B2981D2CC3D600D78ECC /* q058-length-of-last-word.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E9B2971D2CC3D600D78ECC /* q058-length-of-last-word.swift */; };
+		B7E9B29A1D2CD6DD00D78ECC /* q203-remove-linked-list-elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E9B2991D2CD6DD00D78ECC /* q203-remove-linked-list-elements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -170,6 +171,7 @@
 		B7E9B2931D2CA40E00D78ECC /* q257-binary-tree-paths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q257-binary-tree-paths.swift"; sourceTree = "<group>"; };
 		B7E9B2951D2CB1A200D78ECC /* q038-count-and-say.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q038-count-and-say.swift"; sourceTree = "<group>"; };
 		B7E9B2971D2CC3D600D78ECC /* q058-length-of-last-word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q058-length-of-last-word.swift"; sourceTree = "<group>"; };
+		B7E9B2991D2CD6DD00D78ECC /* q203-remove-linked-list-elements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q203-remove-linked-list-elements.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -281,6 +283,7 @@
 				B7E9B2931D2CA40E00D78ECC /* q257-binary-tree-paths.swift */,
 				B7E9B2951D2CB1A200D78ECC /* q038-count-and-say.swift */,
 				B7E9B2971D2CC3D600D78ECC /* q058-length-of-last-word.swift */,
+				B7E9B2991D2CD6DD00D78ECC /* q203-remove-linked-list-elements.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 				B76B78221D281C7C0093657C /* q231-power-of-two.swift in Sources */,
 				B76B783A1D28BBD90093657C /* q213-house-robber-ii.swift in Sources */,
 				B76B78131D281C7C0093657C /* q021-merge-two-sorted-lists.swift in Sources */,
+				B7E9B29A1D2CD6DD00D78ECC /* q203-remove-linked-list-elements.swift in Sources */,
 				B76B78151D281C7C0093657C /* q070-climbing-stairs.swift in Sources */,
 				B7B3207F1D2BB75E004920E2 /* q290-word-pattern.swift in Sources */,
 				B76B784C1D298C890093657C /* q110-balanced-binary-tree.swift in Sources */,
