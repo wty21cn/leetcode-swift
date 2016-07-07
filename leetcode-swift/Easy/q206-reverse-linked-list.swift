@@ -65,7 +65,7 @@ struct q206 {
             var head = head
             var n: ListNode? = head?.next
             var p: ListNode? = nil
-            while head?.next != nil {
+            while head != nil {
                 
                 head!.next = p
                 p = head
@@ -73,8 +73,7 @@ struct q206 {
                 n = head?.next
                 
             }
-            head?.next = p
-            return head
+            return p
         }
     }
     
