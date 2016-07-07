@@ -1,5 +1,5 @@
 //
-//  q334-everse-string.swift
+//  q334-reverse-string.swift
 //  leetcode-swift
 //  Source*   :  https://leetcode.com/problems/reverse-string/
 //  Category* :  String
