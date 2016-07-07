@@ -80,6 +80,7 @@
 		B7E9B29A1D2CD6DD00D78ECC /* q203-remove-linked-list-elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E9B2991D2CD6DD00D78ECC /* q203-remove-linked-list-elements.swift */; };
 		B7E9B29C1D2CE93D00D78ECC /* q190-reverse-bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E9B29B1D2CE93D00D78ECC /* q190-reverse-bits.swift */; };
 		B7E9B29E1D2E5C4600D78ECC /* q234-palindrome-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E9B29D1D2E5C4600D78ECC /* q234-palindrome-linked-list.swift */; };
+		B7E9B2A01D2EA75500D78ECC /* q014-longest-common-prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E9B29F1D2EA75500D78ECC /* q014-longest-common-prefix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -176,6 +177,7 @@
 		B7E9B2991D2CD6DD00D78ECC /* q203-remove-linked-list-elements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = "q203-remove-linked-list-elements.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B7E9B29B1D2CE93D00D78ECC /* q190-reverse-bits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q190-reverse-bits.swift"; sourceTree = "<group>"; };
 		B7E9B29D1D2E5C4600D78ECC /* q234-palindrome-linked-list.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = "q234-palindrome-linked-list.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B7E9B29F1D2EA75500D78ECC /* q014-longest-common-prefix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q014-longest-common-prefix.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,6 +292,7 @@
 				B76B78051D281C7C0093657C /* q371-sum-of-two-integers.swift */,
 				B7E9B29B1D2CE93D00D78ECC /* q190-reverse-bits.swift */,
 				B7E9B29D1D2E5C4600D78ECC /* q234-palindrome-linked-list.swift */,
+				B7E9B29F1D2EA75500D78ECC /* q014-longest-common-prefix.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -453,6 +456,7 @@
 				B76B782B1D281C7C0093657C /* q334-reverse-string.swift in Sources */,
 				B76B78201D281C7C0093657C /* q217-contains-duplicate.swift in Sources */,
 				B7B320711D2A8EA6004920E2 /* q299-bulls-and-cows.swift in Sources */,
+				B7E9B2A01D2EA75500D78ECC /* q014-longest-common-prefix.swift in Sources */,
 				B76B784E1D2A017F0093657C /* q232-implement-queue-using-stacks.swift in Sources */,
 				B7B320731D2B4DBD004920E2 /* q223-rectangle-area.swift in Sources */,
 				B76B78581D2A24630093657C /* q009-palindrome-number.swift in Sources */,
