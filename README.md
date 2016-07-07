@@ -1,6 +1,6 @@
 # LeetCode Solution Swift 
 [![language badge](https://img.shields.io/badge/language-swift%202.2-orange.svg)](https://github.com/apple/swift)
-[![progress](https://img.shields.io/badge/progress-%20%20Updating%2067%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
+[![progress](https://img.shields.io/badge/progress-%20%20Updating%2068%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
 [![license badge](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 ## About
@@ -143,6 +143,7 @@ If you want a full list of questions, please check [leetcode.com](https://leetco
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer) | [swift](./leetcode-swift/Easy/q007-reverse-integer.swift) | Easy |  |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | [swift](./leetcode-swift/Easy/q009-palindrome-number.swift) | Easy |  |
 | 13 | [Roman To Integer](https://leetcode.com/problems/roman-to-integer) | [swift](./leetcode-swift/Easy/q013-roman-to-integer.swift) | Easy |  |
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | [swift](./leetcode-swift/Easy/q014-longest-common-prefix.swift) | Easy |  |
 | 19 | [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | [swift](./leetcode-swift/Easy/q019-remove-nth-node-from-end-of-list.swift) | Easy |  |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | [swift](./leetcode-swift/Easy/q020-valid-parentheses.swift) | Easy |  |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | [swift](./leetcode-swift/Easy/q021-merge-two-sorted-lists.swift) | Easy |  |
