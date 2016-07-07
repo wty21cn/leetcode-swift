@@ -11,4 +11,4 @@
 import Foundation
 
 
-q190.getSolution()
+q234.getSolution()
