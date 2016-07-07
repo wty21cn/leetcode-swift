@@ -1,6 +1,6 @@
 # LeetCode Solution Swift 
 [![language badge](https://img.shields.io/badge/language-swift%202.2-orange.svg)](https://github.com/apple/swift)
-[![progress](https://img.shields.io/badge/progress-%20%20Updating%2066%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
+[![progress](https://img.shields.io/badge/progress-%20%20Updating%2067%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
 [![license badge](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 ## About
@@ -189,6 +189,7 @@ If you want a full list of questions, please check [leetcode.com](https://leetco
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) | [swift](./leetcode-swift/Easy/q226-invert-binary-tree.swift) | Easy |  |
 | 231 | [Power Of Two](https://leetcode.com/problems/power-of-two) | [swift](./leetcode-swift/Easy/q231-power-of-two.swift) | Easy |  |
 | 232 | [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) | [swift](./leetcode-swift/Easy/q232-implement-queue-using-stacks.swift) | Easy |  |
+| 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | [swift](./leetcode-swift/Easy/q234-palindrome-linked-list.swift) | Easy |  |
 | 235 | [Lowest Common Ancestor Of A Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | [swift](./leetcode-swift/Easy/q235-lowest-common-ancestor-of-a-binary-search-tree.swift) | Easy |  |
 | 237 | [Delete Node In A Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) | [swift](./leetcode-swift/Easy/q237-delete-node-in-a-linked-list.swift) | Easy |  |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | [swift](./leetcode-swift/Easy/q242-valid-anagram.swift) | Easy |  |
@@ -200,7 +201,7 @@ If you want a full list of questions, please check [leetcode.com](https://leetco
 | 292 | [Nim Games](https://leetcode.com/problems/nim-games) | [swift](./leetcode-swift/Easy/q292-nim-games.swift) | Easy |  |
 | 299 | [Bulls And Cows](https://leetcode.com/problems/bulls-and-cows) | [swift](./leetcode-swift/Easy/q299-bulls-and-cows.swift) | Easy |  |
 | 326 | [Power Of Three](https://leetcode.com/problems/power-of-three) | [swift](./leetcode-swift/Easy/q326-power-of-three.swift) | Easy |  |
-| 334 | [Everse String](https://leetcode.com/problems/everse-string) | [swift](./leetcode-swift/Easy/q334-everse-string.swift) | Easy |  |
+| 334 | [Reverse String](https://leetcode.com/problems/reverse-string) | [swift](./leetcode-swift/Easy/q334-reverse-string.swift) | Easy |  |
 | 342 | [Power Of Four](https://leetcode.com/problems/power-of-four) | [swift](./leetcode-swift/Easy/q342-power-of-four.swift) | Easy |  |
 | 345 | [Reverse Vowels Of A String](https://leetcode.com/problems/reverse-vowels-of-a-string) | [swift](./leetcode-swift/Easy/q345-reverse-vowels-of-a-string.swift) | Easy |  |
 | 349 | [Intersection Of Two Arrays](https://leetcode.com/problems/Intersection-of-two-arrays) | [swift](./leetcode-swift/Easy/q349-Intersection-of-two-arrays.swift) | Easy |  |
