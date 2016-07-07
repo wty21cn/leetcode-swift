@@ -52,19 +52,19 @@ struct q21 {
 
     static func getSolution() -> Void {
         
-        var l1 = LinkedListBuilder.buildLinkedListWithNodes([1,5,8,9,13])
-        var l2 = LinkedListBuilder.buildLinkedListWithNodes([0,2,3,6,11,14])
+        var l1 = LinkedListHelper.buildLinkedList(withNodes: [1,5,8,9,13])
+        var l2 = LinkedListHelper.buildLinkedList(withNodes: [0,2,3,6,11,14])
         
-        LinkedListPrinter.print(Solution().mergeTwoLists(l1,l2)!)
+        print(Solution().mergeTwoLists(l1,l2))
         
-        l1 = LinkedListBuilder.buildLinkedListWithNodes([1,2,3,4,5])
-        l2 = LinkedListBuilder.buildLinkedListWithNodes([1,2,3,4,5,6])
-        LinkedListPrinter.print(Solution().mergeTwoLists(l1, l2)!)
+        l1 = LinkedListHelper.buildLinkedList(withNodes: [1,2,3,4,5])
+        l2 = LinkedListHelper.buildLinkedList(withNodes: [1,2,3,4,5,6])
+        print(Solution().mergeTwoLists(l1, l2))
         
         
-        l1 = LinkedListBuilder.buildLinkedListWithNodes([1,2,3,4,5])
+        l1 = LinkedListHelper.buildLinkedList(withNodes: [1,2,3,4,5])
         l2 = nil
-        LinkedListPrinter.print(Solution().mergeTwoLists(l1, l2)!)
+        print(Solution().mergeTwoLists(l1, l2))
         
     }
 }

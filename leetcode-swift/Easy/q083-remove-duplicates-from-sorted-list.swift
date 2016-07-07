@@ -44,8 +44,8 @@ struct q83 {
     }
     
     static func getSolution() -> Void {
-        let head = LinkedListBuilder.buildLinkedListWithNodes([1,1,3,4,4,5,5,6,6,7])
-        LinkedListPrinter.print(head!)
-        LinkedListPrinter.print(Solution().deleteDuplicates(head!)!)
+        let head = LinkedListHelper.buildLinkedList(withNodes: [1,1,3,4,4,5,5,6,6,7])
+        print(head)
+        print(Solution().deleteDuplicates(head))
     }
 }

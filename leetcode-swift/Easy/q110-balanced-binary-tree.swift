@@ -49,8 +49,8 @@ struct q110 {
     }
 
     static func getSolution() -> Void {
-        let root = BinaryTreeBuilder.buildTreeWithNodes([1,2,3,4,5,6,7,8])
-        BinaryTreePrinter.print(root!)
+        let root = BinaryTreeHelper.buildTree(withNodes: [1,2,3,4,5,6,7,8])
+        print(root)
         print(Solution().isBalanced(root))
     }
 }

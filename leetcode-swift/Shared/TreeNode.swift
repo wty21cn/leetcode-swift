@@ -38,8 +38,8 @@ class TreeNode: BinaryTreeNodePrintable, CustomStringConvertible {
 //MARK: - CustomStringConvertible Protocol {
     
     var description: String {
-        BinaryTreePrinter.print(self)
-        return ""
+
+        return BinaryTreeHelper.getStructureDescription(forNode: self)
     }
     
 }

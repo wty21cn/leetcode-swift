@@ -15,8 +15,10 @@ protocol ListNodePrintable {
     func successor() -> ListNodePrintable?
 }
 
-class LinkedListBuilder {
-    static func buildLinkedListWithNodes(nodes: [Int]) -> ListNode? {
+
+class LinkedListHelper {
+    
+    static func buildLinkedList(withNodes nodes: [Int]) -> ListNode? {
         var root: ListNode?
         var ln: ListNode?
         for node in nodes {
@@ -32,24 +34,24 @@ class LinkedListBuilder {
     }
 }
 
-class LinkedListPrinter {
-    
+extension LinkedListHelper {
     private static let indent = "-->"
     
-    static func print(node: ListNodePrintable?) -> Void {
+    static func getStructureDescription(forNode node: ListNodePrintable?) -> String {
+        var description = ""
         if var node = node {
             while true  {
-                Swift.print(node.presentation(), terminator: "")
+                description += node.presentation()
                 if let n = node.successor() {
-                    Swift.print(indent, terminator: "")
+                    description += indent
                     node = n
                 } else {
-                    Swift.print("")
-                    return
+                    break
                 }
             }
         } else {
-            Swift.print("nil")
+            description = "nil"
         }
+        return description
     }
 }

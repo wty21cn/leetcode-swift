@@ -67,7 +67,7 @@ struct q257 {
     
     static func getSolution() -> Void {
         
-        let root = BinaryTreeBuilder.buildTreeWithNodes([1,2,3,4,5,6,7,8,9,10])
+        let root = BinaryTreeHelper.buildTree(withNodes: [1,2,3,4,5,6,7,8,9,10])
         
         print(root)
         print(Solution().binaryTreePaths(root))

@@ -54,7 +54,7 @@ struct q19 {
     }
     
     static func getSolution() -> Void {
-        let head = LinkedListBuilder.buildLinkedListWithNodes([1,2,3,4,5,6,7])
-        LinkedListPrinter.print(Solution().removeNthFromEnd(head, 1))
+        let head = LinkedListHelper.buildLinkedList(withNodes: [1,2,3,4,5,6,7])
+        print(Solution().removeNthFromEnd(head, 1))
     }
 }

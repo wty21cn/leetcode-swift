@@ -39,8 +39,7 @@ public class ListNode: ListNodePrintable, CustomStringConvertible {
 //MARK: - CustomStringConvertible Protocol {
     
     public var description: String {
-        LinkedListPrinter.print(self)
-        return ""
+        return LinkedListHelper.getStructureDescription(forNode: self)
     }
     
 }

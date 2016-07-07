@@ -36,10 +36,10 @@ struct q100 {
     }
     
     static func getSolution() -> Void {
-        let tree1 = BinaryTreeBuilder.buildTreeWithNodes([1,2,3,4,5,6,7,nil,nil,10,11])
-        let tree2 = BinaryTreeBuilder.buildTreeWithNodes([1,2,3,4,nil,6,7,8,nil,10,11])
-        let tree3 = BinaryTreeBuilder.buildTreeWithNodes([1,2,3,4,5,6,7,8,9,10,11])
-        let tree4 = BinaryTreeBuilder.buildTreeWithNodes([1,2,3,4,5,6,7,8,9,10,11])
+        let tree1 = BinaryTreeHelper.buildTree(withNodes: [1,2,3,4,5,6,7,nil,nil,10,11])
+        let tree2 = BinaryTreeHelper.buildTree(withNodes: [1,2,3,4,nil,6,7,8,nil,10,11])
+        let tree3 = BinaryTreeHelper.buildTree(withNodes: [1,2,3,4,5,6,7,8,9,10,11])
+        let tree4 = BinaryTreeHelper.buildTree(withNodes: [1,2,3,4,5,6,7,8,9,10,11])
         
         print(Solution().isSameTree(tree1, tree2))
         print(Solution().isSameTree(tree3, tree4))

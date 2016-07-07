@@ -81,14 +81,14 @@ Empty tree. The root is a reference to nil
  -1  9
 ```
 
-The helper class: [LinkedListBuilder/LinkedListPrinter](./leetcode-solution-swift/Shared/LinkedListHelper.swift) and [BinaryTreeBuilder/BinaryTreePrinter](./leetcode-solution-swift/Shared/BinaryTreeHelper.swift) comply to this serialized format and is very useful to deserialize and visualize these two data structures.
+The helper class: [LinkedListHelper](./leetcode-solution-swift/Shared/LinkedListHelper.swift) and [BinaryTreeHelper](./leetcode-solution-swift/Shared/BinaryTreeHelper.swift) comply to this serialized format and is very useful to deserialize and visualize these two data structures.
 
 They can be used to build linked list and complicated binary tree in just one line:
 
 ```swift
-let root = BinaryTreeBuilder.buildTreeWithNodes([10,7,12,6,9,11,15,nil,3,8,nil,nil,nil,13,16])
+let root = BinaryTreeHelper.buildTree(withNodes: [10,7,12,6,9,11,15,nil,3,8,nil,nil,nil,13,16])
 
-let head = LinkedListBuilder.buildLinkedListWithNodes([1,2,3,4,5,6,7])
+let head = LinkedListHelper.buildLinkedList(withNodes: [1,2,3,4,5,6,7])
 ```
 
 Print linked list and binary tree visually for easy debugging:

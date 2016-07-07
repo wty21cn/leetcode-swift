@@ -56,7 +56,7 @@ struct q141 {
     
     static func getSolution() -> Void {
         
-        let head = LinkedListBuilder.buildLinkedListWithNodes([1,2,3,4,5])
+        let head = LinkedListHelper.buildLinkedList(withNodes: [1,2,3,4,5])
         head?.next?.next?.next?.next?.next = head?.next?.next?.next
         
         print(Solution().hasCycle(head))

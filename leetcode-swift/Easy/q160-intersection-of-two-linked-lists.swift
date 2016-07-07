@@ -75,28 +75,28 @@ struct q160 {
     }
     
     static func getSolution() -> Void {
-        var headA = LinkedListBuilder.buildLinkedListWithNodes([1,2,3,7,8,9])
-        var headB = LinkedListBuilder.buildLinkedListWithNodes([4,5,6])
+        var headA = LinkedListHelper.buildLinkedList(withNodes: [1,2,3,7,8,9])
+        var headB = LinkedListHelper.buildLinkedList(withNodes: [4,5,6])
         headB?.next?.next?.next = headA?.next?.next?.next
-        LinkedListPrinter.print(headA)
-        LinkedListPrinter.print(headB)
+        print(headA)
+        print(headB)
         
-        LinkedListPrinter.print(Solution().getIntersectionNode(headA, headB))
+        print(Solution().getIntersectionNode(headA, headB))
         
-        headA = LinkedListBuilder.buildLinkedListWithNodes([1,2,3,7,8,9])
+        headA = LinkedListHelper.buildLinkedList(withNodes: [1,2,3,7,8,9])
         headB = headA?.next?.next
-        LinkedListPrinter.print(headA)
-        LinkedListPrinter.print(headB)
+        print(headA)
+        print(headB)
         
-        LinkedListPrinter.print(Solution().getIntersectionNode(headA, headB))
+        print(Solution().getIntersectionNode(headA, headB))
         
-        headA = LinkedListBuilder.buildLinkedListWithNodes([1,2,3,7,8,9])
-        headB = LinkedListBuilder.buildLinkedListWithNodes([4,5,6])
-        LinkedListPrinter.print(headA)
-        LinkedListPrinter.print(headB)
+        headA = LinkedListHelper.buildLinkedList(withNodes: [1,2,3,7,8,9])
+        headB = LinkedListHelper.buildLinkedList(withNodes: [4,5,6])
+        print(headA)
+        print(headB)
         
-        LinkedListPrinter.print(Solution().getIntersectionNode(headA, headB))
+        print(Solution().getIntersectionNode(headA, headB))
         
-        LinkedListPrinter.print(Solution().getIntersectionNode(nil, nil))
+        print(Solution().getIntersectionNode(nil, nil))
     }
 }

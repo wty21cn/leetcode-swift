@@ -81,8 +81,8 @@ struct q112 {
     }
     
     static func getSolution() -> Void {
-        let root = BinaryTreeBuilder.buildTreeWithNodes([5,4,8,11,nil,13,4,7,2,nil,1])
-        BinaryTreePrinter.print(root!)
+        let root = BinaryTreeHelper.buildTree(withNodes: [5,4,8,11,nil,13,4,7,2,nil,1])
+        print(root)
         
         print(Solution().hasPathSum(root, 22))
         print(Solution().hasPathSum(root, 9))

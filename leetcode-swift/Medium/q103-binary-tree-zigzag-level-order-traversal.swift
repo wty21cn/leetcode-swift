@@ -129,8 +129,8 @@ struct q103 {
     }
     
     static func getSolution() -> Void {
-        let root = BinaryTreeBuilder.buildTreeWithNodes([3,9,20,nil,nil,15,7])
-        BinaryTreePrinter.print(root!)
+        let root = BinaryTreeHelper.buildTree(withNodes: [3,9,20,nil,nil,15,7])
+        print(root)
         
         
         print(Solution().zigzagLevelOrder(root))

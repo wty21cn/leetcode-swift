@@ -36,9 +36,9 @@ struct q104 {
     }
     
     static func getSolution() -> Void {
-        let root = BinaryTreeBuilder.buildTreeWithNodes([1,2,3,4,nil,6,7,8,nil,10,nil,nil,nil,14,15])
+        let root = BinaryTreeHelper.buildTree(withNodes: [1,2,3,4,nil,6,7,8,nil,10,nil,nil,nil,14,15])
 
-        BinaryTreePrinter.print(root!)
+        print(root)
         
         print(Solution().maxDepth(root))
     }

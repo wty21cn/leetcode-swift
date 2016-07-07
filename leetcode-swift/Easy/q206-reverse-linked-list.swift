@@ -78,10 +78,10 @@ struct q206 {
     }
     
     static func getSolution() -> Void {
-        let head = LinkedListBuilder.buildLinkedListWithNodes([1,2])
-        LinkedListPrinter.print(head!)
+        let head = LinkedListHelper.buildLinkedList(withNodes: [1,2])
+        print(head)
         
-        let reversedListHead = Solution2().reverseList(head!)
-        LinkedListPrinter.print(reversedListHead!)
+        let reversedListHead = Solution2().reverseList(head)
+        print(reversedListHead)
     }
 }

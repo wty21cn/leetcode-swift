@@ -18,11 +18,8 @@ protocol BinaryTreeNodePrintable {
     func presentation() -> String
 }
 
-//MARK: - BinaryTreeBuilder
-
-class BinaryTreeBuilder {
-    
-    static func buildTreeWithNodes(nodes: [Int?]) -> TreeNode? {
+class BinaryTreeHelper {
+    static func buildTree(withNodes nodes: [Int?]) -> TreeNode? {
         let root = buildTree(withNodes: nodes, index: nodes.startIndex)
         return root
     }
@@ -43,10 +40,7 @@ class BinaryTreeBuilder {
     }
 }
 
-
-//MARK: - BinaryTreePrinter
-
-class BinaryTreePrinter {
+extension BinaryTreeHelper {
     
     private static let indentStrVertical    = " │      "
     private static let indentStrBlank       = "        "
@@ -54,41 +48,42 @@ class BinaryTreePrinter {
     private static let indentStrRightChild  = " ┌"
     private static let indentStrLeftChild   = " └"
     
-    static func print(root: BinaryTreeNodePrintable?) -> Void {
-        if let root = root {
+    static func getStructureDescription(forNode node: BinaryTreeNodePrintable?) -> String {
+        var description = "\n"
+        if let root = node {
             if let rc = root.rightSubTree() {
-                printSubtree(rc, isRightSubtree: true, indent: "")
+                description += getSubtreeStructureDescription(rc, isRightSubtree: true, indent: "")
             }
             
-            Swift.print(root.presentation())
+            description += root.presentation() + "\n"
             
             if let lc = root.leftSubTree() {
-                printSubtree(lc, isRightSubtree: false, indent: "")
+               description += getSubtreeStructureDescription(lc, isRightSubtree: false, indent: "")
             }
         } else {
-            Swift.print("nil")
+            description = "nil"
         }
-        
+        return description
     }
     
-    private static func printSubtree(subtree: BinaryTreeNodePrintable, isRightSubtree: Bool, indent: String) -> Void {
+    private static func getSubtreeStructureDescription(subtree: BinaryTreeNodePrintable, isRightSubtree: Bool, indent: String) -> String {
+        
+        var description = ""
         
         let leftSubtreeIndent = indent + (isRightSubtree ? indentStrVertical : indentStrBlank)
         let rightSubTreeIndent = indent + (isRightSubtree ? indentStrBlank : indentStrVertical)
         let fullIndent = indent + (isRightSubtree ? indentStrRightChild : indentStrLeftChild) + indentStrLine
         
-        
         if let rc = subtree.rightSubTree() {
-            printSubtree(rc, isRightSubtree: true, indent: rightSubTreeIndent)
+            description += getSubtreeStructureDescription(rc, isRightSubtree: true, indent: rightSubTreeIndent)
         }
         
-        Swift.print(fullIndent, terminator: "")
-        Swift.print(subtree.presentation())
+        description += fullIndent + subtree.presentation() + "\n"
         
         if let lc = subtree.leftSubTree() {
-            printSubtree(lc, isRightSubtree: false, indent: leftSubtreeIndent)
+            description += getSubtreeStructureDescription(lc, isRightSubtree: false, indent: leftSubtreeIndent)
         }
+        return description
     }
     
 }
-

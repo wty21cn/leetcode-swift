@@ -40,8 +40,8 @@ struct q24 {
     
     static func getSolution() -> Void {
         
-        let head = LinkedListBuilder.buildLinkedListWithNodes([1,2,3,4,5,6,7,8,9])
+        let head = LinkedListHelper.buildLinkedList(withNodes: [1,2,3,4,5,6,7,8,9])
         
-        LinkedListPrinter.print(Solution().swapPairs(head)!)
+        print(Solution().swapPairs(head))
     }
 }
