@@ -81,6 +81,7 @@
 		B7E9B29C1D2CE93D00D78ECC /* q190-reverse-bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E9B29B1D2CE93D00D78ECC /* q190-reverse-bits.swift */; };
 		B7E9B29E1D2E5C4600D78ECC /* q234-palindrome-linked-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E9B29D1D2E5C4600D78ECC /* q234-palindrome-linked-list.swift */; };
 		B7E9B2A01D2EA75500D78ECC /* q014-longest-common-prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E9B29F1D2EA75500D78ECC /* q014-longest-common-prefix.swift */; };
+		B7E9B2A21D2EAEA900D78ECC /* q067-add-binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E9B2A11D2EAEA900D78ECC /* q067-add-binary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -178,6 +179,7 @@
 		B7E9B29B1D2CE93D00D78ECC /* q190-reverse-bits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q190-reverse-bits.swift"; sourceTree = "<group>"; };
 		B7E9B29D1D2E5C4600D78ECC /* q234-palindrome-linked-list.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = "q234-palindrome-linked-list.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B7E9B29F1D2EA75500D78ECC /* q014-longest-common-prefix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q014-longest-common-prefix.swift"; sourceTree = "<group>"; };
+		B7E9B2A11D2EAEA900D78ECC /* q067-add-binary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q067-add-binary.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -293,6 +295,7 @@
 				B7E9B29B1D2CE93D00D78ECC /* q190-reverse-bits.swift */,
 				B7E9B29D1D2E5C4600D78ECC /* q234-palindrome-linked-list.swift */,
 				B7E9B29F1D2EA75500D78ECC /* q014-longest-common-prefix.swift */,
+				B7E9B2A11D2EAEA900D78ECC /* q067-add-binary.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -407,6 +410,7 @@
 				B76B781E1D281C7C0093657C /* q202-happy-number.swift in Sources */,
 				B76B78381D28B3A90093657C /* q198-house-robber.swift in Sources */,
 				B76B78541D2A0EB00093657C /* q172-factorial-trailing-zeroes.swift in Sources */,
+				B7E9B2A21D2EAEA900D78ECC /* q067-add-binary.swift in Sources */,
 				B76B78231D281C7C0093657C /* q235-lowest-common-ancestor-of-a-binary-search-tree.swift in Sources */,
 				B76B78141D281C7C0093657C /* q024-swap-nodes-in-pairs.swift in Sources */,
 				B76B784A1D2974370093657C /* q066-plus-one.swift in Sources */,
