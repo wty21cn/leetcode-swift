@@ -24,8 +24,8 @@ struct q14 {
     
     class Solution {
         func longestCommonPrefix(strs: [String]) -> String {
-            var s: String?
-            var length = Int.max
+            var s: String?          //Find the shortest string
+            var length = Int.max    //Shortest string's length
             
             for str in strs {
                 if str.characters.count < length {
