@@ -1,6 +1,6 @@
 # LeetCode Solution Swift 
 [![language badge](https://img.shields.io/badge/language-swift%202.2-orange.svg)](https://github.com/apple/swift)
-[![progress](https://img.shields.io/badge/progress-%20%20Updating%2070%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
+[![progress](https://img.shields.io/badge/progress-%20%20Updating%2071%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
 [![license badge](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 ## About
@@ -203,6 +203,7 @@ If you want a full list of questions, please check [leetcode.com](https://leetco
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern) | [swift](./leetcode-swift/Easy/q290-word-pattern.swift) | Easy |  |
 | 292 | [Nim Games](https://leetcode.com/problems/nim-games) | [swift](./leetcode-swift/Easy/q292-nim-games.swift) | Easy |  |
 | 299 | [Bulls And Cows](https://leetcode.com/problems/bulls-and-cows) | [swift](./leetcode-swift/Easy/q299-bulls-and-cows.swift) | Easy |  |
+| 303 | [Range Sum Query Immutable](https://leetcode.com/problems/range-sum-query-immutable) | [swift](./leetcode-swift/Easy/q303-range-sum-query-immutable.swift) | Easy |  |
 | 326 | [Power Of Three](https://leetcode.com/problems/power-of-three) | [swift](./leetcode-swift/Easy/q326-power-of-three.swift) | Easy |  |
 | 334 | [Reverse String](https://leetcode.com/problems/reverse-string) | [swift](./leetcode-swift/Easy/q334-reverse-string.swift) | Easy |  |
 | 342 | [Power Of Four](https://leetcode.com/problems/power-of-four) | [swift](./leetcode-swift/Easy/q342-power-of-four.swift) | Easy |  |
