@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B72E3A911D2FC2AF003595EE /* q303-range-sum-query-immutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72E3A901D2FC2AF003595EE /* q303-range-sum-query-immutable.swift */; };
 		B76B78121D281C7C0093657C /* q013-roman-to-integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77E51D281C7C0093657C /* q013-roman-to-integer.swift */; };
 		B76B78131D281C7C0093657C /* q021-merge-two-sorted-lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77E61D281C7C0093657C /* q021-merge-two-sorted-lists.swift */; };
 		B76B78141D281C7C0093657C /* q024-swap-nodes-in-pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77E71D281C7C0093657C /* q024-swap-nodes-in-pairs.swift */; };
@@ -98,6 +99,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B72E3A901D2FC2AF003595EE /* q303-range-sum-query-immutable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q303-range-sum-query-immutable.swift"; sourceTree = "<group>"; };
 		B76B77D71D281C190093657C /* leetcode-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B76B77E11D281C400093657C /* util */ = {isa = PBXFileReference; lastKnownFileType = folder; path = util; sourceTree = "<group>"; };
 		B76B77E21D281C560093657C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -299,6 +301,7 @@
 				B7E9B29F1D2EA75500D78ECC /* q014-longest-common-prefix.swift */,
 				B7E9B2A11D2EAEA900D78ECC /* q067-add-binary.swift */,
 				B7E9B2A31D2F4B1E00D78ECC /* q028-implement-strstr.swift */,
+				B72E3A901D2FC2AF003595EE /* q303-range-sum-query-immutable.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 				B76B78141D281C7C0093657C /* q024-swap-nodes-in-pairs.swift in Sources */,
 				B76B784A1D2974370093657C /* q066-plus-one.swift in Sources */,
 				B76B78311D281C7C0093657C /* BinaryTreeHelper.swift in Sources */,
+				B72E3A911D2FC2AF003595EE /* q303-range-sum-query-immutable.swift in Sources */,
 				B76B78171D281C7C0093657C /* q100-same-tree.swift in Sources */,
 				B7B3207D1D2BAA5C004920E2 /* q019-remove-nth-node-from-end-of-list.swift in Sources */,
 				B76B78401D290CD90093657C /* q103-binary-tree-zigzag-level-order-traversal.swift in Sources */,
