@@ -62,7 +62,7 @@ struct q371 {
             var carry = b
             while carry != 0 {
                 let t = sum ^ carry
-                adding = (sum & carry) << 1
+                carry = (sum & carry) << 1
                 sum = t
             }
             return sum
