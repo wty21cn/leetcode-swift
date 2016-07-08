@@ -1,6 +1,6 @@
 # LeetCode Solution Swift 
 [![language badge](https://img.shields.io/badge/language-swift%202.2-orange.svg)](https://github.com/apple/swift)
-[![progress](https://img.shields.io/badge/progress-%20%20Updating%2069%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
+[![progress](https://img.shields.io/badge/progress-%20%20Updating%2070%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
 [![license badge](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 ## About
@@ -150,6 +150,7 @@ If you want a full list of questions, please check [leetcode.com](https://leetco
 | 24 | [Swap Nodes In Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | [swift](./leetcode-swift/Easy/q024-swap-nodes-in-pairs.swift) | Easy |  |
 | 26 | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | [swift](./leetcode-swift/Easy/q026-remove-duplicates-from-sorted-array.swift) | Easy |  |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element) | [swift](./leetcode-swift/Easy/q027-remove-element.swift) | Easy |  |
+| 28 | [Implement Strstr](https://leetcode.com/problems/implement-strstr) | [swift](./leetcode-swift/Easy/q028-implement-strstr.swift) | Easy |  |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | [swift](./leetcode-swift/Easy/q036-valid-sudoku.swift) | Easy |  |
 | 38 | [Count And Say](https://leetcode.com/problems/count-and-say) | [swift](./leetcode-swift/Easy/q038-count-and-say.swift) | Easy |  |
 | 58 | [Length Of Last Word](https://leetcode.com/problems/length-of-last-word) | [swift](./leetcode-swift/Easy/q058-length-of-last-word.swift) | Easy |  |
