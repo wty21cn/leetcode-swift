@@ -1,6 +1,6 @@
 # LeetCode Solution Swift 
 [![language badge](https://img.shields.io/badge/language-swift%202.2-orange.svg)](https://github.com/apple/swift)
-[![progress](https://img.shields.io/badge/progress-%20%20Updating%2068%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
+[![progress](https://img.shields.io/badge/progress-%20%20Updating%2069%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
 [![license badge](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 ## About
@@ -154,6 +154,7 @@ If you want a full list of questions, please check [leetcode.com](https://leetco
 | 38 | [Count And Say](https://leetcode.com/problems/count-and-say) | [swift](./leetcode-swift/Easy/q038-count-and-say.swift) | Easy |  |
 | 58 | [Length Of Last Word](https://leetcode.com/problems/length-of-last-word) | [swift](./leetcode-swift/Easy/q058-length-of-last-word.swift) | Easy |  |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one) | [swift](./leetcode-swift/Easy/q066-plus-one.swift) | Easy |  |
+| 67 | [Add Binary](https://leetcode.com/problems/add-binary) | [swift](./leetcode-swift/Easy/q067-add-binary.swift) | Easy |  |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [swift](./leetcode-swift/Easy/q070-climbing-stairs.swift) | Easy |  |
 | 83 | [Remove Duplicates From Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [swift](./leetcode-swift/Easy/q083-remove-duplicates-from-sorted-list.swift) | Easy |  |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | [swift](./leetcode-swift/Easy/q088-merge-sorted-array.swift) | Easy |  |
