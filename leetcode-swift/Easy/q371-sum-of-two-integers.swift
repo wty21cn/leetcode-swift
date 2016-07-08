@@ -59,10 +59,10 @@ struct q371 {
         func getSum(a: Int, _ b: Int) -> Int {
             
             var sum = a
-            var adding = b
-            while adding != 0 {
-                let t = sum ^ adding
-                adding = (sum & adding) << 1
+            var carry = b
+            while carry != 0 {
+                let t = sum ^ carry
+                adding = (sum & carry) << 1
                 sum = t
             }
             return sum
