@@ -1,6 +1,6 @@
 # LeetCode Solution Swift 
 [![language badge](https://img.shields.io/badge/language-swift%202.2-orange.svg)](https://github.com/apple/swift)
-[![progress](https://img.shields.io/badge/progress-%20%20Updating%2071%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
+[![progress](https://img.shields.io/badge/progress-%20%20Updating%2072%2F354-green.svg)](https://github.com/wty21cn/leetcode-solution-swift#bit-manipulation)
 [![license badge](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 ## About
@@ -182,6 +182,7 @@ If you want a full list of questions, please check [leetcode.com](https://leetco
 | 198 | [House Robber](https://leetcode.com/problems/house-robber) | [swift](./leetcode-swift/Easy/q198-house-robber.swift) | Easy |  |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | [swift](./leetcode-swift/Easy/q202-happy-number.swift) | Easy |  |
 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | [swift](./leetcode-swift/Easy/q203-remove-linked-list-elements.swift) | Easy |  |
+| 204 | [Count Primes](https://leetcode.com/problems/count-primes) | [swift](./leetcode-swift/Easy/q204-count-primes.swift) | Easy |  |
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) | [swift](./leetcode-swift/Easy/q205-isomorphic-strings.swift) | Easy |  |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | [swift](./leetcode-swift/Easy/q206-reverse-linked-list.swift) | Easy |  |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii) | [swift](./leetcode-swift/Medium/q213-house-robber-ii.swift) | Medium |  |
