@@ -38,6 +38,7 @@ struct q67 {
             var indexB = b.count - 1
             var carry = 0
             while indexA >= 0 || indexB >= 0 {
+                //a and b may have different length
                 let bitA = indexA >= 0 ? Int(String(a[indexA]), radix: 2) : 0
                 let bitB = indexB >= 0 ? Int(String(b[indexB]), radix: 2) : 0
                 var sum = bitA! + bitB! + carry
