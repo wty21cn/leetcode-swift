@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B70C2AB01D30E810002AC496 /* q204-count-primes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C2AAF1D30E810002AC496 /* q204-count-primes.swift */; };
 		B72E3A911D2FC2AF003595EE /* q303-range-sum-query-immutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72E3A901D2FC2AF003595EE /* q303-range-sum-query-immutable.swift */; };
 		B76B78121D281C7C0093657C /* q013-roman-to-integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77E51D281C7C0093657C /* q013-roman-to-integer.swift */; };
 		B76B78131D281C7C0093657C /* q021-merge-two-sorted-lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B77E61D281C7C0093657C /* q021-merge-two-sorted-lists.swift */; };
@@ -99,6 +100,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B70C2AAF1D30E810002AC496 /* q204-count-primes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q204-count-primes.swift"; sourceTree = "<group>"; };
 		B72E3A901D2FC2AF003595EE /* q303-range-sum-query-immutable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q303-range-sum-query-immutable.swift"; sourceTree = "<group>"; };
 		B76B77D71D281C190093657C /* leetcode-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B76B77E11D281C400093657C /* util */ = {isa = PBXFileReference; lastKnownFileType = folder; path = util; sourceTree = "<group>"; };
@@ -302,6 +304,7 @@
 				B7E9B2A11D2EAEA900D78ECC /* q067-add-binary.swift */,
 				B7E9B2A31D2F4B1E00D78ECC /* q028-implement-strstr.swift */,
 				B72E3A901D2FC2AF003595EE /* q303-range-sum-query-immutable.swift */,
+				B70C2AAF1D30E810002AC496 /* q204-count-primes.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -453,6 +456,7 @@
 				B76B783A1D28BBD90093657C /* q213-house-robber-ii.swift in Sources */,
 				B76B78131D281C7C0093657C /* q021-merge-two-sorted-lists.swift in Sources */,
 				B7E9B29A1D2CD6DD00D78ECC /* q203-remove-linked-list-elements.swift in Sources */,
+				B70C2AB01D30E810002AC496 /* q204-count-primes.swift in Sources */,
 				B76B78151D281C7C0093657C /* q070-climbing-stairs.swift in Sources */,
 				B7E9B2A41D2F4B1E00D78ECC /* q028-implement-strstr.swift in Sources */,
 				B7B3207F1D2BB75E004920E2 /* q290-word-pattern.swift in Sources */,
