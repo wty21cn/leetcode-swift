@@ -42,7 +42,7 @@ struct q160 {
     
     class Solution {
         
-        func proceedHead(head: ListNode?, step: Int) -> ListNode? {
+        func proceedHead(_ head: ListNode?, step: Int) -> ListNode? {
             var head = head, step = step
             while step > 0 {
                 head = head?.next
@@ -51,7 +51,7 @@ struct q160 {
             return head
         }
         
-        func getIntersectionNode(headA: ListNode?, _ headB: ListNode?) -> ListNode? {
+        func getIntersectionNode(_ headA: ListNode?, _ headB: ListNode?) -> ListNode? {
             
             if headA == nil || headB == nil { return nil }
             

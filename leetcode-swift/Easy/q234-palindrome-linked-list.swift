@@ -26,7 +26,7 @@ import Foundation
 struct q234 {
     
     class Solution {
-        func findHalfOfLink(head: ListNode?) -> ListNode? {
+        func findHalfOfLink(_ head: ListNode?) -> ListNode? {
             var head = head
             var fastPtr = head
             while fastPtr?.next != nil {
@@ -36,7 +36,7 @@ struct q234 {
             return head
         }
         
-        func reverse(head: ListNode?) -> ListNode? {
+        func reverse(_ head: ListNode?) -> ListNode? {
             var head = head
             var p: ListNode? = nil
             var n: ListNode? = head?.next
@@ -50,7 +50,7 @@ struct q234 {
             return p
         }
 
-        func isPalindrome(head: ListNode?) -> Bool{
+        func isPalindrome(_ head: ListNode?) -> Bool{
             var halfHead = reverse(findHalfOfLink(head))
             var head = head
             
@@ -69,7 +69,7 @@ struct q234 {
     class Solution_StackOverFlow {
         var ptr: ListNode?
         
-        func isPalindromeUtil(node: ListNode) -> Bool {
+        func isPalindromeUtil(_ node: ListNode) -> Bool {
             
             if let next = node.next {
                 guard isPalindromeUtil(next) else {
@@ -85,7 +85,7 @@ struct q234 {
             return true
         }
         
-        func isPalindrome(head: ListNode?) -> Bool {
+        func isPalindrome(_ head: ListNode?) -> Bool {
             
             if let head = head {
                 ptr = head

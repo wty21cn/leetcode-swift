@@ -23,7 +23,7 @@ import Foundation
 struct q14 {
     
     class Solution {
-        func longestCommonPrefix(strs: [String]) -> String {
+        func longestCommonPrefix(_ strs: [String]) -> String {
             var s: String?          //Find the shortest string
             var length = Int.max    //Shortest string's length
             
@@ -35,10 +35,10 @@ struct q14 {
             }
             
             if var s = s {
-                var subrange = s.startIndex..<s.endIndex
+                var subrange = s.characters.indices
                 for str in strs {
                     while !s.isEmpty && !str.hasPrefix(s) {
-                        subrange.endIndex = subrange.endIndex.predecessor()
+                        subrange.upperBound = <#T##Collection corresponding to your index##Collection#>.index(before: subrange.upperBound)
                         s = s[subrange]
                     }
                 }

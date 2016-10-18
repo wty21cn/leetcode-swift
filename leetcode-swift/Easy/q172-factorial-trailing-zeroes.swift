@@ -37,7 +37,7 @@ import Foundation
 struct q172 {
     
     class Solution {
-        func trailingZeroes(n: Int) -> Int {
+        func trailingZeroes(_ n: Int) -> Int {
             var numOfZeros = 0
             var countNum = 5
             while n / countNum >= 1 {

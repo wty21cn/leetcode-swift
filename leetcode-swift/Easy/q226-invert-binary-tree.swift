@@ -42,7 +42,7 @@ import Foundation
 struct q226 {
     
     class Solution {
-        func invertTree(root: TreeNode?) -> TreeNode? {
+        func invertTree(_ root: TreeNode?) -> TreeNode? {
             if let node = root {
                 invertTree(node.left)
                 invertTree(node.right)

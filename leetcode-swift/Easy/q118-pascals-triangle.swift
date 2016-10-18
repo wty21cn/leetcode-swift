@@ -34,7 +34,7 @@ import Foundation
 struct q118 {
     
     class Solution {
-        func generate(numRows: Int) -> [[Int]] {
+        func generate(_ numRows: Int) -> [[Int]] {
             if numRows == 0 {
                 return []
             }

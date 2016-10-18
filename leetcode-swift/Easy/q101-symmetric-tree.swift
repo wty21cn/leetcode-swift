@@ -40,10 +40,10 @@ import Foundation
 struct q101 {
     
     class Solution {
-        func isSymmetric(root: TreeNode?) -> Bool {
+        func isSymmetric(_ root: TreeNode?) -> Bool {
             if let root = root {
                 var queue: [[TreeNode]]
-                if let l = root.left, r = root.right {
+                if let l = root.left, let r = root.right {
                     if l.val == r.val {
                         queue = [[l,r],[]]
                     } else {
@@ -65,7 +65,7 @@ struct q101 {
                         let l = queue[level][lIndex]
                         let r = queue[level][rIndex]
                         
-                        if let ll = l.left, rr = r.right {
+                        if let ll = l.left, let rr = r.right {
                             if ll.val == rr.val {
                                 queue[next].append(ll)
                                 queue[next].append(rr)
@@ -76,7 +76,7 @@ struct q101 {
                             return false
                         }
                         
-                        if let lr = l.right, rl = r.left {
+                        if let lr = l.right, let rl = r.left {
                             if lr.val == rl.val {
                                 queue[next].append(lr)
                                 queue[next].append(rl)
@@ -103,7 +103,7 @@ struct q101 {
     
     class SolutionRecursively {
         
-        func isSymmetric(l: TreeNode?, _ r: TreeNode?) -> Bool {
+        func isSymmetric(_ l: TreeNode?, _ r: TreeNode?) -> Bool {
             switch (l,r) {
             case let (l?,r?):
                 return l.val == r.val && isSymmetric(l.left, r.right) && isSymmetric(l.right, r.left)
@@ -115,7 +115,7 @@ struct q101 {
             
         }
         
-        func isSymmetric(root: TreeNode?) -> Bool {
+        func isSymmetric(_ root: TreeNode?) -> Bool {
             return isSymmetric(root?.left, root?.right)
         }
     }

@@ -35,7 +35,7 @@ import Foundation
 struct q141 {
     
     class Solution {
-        func hasCycle(head: ListNode?) -> Bool {
+        func hasCycle(_ head: ListNode?) -> Bool {
             
             if head == nil { return false }
             

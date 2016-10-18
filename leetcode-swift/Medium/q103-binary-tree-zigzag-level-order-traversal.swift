@@ -41,7 +41,7 @@ import Foundation
 struct q103 {
     
     class Solution {
-        func zigzagLevelOrder(root: TreeNode?) -> [[Int]] {
+        func zigzagLevelOrder(_ root: TreeNode?) -> [[Int]] {
             
             var traversal: [[Int]] = []
             if let root = root {
@@ -57,13 +57,13 @@ struct q103 {
                     if let r = node.right { queue.append((r, level + 1)) }
                     
                     tail = queue.endIndex
-                    head = head.successor()
+                    head = (head + 1)
                 }
             }
             
-            for i in 0..<traversal.endIndex {
+            for i in traversal.indices.suffix(from: 0) {
                 if i % 2 != 0 {
-                    traversal[i] = traversal[i].reverse()
+                    traversal[i] = traversal[i].reversed()
                 }
             }
             return traversal
@@ -94,7 +94,7 @@ struct q103 {
     
     
     class Solution2 {
-        func zigzagLevelOrder(root: TreeNode?) -> [[Int]] {
+        func zigzagLevelOrder(_ root: TreeNode?) -> [[Int]] {
             
             var traversal: [[Int]] = []
             if let root = root {

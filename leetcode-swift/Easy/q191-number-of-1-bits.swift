@@ -40,7 +40,7 @@ import Foundation
 struct q191 {
     
     class Solution {
-        func hammingWeight(n: UInt32) -> Int {
+        func hammingWeight(_ n: UInt32) -> Int {
             var num = 0
             var n = n
             while n != 0 {

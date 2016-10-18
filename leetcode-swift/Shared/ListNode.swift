@@ -10,10 +10,10 @@
 
 import Foundation
 
-public class ListNode: ListNodePrintable, CustomStringConvertible {
-    public var val: Int
-    public var next: ListNode?
-    public var length: Int {
+open class ListNode: ListNodePrintable, CustomStringConvertible {
+    open var val: Int
+    open var next: ListNode?
+    open var length: Int {
         if let nextNode = next {
             return nextNode.length + 1
         } else {
@@ -38,7 +38,7 @@ public class ListNode: ListNodePrintable, CustomStringConvertible {
     
 //MARK: - CustomStringConvertible Protocol {
     
-    public var description: String {
+    open var description: String {
         return LinkedListHelper.getStructureDescription(forNode: self)
     }
     

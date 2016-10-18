@@ -32,13 +32,13 @@ import Foundation
 struct q38 {
     
     class Solution {
-        func countAndSay(n: Int) -> String {
+        func countAndSay(_ n: Int) -> String {
             var str = "1"
             for _ in 1..<n {
                 var tmpStr = ""
                 var pNum = 0
                 var pChar = str.characters.first
-                for (_, char) in str.characters.enumerate() {
+                for (_, char) in str.characters.enumerated() {
                     if char == pChar {
                         pNum += 1
                     } else {

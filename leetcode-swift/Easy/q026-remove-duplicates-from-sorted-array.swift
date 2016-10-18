@@ -31,7 +31,7 @@ import Foundation
 struct q26 {
     
     class Solution {
-        func removeDuplicates(inout nums: [Int]) -> Int {
+        func removeDuplicates(_ nums: inout [Int]) -> Int {
             if nums.isEmpty {
                 return 0
             }

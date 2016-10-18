@@ -40,7 +40,7 @@ import Foundation
 struct q342 {
     
     class Solution {
-        func isPowerOfFour(num: Int) -> Bool {
+        func isPowerOfFour(_ num: Int) -> Bool {
             
             if num <= 0 { return false }
             
@@ -63,7 +63,7 @@ struct q342 {
     }
     
     class SolutionFollowUp {
-        func isPowerOfFour(num: Int) -> Bool {
+        func isPowerOfFour(_ num: Int) -> Bool {
             if num <= 0 { return false }
             
             if num & (num - 1) == 0 {

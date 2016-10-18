@@ -16,7 +16,7 @@ import Foundation
 struct q299 {
     
     class Solution {
-        func getHint(secret: String, _ guess: String) -> String {
+        func getHint(_ secret: String, _ guess: String) -> String {
             
             var cows = 0
             var bulls = 0

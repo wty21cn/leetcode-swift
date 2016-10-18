@@ -40,7 +40,7 @@ import Foundation
 struct q102 {
     
     class Solution {
-        func levelOrder(root: TreeNode?) -> [[Int]] {
+        func levelOrder(_ root: TreeNode?) -> [[Int]] {
             var traversal: [[Int]] = []
             if let root = root
             {
@@ -55,7 +55,7 @@ struct q102 {
                     if let r = node.right { queue.append((r, level + 1)) }
                     
                     tail = queue.endIndex
-                    head = head.successor()
+                    head = (head + 1)
                 }
                 
             }

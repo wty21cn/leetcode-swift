@@ -26,9 +26,9 @@ struct q219 {
     
     class Solution {
         
-        func containsNearbyDuplicate(nums: [Int], _ k: Int) -> Bool {
+        func containsNearbyDuplicate(_ nums: [Int], _ k: Int) -> Bool {
             var hash = [Int:Int]()
-            for i in 0..<nums.endIndex {
+            for i in nums.indices.suffix(from: 0) {
                 if let index = hash[nums[i]] {
                     if i - index <= k {
                         return true

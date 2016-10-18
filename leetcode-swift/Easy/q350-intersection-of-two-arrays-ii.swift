@@ -37,7 +37,7 @@ struct q350 {
     
     class Solution {
         
-        func intersect(nums1: [Int], _ nums2: [Int]) -> [Int] {
+        func intersect(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
             let hashDict1 = makeHashDict(nums1)
             let hashDict2 = makeHashDict(nums2)
             var interSection = [Int]()
@@ -52,7 +52,7 @@ struct q350 {
             return interSection
         }
         
-        func makeHashDict(nums: [Int]) -> [Int:Int] {
+        func makeHashDict(_ nums: [Int]) -> [Int:Int] {
             var hashDict = [Int:Int]()
             for num in nums {
                 if let _ = hashDict[num] {
@@ -69,7 +69,7 @@ struct q350 {
     //Two array's contents are already sorted.
     class Solution_FollowUp1 {
         
-        func intersect(nums1: [Int], _ nums2: [Int]) -> [Int] {
+        func intersect(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
             
             var interSection = [Int]()
             var index1 = nums1.startIndex, index2 = nums2.startIndex

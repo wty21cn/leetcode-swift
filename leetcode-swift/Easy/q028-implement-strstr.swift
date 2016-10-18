@@ -50,13 +50,13 @@ struct q28 {
     //KMP find substring
     class Solution {
         
-        func calculateNext(p: [Character]) -> [Int] {
+        func calculateNext(_ p: [Character]) -> [Int] {
             
             guard !p.isEmpty else {
                 return []
             }
             
-            var next = Array(count:p.count, repeatedValue:0)
+            var next = Array(repeating: 0, count: p.count)
             next[0] = -1
             var k = next[0]
             
@@ -76,7 +76,7 @@ struct q28 {
             return next
         }
         
-        func kmpSearch(p p: [Character], s:[Character], sStart: Int, sEnd: Int, next: [Int]) -> Int {
+        func kmpSearch(p: [Character], s:[Character], sStart: Int, sEnd: Int, next: [Int]) -> Int {
             guard !p.isEmpty else {
                 return 0
             }
@@ -98,7 +98,7 @@ struct q28 {
             return ans
         }
         
-        func strStr(haystack: String, _ needle: String) -> Int {
+        func strStr(_ haystack: String, _ needle: String) -> Int {
             
             let s = Array(haystack.characters)
             let p = Array(needle.characters)

@@ -29,7 +29,7 @@ import Foundation
 struct q119 {
     
     class Solution {
-        func c(m m: Int, n: Int) -> Int {
+        func c(m: Int, n: Int) -> Int {
             var result = 1, i = 1, j = m
             while i <= n {
                 result = result * j / i
@@ -38,7 +38,7 @@ struct q119 {
             }
             return result
         }
-        func getRow(rowIndex: Int) -> [Int] {
+        func getRow(_ rowIndex: Int) -> [Int] {
             var row = [Int]()
             for i in 0...rowIndex {
                 if i <= rowIndex / 2 {

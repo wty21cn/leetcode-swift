@@ -56,7 +56,7 @@ import Foundation
 struct q371 {
     
     class Solution {
-        func getSum(a: Int, _ b: Int) -> Int {
+        func getSum(_ a: Int, _ b: Int) -> Int {
             
             var sum = a
             var carry = b

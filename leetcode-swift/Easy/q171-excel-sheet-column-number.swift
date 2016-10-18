@@ -34,12 +34,12 @@ import Foundation
 struct q171 {
     
     class Solution {
-        func titleToNumber(s: String) -> Int {
+        func titleToNumber(_ s: String) -> Int {
             let scalarOfA = "A".unicodeScalars.first
             var columnNumber = 0
             for c in s.characters {
                 let scalar = String(c).unicodeScalars.first
-                if let _ = scalarOfA, _ = scalar {
+                if let _ = scalarOfA, let _ = scalar {
                     let value = Int(scalar!.value - scalarOfA!.value + 1)
                     columnNumber = columnNumber * 26 + value
                 } else {

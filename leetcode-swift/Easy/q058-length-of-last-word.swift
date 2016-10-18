@@ -32,8 +32,8 @@ import Foundation
 struct q58 {
     
     class Solution {
-        func lengthOfLastWord(s: String) -> Int {
-            if let lastWord = s.componentsSeparatedByString(" ").filter({ $0 != "" }).last {
+        func lengthOfLastWord(_ s: String) -> Int {
+            if let lastWord = s.components(separatedBy: " ").filter({ $0 != "" }).last {
                 return lastWord.characters.count
             } else {
                 return 0
@@ -42,7 +42,7 @@ struct q58 {
     }
     
     class Solution2 {
-        func lengthOfLastWord(s: String) -> Int {
+        func lengthOfLastWord(_ s: String) -> Int {
             if s.isEmpty {
                 return 0
             }

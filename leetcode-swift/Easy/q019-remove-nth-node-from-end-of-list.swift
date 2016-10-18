@@ -33,7 +33,7 @@ import Foundation
 struct q19 {
     
     class Solution {
-        func removeNthFromEnd(head: ListNode?, _ n: Int) -> ListNode? {
+        func removeNthFromEnd(_ head: ListNode?, _ n: Int) -> ListNode? {
             if head == nil { return nil }
             
             var fastPtr = head, slowPtr = head

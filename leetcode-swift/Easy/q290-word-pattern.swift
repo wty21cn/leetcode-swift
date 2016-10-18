@@ -40,12 +40,12 @@ struct q290 {
     
     class Solution {
         
-        private var patternRules = [Character:[Int]]()
-        private var patternKey = Set<String>()
+        fileprivate var patternRules = [Character:[Int]]()
+        fileprivate var patternKey = Set<String>()
         
-        func wordPattern(pattern: String, _ str: String) -> Bool {
+        func wordPattern(_ pattern: String, _ str: String) -> Bool {
             
-            for (i, char) in pattern.characters.enumerate()  {
+            for (i, char) in pattern.characters.enumerated()  {
                 if patternRules[char] != nil {
                     patternRules[char]!.append(i)
                 } else {
@@ -53,7 +53,7 @@ struct q290 {
                 }
             }
             
-            let words = str.componentsSeparatedByString(" ")
+            let words = str.components(separatedBy: " ")
             
             if words.count != pattern.characters.count { return false }
             

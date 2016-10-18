@@ -33,7 +33,7 @@ import Foundation
 struct q70 {
     
     class Solution {
-        func climbStairs(n: Int) -> Int {
+        func climbStairs(_ n: Int) -> Int {
             
             var numOfWays = [0,1,2]
             if n < 3 { return numOfWays[n] }

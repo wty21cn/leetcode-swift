@@ -29,15 +29,15 @@ import Foundation
 struct q326 {
     
     class Solution {
-        func isPowerOfThree(n: Int) -> Bool {
+        func isPowerOfThree(_ n: Int) -> Bool {
             let m = log10(Double(n))/log10(3.0)
             let epsilon = 0.000000000001
-            return !m.isNaN && !m.isInfinite ? (m + epsilon) % 1 < 2 * epsilon : false
+            return !m.isNaN && !m.isInfinite ? (m + epsilon).truncatingRemainder(dividingBy: 1) < 2 * epsilon : false
         }
     }
     
     class Solution2 {
-        func isPowerOfThree(n: Int) -> Bool {
+        func isPowerOfThree(_ n: Int) -> Bool {
             var n = n
             if n <= 0 {
                 return false

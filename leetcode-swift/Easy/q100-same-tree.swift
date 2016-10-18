@@ -26,7 +26,7 @@ import Foundation
 struct q100 {
     
     class Solution {
-        func isSameTree(p: TreeNode?, _ q: TreeNode?) -> Bool {
+        func isSameTree(_ p: TreeNode?, _ q: TreeNode?) -> Bool {
             if p != nil && q != nil {
                 return p!.val == q!.val && isSameTree(p!.left, q!.left) && isSameTree(p!.right, q!.right)
             } else {

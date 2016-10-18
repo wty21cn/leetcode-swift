@@ -40,7 +40,7 @@ struct q257 {
     class Solution {
         var treePaths = [String]()
     
-        func DFS(node node: TreeNode?, path: String) -> Void {
+        func DFS(node: TreeNode?, path: String) -> Void {
             
             if let node = node {
                 
@@ -57,7 +57,7 @@ struct q257 {
             }
         }
         
-        func binaryTreePaths(root: TreeNode?) -> [String] {
+        func binaryTreePaths(_ root: TreeNode?) -> [String] {
             if  let root = root {
                 DFS(node: root, path: "\(root.val)")
             }

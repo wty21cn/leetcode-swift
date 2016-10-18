@@ -16,7 +16,7 @@ import Foundation
 struct q24 {
     
     class Solution {
-        func swapPairs(head: ListNode?) -> ListNode? {
+        func swapPairs(_ head: ListNode?) -> ListNode? {
             
             var p: ListNode? = nil
             var i = head

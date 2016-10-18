@@ -59,7 +59,7 @@ struct q223 {
                 topRight = (topRightX, topRightY)
             }
             
-            func intersectArea(rect: Rectangle) -> Int {
+            func intersectArea(_ rect: Rectangle) -> Int {
                 let x = max(0, min(topRight.x, rect.topRight.x) - max(bottomLeft.x, rect.bottomLeft.x))
                 let y = max(0, min(topRight.y, rect.topRight.y) - max(bottomLeft.y, rect.bottomLeft.y))
                 return x * y
@@ -71,7 +71,7 @@ struct q223 {
             
         }
         
-        func computeArea(A: Int, _ B: Int, _ C: Int, _ D: Int, _ E: Int, _ F: Int, _ G: Int, _ H: Int) -> Int {
+        func computeArea(_ A: Int, _ B: Int, _ C: Int, _ D: Int, _ E: Int, _ F: Int, _ G: Int, _ H: Int) -> Int {
             
             let rectA = Rectangle(bottomLeftX: A,bottomLeftY: B,topRightX: C,topRightY: D)
             let rectB = Rectangle(bottomLeftX: E,bottomLeftY: F,topRightX: G,topRightY: H)

@@ -25,7 +25,7 @@ import Foundation
 struct q104 {
     
     class Solution {
-        func maxDepth(root: TreeNode?) -> Int {
+        func maxDepth(_ root: TreeNode?) -> Int {
             if root == nil {
                 return 0
             } else {

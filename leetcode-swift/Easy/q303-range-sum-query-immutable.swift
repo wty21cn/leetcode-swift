@@ -38,13 +38,13 @@ struct q303 {
         var sum: [IntMax]!   //sum[i] store the first i elements' sum
         
         init(_ n: [Int]) {
-            sum = [IntMax](count:n.count + 1, repeatedValue:0)
+            sum = [IntMax](repeating: 0, count: n.count + 1)
             for i in 0..<n.count {
                 sum[i + 1] = sum[i] + n[i]
             }
         }
         
-        func sumRange(i: Int, _ j: Int) -> Int {    //i, j are indexs start from zero
+        func sumRange(_ i: Int, _ j: Int) -> Int {    //i, j are indexs start from zero
             return sum[j+1] - sum[i]
         }
     }

@@ -33,7 +33,7 @@ import Foundation
 struct q283 {
     
     class Solution {
-        func moveZeroes(inout nums: [Int]) {
+        func moveZeroes(_ nums: inout [Int]) {
             if !nums.isEmpty {
                 var locIndex = nums.startIndex
                 var numIndex = nums.startIndex

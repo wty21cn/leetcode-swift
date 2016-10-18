@@ -27,17 +27,17 @@ import Foundation
 struct q20 {
     
     class Solution {
-        func isValid(s: String) -> Bool {
+        func isValid(_ s: String) -> Bool {
             let rule = Array("()[]{}".characters)
             var stack = [Character]()
-            for (_, char) in s.characters.enumerate() {
-                if rule.indexOf(char)! % 2 == 0 {    // open brackets
+            for (_, char) in s.characters.enumerated() {
+                if rule.index(of: char)! % 2 == 0 {    // open brackets
                     stack.append(char)
                 } else {                            // close brackets
                     if stack.isEmpty {
                         return false
                     } else {
-                        if rule.indexOf(char)! - rule.indexOf(stack.last!)! == 1 {  //barckets matched
+                        if rule.index(of: char)! - rule.index(of: stack.last!)! == 1 {  //barckets matched
                             stack.removeLast()
                         } else {
                             return false

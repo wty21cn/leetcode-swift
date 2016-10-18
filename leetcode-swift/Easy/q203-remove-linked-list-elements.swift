@@ -29,7 +29,7 @@ import Foundation
 struct q203 {
     
     class Solution {
-        func removeElements(head: ListNode?, _ val: Int) -> ListNode? {
+        func removeElements(_ head: ListNode?, _ val: Int) -> ListNode? {
             let headPtr = ListNode(0)
             headPtr.next = head
             var node: ListNode? = headPtr

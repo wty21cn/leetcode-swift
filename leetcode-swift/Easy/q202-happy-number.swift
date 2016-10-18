@@ -41,7 +41,7 @@ struct q202 {
         
         var hashTable: Set<String>!
         
-        func isHappy(n: Int) -> Bool {
+        func isHappy(_ n: Int) -> Bool {
             hashTable = Set<String>()
             var n = n
             while true {
@@ -62,8 +62,8 @@ struct q202 {
             
         }
         
-        func exist(digits: [Int]) -> Bool {
-            let digits = digits.sort()
+        func exist(_ digits: [Int]) -> Bool {
+            let digits = digits.sorted()
             var hash = ""
             for digit in digits {
                 hash += "\(digit)"

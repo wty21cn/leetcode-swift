@@ -28,7 +28,7 @@ import Foundation
 struct q67 {
     
     class Solution {
-        func addBinary(a: String, _ b: String) -> String {
+        func addBinary(_ a: String, _ b: String) -> String {
             
             var result = ""
             var a = Array(a.characters)
@@ -44,12 +44,12 @@ struct q67 {
                 var sum = bitA! + bitB! + carry
                 carry = sum / 2
                 sum %= 2
-                result.insert("\(sum)".characters.first!, atIndex: result.startIndex)
+                result.insert("\(sum)".characters.first!, at: result.startIndex)
                 indexA -= 1
                 indexB -= 1
             }
             if carry != 0 {
-                result.insert("\(carry)".characters.first!, atIndex: result.startIndex)
+                result.insert("\(carry)".characters.first!, at: result.startIndex)
             }
             return result
         }

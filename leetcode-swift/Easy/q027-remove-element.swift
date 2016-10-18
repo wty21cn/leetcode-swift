@@ -25,7 +25,7 @@ import Foundation
 struct q27 {
     
     class Solution {
-        func removeElement(inout nums: [Int], _ val: Int) -> Int {
+        func removeElement(_ nums: inout [Int], _ val: Int) -> Int {
             var checkIndex = nums.startIndex
             var contentIndex = nums.startIndex
             while checkIndex < nums.endIndex {
@@ -40,8 +40,8 @@ struct q27 {
     }
     
     class Solution2 {
-        func removeElement(inout nums: [Int], _ val: Int) -> Int {
-            var lastIndex = nums.endIndex.predecessor()
+        func removeElement(_ nums: inout [Int], _ val: Int) -> Int {
+            var lastIndex = (nums.endIndex - 1)
             var checkIndex = nums.startIndex
             while checkIndex <= lastIndex {
                 if nums[checkIndex] == val {

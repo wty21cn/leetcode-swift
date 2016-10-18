@@ -39,18 +39,18 @@ import Foundation
 struct Q0122 {
     
     class Solution {
-        func maxProfit(prices: [Int]) -> Int {
+        func maxProfit(_ prices: [Int]) -> Int {
             
             var prices = prices
             prices.append(0)  //take care of the last day.
             
             var minBuyingPrice = prices.first
             var totalProfit = 0
-            for index in prices.startIndex.successor()..<prices.endIndex {
+            for index in prices.indices.suffix(from: (prices.startIndex + 1)) {
                 
-                if prices[index] < prices[index.predecessor()] {
+                if prices[index] < prices[(index - 1)] {
                     
-                    totalProfit += (prices[index.predecessor()] - minBuyingPrice!)
+                    totalProfit += (prices[(index - 1)] - minBuyingPrice!)
                     minBuyingPrice = prices[index]
                     
                 }

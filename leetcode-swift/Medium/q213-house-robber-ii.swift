@@ -58,21 +58,21 @@ import Foundation
 struct q213 {
     
     class Solution {
-        func rob(nums: [Int]) -> Int {
+        func rob(_ nums: [Int]) -> Int {
             if nums.isEmpty { return 0 }
             if nums.count == 1 { return nums[0] }
             
             var maxValue = 0
-            for s in 0..<nums.endIndex {
-                var dp = Array<Int>(count: nums.count, repeatedValue: 0)
+            for s in nums.indices.suffix(from: 0) {
+                var dp = Array<Int>(repeating: 0, count: nums.count)
                 
-                if s == nums.endIndex.predecessor() {
+                if s == (nums.endIndex - 1) {
                     dp[s] = nums[s]
                     dp[0] = nums[s]
                 } else {
                     dp[s] = nums[s]
                     dp[s + 1] = nums[s]
-                    for i in (s + 2)..<nums.endIndex {
+                    for i in nums.indices.suffix(from: (s + 2)) {
                         dp[i] = max(dp[i-1], dp[i-2] + nums[i])
                     }
                 }
@@ -91,7 +91,7 @@ struct q213 {
     }
     
     class Solution2 {
-        func rob(nums: [Int], start: Int, end: Int) -> Int {
+        func rob(_ nums: [Int], start: Int, end: Int) -> Int {
             var dp1 = 0
             var dp2 = 0
             for index in start..<end {
@@ -101,12 +101,12 @@ struct q213 {
             }
             return dp1
         }
-        func rob(nums: [Int]) -> Int {
+        func rob(_ nums: [Int]) -> Int {
             if nums.isEmpty { return 0 }
             if nums.count == 1 { return nums[0] }
             if nums.count == 2 { return max(nums[0],nums[1]) }
             
-            return max(rob(nums, start: 0, end: nums.endIndex.predecessor()), rob(nums, start: 1, end: nums.endIndex))
+            return max(rob(nums, start: 0, end: (nums.endIndex - 1)), rob(nums, start: 1, end: nums.endIndex))
             
         }
     }

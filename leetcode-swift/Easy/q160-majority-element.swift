@@ -24,11 +24,31 @@
 
 
 import Foundation
+fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
+  switch (lhs, rhs) {
+  case let (l?, r?):
+    return l < r
+  case (nil, _?):
+    return true
+  default:
+    return false
+  }
+}
+
+fileprivate func > <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
+  switch (lhs, rhs) {
+  case let (l?, r?):
+    return l > r
+  default:
+    return rhs < lhs
+  }
+}
+
 
 struct q169 {
     
     class Solution {
-        func majorityElement(nums: [Int]) -> Int {
+        func majorityElement(_ nums: [Int]) -> Int {
             var counter = [Int:Int]()
             var majority = 0
             let majorityCount = Int(floor(Double(nums.count)/2.0))
@@ -49,8 +69,8 @@ struct q169 {
     
     //Shorter but slower solution
     class Solution2 {
-        func majorityElement(nums: [Int]) -> Int {
-            return nums.sort{ $0 < $1 }[nums.count/2]
+        func majorityElement(_ nums: [Int]) -> Int {
+            return nums.sorted{ $0 < $1 }[nums.count/2]
         }
     }
     

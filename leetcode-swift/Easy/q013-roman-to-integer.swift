@@ -32,17 +32,37 @@
 
 
 import Foundation
+fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
+  switch (lhs, rhs) {
+  case let (l?, r?):
+    return l < r
+  case (nil, _?):
+    return true
+  default:
+    return false
+  }
+}
+
+fileprivate func > <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
+  switch (lhs, rhs) {
+  case let (l?, r?):
+    return l > r
+  default:
+    return rhs < lhs
+  }
+}
+
 
 struct q13 {
     
     class Solution {
-        func romanToInt(s: String) -> Int {
+        func romanToInt(_ s: String) -> Int {
             
             let romanUnit = [Character("I"):1, Character("V"):5, Character("X"):10,
                              Character("L"):50, Character("C"):100, Character("D"):500,
                              Character("M"):1000]
             
-            let reversedChars = s.characters.reverse()
+            let reversedChars = s.characters.reversed()
             var integer = 0
             var index = reversedChars.startIndex
             while index != reversedChars.endIndex {

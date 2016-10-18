@@ -35,7 +35,7 @@ import Foundation
 struct q9 {
     
     class Solution {
-        func isPalindrome(x: Int) -> Bool {
+        func isPalindrome(_ x: Int) -> Bool {
             if x < 0 || x % 10 == 0 {
                  return x == 0
             } 

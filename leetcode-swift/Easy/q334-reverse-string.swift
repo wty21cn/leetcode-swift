@@ -27,8 +27,8 @@ import Foundation
 struct q344 {
     
     class Solution {
-        func reverseString(s: String) -> String {
-            return String(s.characters.reverse())
+        func reverseString(_ s: String) -> String {
+            return String(s.characters.reversed())
         }
     }
     

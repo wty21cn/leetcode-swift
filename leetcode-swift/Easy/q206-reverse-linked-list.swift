@@ -29,13 +29,13 @@ import Foundation
 struct q206 {
     
     class Solution {
-        func reverseList(head: ListNode?) -> ListNode? {
+        func reverseList(_ head: ListNode?) -> ListNode? {
             
             return reverseListRecursively(head)
             
         }
         
-        func reverseListRecursively(head: ListNode?) -> ListNode? {
+        func reverseListRecursively(_ head: ListNode?) -> ListNode? {
             if let head = head {
                 
                 if head.next == nil {
@@ -57,11 +57,11 @@ struct q206 {
     
     class Solution2 {
         
-        func reverseList(head: ListNode?) -> ListNode? {
+        func reverseList(_ head: ListNode?) -> ListNode? {
             return reverseListInteratively(head)
         }
         
-        func reverseListInteratively(head: ListNode?) -> ListNode? {
+        func reverseListInteratively(_ head: ListNode?) -> ListNode? {
             var head = head
             var n: ListNode? = head?.next
             var p: ListNode? = nil

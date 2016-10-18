@@ -40,12 +40,12 @@ import Foundation
 struct q205 {
     
     class Solution {
-        func isIsomorphic(s: String, _ t: String) -> Bool {
+        func isIsomorphic(_ s: String, _ t: String) -> Bool {
             var hash = [Character:Character]()
             var map = Set<Character>()
             var s = Array(s.characters)
             var t = Array(t.characters)
-            for i in 0..<s.endIndex {
+            for i in s.indices.suffix(from: 0) {
                 if let r = hash[s[i]] {
                     if r != t[i] {
                         return false

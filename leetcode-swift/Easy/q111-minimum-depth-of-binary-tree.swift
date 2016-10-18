@@ -26,7 +26,7 @@ import Foundation
 struct q111 {
     
     class Solution {
-        func minDepth(root: TreeNode?) -> Int {
+        func minDepth(_ root: TreeNode?) -> Int {
             if let root = root
             {
                 var queue: [(TreeNode,Int)] = [(root,1)]
@@ -47,7 +47,7 @@ struct q111 {
                         return height
                     }
                     tail = queue.endIndex
-                    head = head.successor()
+                    head = (head + 1)
                 }
                 
             }

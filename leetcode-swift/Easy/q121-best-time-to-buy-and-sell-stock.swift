@@ -42,7 +42,7 @@ import Foundation
 struct q121 {
     
     class Solution {
-        func maxProfit(prices: [Int]) -> Int {
+        func maxProfit(_ prices: [Int]) -> Int {
             
             var minBuyingPrice = Int.max
             var maxProfit = 0

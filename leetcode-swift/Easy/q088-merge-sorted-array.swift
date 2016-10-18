@@ -28,7 +28,7 @@ import Foundation
 struct q88 {
     
     class Solution {
-        func merge(inout nums1: [Int], _ m: Int, _ nums2: [Int], _ n: Int) {
+        func merge(_ nums1: inout [Int], _ m: Int, _ nums2: [Int], _ n: Int) {
             var index = m + n - 1
             var i1 = m - 1
             var i2 = n - 1

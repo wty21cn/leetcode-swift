@@ -31,7 +31,7 @@ import Foundation
 struct q242 {
     
     class Solution {
-        func isAnagram(s: String, _ t: String) -> Bool {
+        func isAnagram(_ s: String, _ t: String) -> Bool {
             let charCountS = countCharacter(s)
             let charCountT = countCharacter(t)
             if s.characters.count != t.characters.count {
@@ -48,7 +48,7 @@ struct q242 {
             return true
         }
         
-        func countCharacter(s: String) -> [Character:Int] {
+        func countCharacter(_ s: String) -> [Character:Int] {
             var charCount = [Character:Int]()
             for character in s.characters {
                 if let _ = charCount[character] {

@@ -124,8 +124,8 @@ import Foundation
 struct q204 {
     
     class Solution {
-        func countPrimes(n: Int) -> Int {
-            var isPrime = [Bool](count:n+1, repeatedValue:false)
+        func countPrimes(_ n: Int) -> Int {
+            var isPrime = [Bool](repeating: false, count: n+1)
             var primeCount = 0
             if n <= 1 {
                 return 0

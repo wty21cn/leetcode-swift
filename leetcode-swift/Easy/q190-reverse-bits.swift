@@ -33,7 +33,7 @@ import Foundation
 struct q190 {
     
     class Solution {
-        func reversedBits(n: UInt32) -> UInt32 {
+        func reversedBits(_ n: UInt32) -> UInt32 {
             var n: UInt32 = n
             var m: UInt32 = 0
             var i: UInt32 = 32

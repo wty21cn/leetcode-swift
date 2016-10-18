@@ -40,7 +40,7 @@ import Foundation
 struct q107 {
     
     class Solution {
-        func levelOrderBottom(root: TreeNode?) -> [[Int]] {
+        func levelOrderBottom(_ root: TreeNode?) -> [[Int]] {
             var traversal: [[Int]] = []
             if let root = root
             {
@@ -55,11 +55,11 @@ struct q107 {
                     if let r = node.right { queue.append((r, level + 1)) }
                     
                     tail = queue.endIndex
-                    head = head.successor()
+                    head = (head + 1)
                 }
                 
             }
-            return traversal.reverse()
+            return traversal.reversed()
         }
     }
     

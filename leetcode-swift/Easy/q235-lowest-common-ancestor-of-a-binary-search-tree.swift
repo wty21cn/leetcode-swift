@@ -40,7 +40,7 @@ import Foundation
 struct q235 {
     
     class Solution2 {
-        func lowestCommonAncestor(root: TreeNode, _ p: TreeNode, _ q: TreeNode) -> TreeNode {
+        func lowestCommonAncestor(_ root: TreeNode, _ p: TreeNode, _ q: TreeNode) -> TreeNode {
             var node: TreeNode? = root
             while node != nil {
                 if node!.val < p.val && node!.val < q.val {
@@ -56,14 +56,14 @@ struct q235 {
     }
     
     class Solution {
-        func lowestCommonAncestor(root: TreeNode, _ p: TreeNode, _ q: TreeNode) -> TreeNode {
+        func lowestCommonAncestor(_ root: TreeNode, _ p: TreeNode, _ q: TreeNode) -> TreeNode {
             
             let result: (numFound: Int, lca: TreeNode?) = findLCA(root, p, q)
             return result.lca!
             
         }
         
-        private func findLCA(node: TreeNode, _ p: TreeNode, _ q: TreeNode) -> (Int, TreeNode?) {
+        fileprivate func findLCA(_ node: TreeNode, _ p: TreeNode, _ q: TreeNode) -> (Int, TreeNode?) {
             
             var totalNum = 0
             if node.val == p.val || node.val == q.val {

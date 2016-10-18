@@ -39,7 +39,7 @@ import Foundation
 struct q007 {
     
     class Solution {
-        func reverse(x: Int) -> Int {
+        func reverse(_ x: Int) -> Int {
             var x = x
             var reversedX = 0
             while x != 0 {

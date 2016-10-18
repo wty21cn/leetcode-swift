@@ -46,7 +46,7 @@ struct q112 {
     
     class Solution {
         
-        func dfs(node: TreeNode?, currentSum: Int, sum: Int) -> Bool {
+        func dfs(_ node: TreeNode?, currentSum: Int, sum: Int) -> Bool {
             if let node = node  {
                 
                 let currentSum = currentSum + node.val
@@ -71,7 +71,7 @@ struct q112 {
             }
         }
         
-        func hasPathSum(root: TreeNode?, _ sum: Int) -> Bool {
+        func hasPathSum(_ root: TreeNode?, _ sum: Int) -> Bool {
             if let root = root {
                 return dfs(root, currentSum: 0, sum: sum)
             } else {

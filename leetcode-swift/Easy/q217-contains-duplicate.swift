@@ -25,7 +25,7 @@ import Foundation
 struct q217 {
     
     class Solution {
-        func containsDuplicate(nums: [Int]) -> Bool {
+        func containsDuplicate(_ nums: [Int]) -> Bool {
             
             var distinctSet = Set<Int>()
             for num in nums {

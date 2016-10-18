@@ -27,7 +27,7 @@ import Foundation
 struct q237 {
     
     class Solution {
-        func deleteNode(node: ListNode) -> Void {
+        func deleteNode(_ node: ListNode) -> Void {
             if let next = node.next {
                 node.val = next.val
                 node.next = next.next

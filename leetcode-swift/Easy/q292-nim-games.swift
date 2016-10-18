@@ -48,7 +48,7 @@ struct q292 {
     
     class Solution {
         let m = 3
-        func canWinNim(n: Int) -> Bool {
+        func canWinNim(_ n: Int) -> Bool {
             return n % (m + 1) != 0
         }
     }

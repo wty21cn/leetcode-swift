@@ -52,7 +52,7 @@ struct q225 {
         var queue = [Int]()
         var tmpQueue = [Int]()
         
-        func push(n: Int) -> Void {
+        func push(_ n: Int) -> Void {
             queue.append(n)
         }
         

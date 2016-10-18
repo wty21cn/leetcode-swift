@@ -44,14 +44,14 @@ import Foundation
 struct q198 {
     
     class Solution {
-        func rob(nums: [Int]) -> Int {
+        func rob(_ nums: [Int]) -> Int {
             if nums.isEmpty { return 0 }
             if nums.count == 1 { return nums[0] }
             
-            var dp = Array<Int>(count: nums.count, repeatedValue: 0)
+            var dp = Array<Int>(repeating: 0, count: nums.count)
             dp[0] = nums[0]
             dp[1] = max(dp[0], nums[1])
-            for index in 2..<nums.endIndex {
+            for index in nums.indices.suffix(from: 2) {
                 dp[index] = max(dp[index - 1], dp[index - 2] + nums[index])
             }
             return dp.last!
@@ -59,10 +59,10 @@ struct q198 {
     }
     
     class Solution2 {
-        func rob(nums: [Int]) -> Int {
+        func rob(_ nums: [Int]) -> Int {
             var dp1 = 0
             var dp2 = 0
-            for index in nums.startIndex..<nums.endIndex {
+            for index in nums.indices {
                 let current = max(dp1, dp2 + nums[index])
                 dp2 = dp1
                 dp1 = current

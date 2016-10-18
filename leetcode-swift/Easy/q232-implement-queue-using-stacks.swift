@@ -46,7 +46,7 @@ struct q232 {
         var tmpStack: [Int] = []
         
         
-        func push(n: Int) -> Void {
+        func push(_ n: Int) -> Void {
             stack.append(n)
         }
         

@@ -31,7 +31,7 @@ import Foundation
 struct q231 {
     
     class Solution {
-        func isPowerOfTwo(n: Int) -> Bool {
+        func isPowerOfTwo(_ n: Int) -> Bool {
             
             var n = n
             if n <= 0 {
@@ -46,7 +46,7 @@ struct q231 {
     }
     
     class Solution2 {
-        func isPowerOfTwo(n: Int) -> Bool {
+        func isPowerOfTwo(_ n: Int) -> Bool {
             return n > 0 && (n & (n - 1) == 0)
         }
     }

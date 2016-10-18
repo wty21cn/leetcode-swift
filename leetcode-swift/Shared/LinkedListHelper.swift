@@ -35,7 +35,7 @@ class LinkedListHelper {
 }
 
 extension LinkedListHelper {
-    private static let indent = "-->"
+    fileprivate static let indent = "-->"
     
     static func getStructureDescription(forNode node: ListNodePrintable?) -> String {
         var description = ""

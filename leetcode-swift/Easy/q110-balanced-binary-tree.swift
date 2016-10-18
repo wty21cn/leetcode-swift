@@ -17,7 +17,7 @@ struct q110 {
     
     class Solution {
         
-        func isNodeBalanced(node: TreeNode?) -> (Bool,Int) {
+        func isNodeBalanced(_ node: TreeNode?) -> (Bool,Int) {
             if let node = node {
                 let (isLeftBalanced, leftHeight) = isNodeBalanced(node.left)
                 if !isLeftBalanced {
@@ -41,7 +41,7 @@ struct q110 {
             
         }
         
-        func isBalanced(root: TreeNode?) -> Bool {
+        func isBalanced(_ root: TreeNode?) -> Bool {
             
             return isNodeBalanced(root).0
             

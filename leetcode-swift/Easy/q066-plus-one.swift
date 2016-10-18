@@ -25,10 +25,10 @@ import Foundation
 struct q66 {
     
     class Solution {
-        func plusOne(digits: [Int]) -> [Int] {
+        func plusOne(_ digits: [Int]) -> [Int] {
             
             var digits = digits
-            var index = digits.endIndex.predecessor()
+            var index = (digits.endIndex - 1)
             var adding = 0
             digits[index] += 1
             
@@ -38,10 +38,10 @@ struct q66 {
                 if adding > 0 {
                     digits[index] %= 10
                 }
-                index = index.predecessor()
+                index = (index - 1)
             }
             if adding > 0 {
-                digits.insert(adding, atIndex: 0)
+                digits.insert(adding, at: 0)
             }
             return digits
         }

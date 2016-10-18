@@ -24,7 +24,7 @@ class BinaryTreeHelper {
         return root
     }
     
-    private static func buildTree(withNodes nodes: [Int?], index: Int) -> TreeNode? {
+    fileprivate static func buildTree(withNodes nodes: [Int?], index: Int) -> TreeNode? {
         if index < nodes.endIndex {
             if let nodeValue = nodes[index] {
                 let node = TreeNode(nodeValue)
@@ -42,11 +42,11 @@ class BinaryTreeHelper {
 
 extension BinaryTreeHelper {
     
-    private static let indentStrVertical    = " │      "
-    private static let indentStrBlank       = "        "
-    private static let indentStrLine        = "───── "
-    private static let indentStrRightChild  = " ┌"
-    private static let indentStrLeftChild   = " └"
+    fileprivate static let indentStrVertical    = " │      "
+    fileprivate static let indentStrBlank       = "        "
+    fileprivate static let indentStrLine        = "───── "
+    fileprivate static let indentStrRightChild  = " ┌"
+    fileprivate static let indentStrLeftChild   = " └"
     
     static func getStructureDescription(forNode node: BinaryTreeNodePrintable?) -> String {
         var description = "\n"
@@ -66,7 +66,7 @@ extension BinaryTreeHelper {
         return description
     }
     
-    private static func getSubtreeStructureDescription(subtree: BinaryTreeNodePrintable, isRightSubtree: Bool, indent: String) -> String {
+    fileprivate static func getSubtreeStructureDescription(_ subtree: BinaryTreeNodePrintable, isRightSubtree: Bool, indent: String) -> String {
         
         var description = ""
         

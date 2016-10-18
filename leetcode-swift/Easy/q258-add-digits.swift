@@ -30,7 +30,7 @@ import Foundation
 struct q258 {
     
     class Solution {
-        func addDigits(num: Int) -> Int {
+        func addDigits(_ num: Int) -> Int {
             var num = num
             while num / 10 != 0 {
                 var sum = 0
@@ -45,7 +45,7 @@ struct q258 {
     }
     
     class FollowUpSolution {
-        func addDigits(num: Int) -> Int {
+        func addDigits(_ num: Int) -> Int {
             return (num - 1) % 9 + 1
         }
     }

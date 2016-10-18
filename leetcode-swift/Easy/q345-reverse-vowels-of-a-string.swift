@@ -30,7 +30,7 @@ import Foundation
 struct q345 {
     
     class Solution {
-        func reverseVowels(s: String) -> String {
+        func reverseVowels(_ s: String) -> String {
             
             if s.isEmpty {
                 return s
@@ -39,15 +39,15 @@ struct q345 {
             var s = s
             let vowels = "aAeEiIoOuU".characters
             var headIndex = s.startIndex
-            var tailIndex = s.endIndex.predecessor()
+            var tailIndex = s.characters.index(before: s.endIndex)
             
             while  headIndex < tailIndex{
                 while !vowels.contains(s[headIndex]) && headIndex < tailIndex {
-                    headIndex = headIndex.successor()
+                    headIndex = <#T##Collection corresponding to `headIndex`##Collection#>.index(after: headIndex)
                 }
                 
                 while !vowels.contains(s[tailIndex]) && headIndex < tailIndex {
-                    tailIndex = tailIndex.predecessor()
+                    tailIndex = <#T##Collection corresponding to `tailIndex`##Collection#>.index(before: tailIndex)
                 }
                 
                 if headIndex == tailIndex {
@@ -55,11 +55,11 @@ struct q345 {
                 }
                 
                 let tmp = s[headIndex]
-                s.replaceRange(headIndex...headIndex, with: "\(s[tailIndex])")
-                s.replaceRange(tailIndex...tailIndex, with: "\(tmp)")
+                s.replaceSubrange(headIndex...headIndex, with: "\(s[tailIndex])")
+                s.replaceSubrange(tailIndex...tailIndex, with: "\(tmp)")
                 
-                headIndex = headIndex.successor()
-                tailIndex = tailIndex.predecessor()
+                headIndex = <#T##Collection corresponding to `headIndex`##Collection#>.index(after: headIndex)
+                tailIndex = <#T##Collection corresponding to `tailIndex`##Collection#>.index(before: tailIndex)
             }
             return s
         }
