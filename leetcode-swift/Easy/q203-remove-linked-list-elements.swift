@@ -52,7 +52,7 @@ struct q203 {
     
     static func getSolution() -> Void {
         let head = LinkedListHelper.buildLinkedList(withNodes: [1,2,3,1,1,2,1,2,3,1])
-        print(head)
-        print(Solution().removeElements(head, 1))
+        print(head ?? "")
+        print(Solution().removeElements(head, 1) ?? "")
     }
 }

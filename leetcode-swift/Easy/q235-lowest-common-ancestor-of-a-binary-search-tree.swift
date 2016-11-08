@@ -110,7 +110,7 @@ struct q235 {
         let root = BinaryTreeHelper.buildTree(withNodes: [10,5,14,1,8,12,15,nil,4,7,nil,11,13,nil,nil,nil,nil,2])
         let p = TreeNode(1), q = TreeNode(8)
         
-        print(root)
+        print(root ?? "")
         
         print(Solution2().lowestCommonAncestor(root!, p, q).val)
     }

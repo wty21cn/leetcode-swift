@@ -67,21 +67,21 @@ struct q13 {
             var index = reversedChars.startIndex
             while index != reversedChars.endIndex {
                 let char1 = reversedChars[index]
-                if index.successor() == reversedChars.endIndex {
+                if reversedChars.index(after: index) == reversedChars.endIndex {
                     integer += romanUnit[char1]!
                     break
                 }
-                let char2 = reversedChars[index.successor()]
+                let char2 = reversedChars[reversedChars.index(after: index)]
                 
                 if romanUnit[char1] > romanUnit[char2] && ["I", "C", "X"].contains(String(char2)) {
                     
                     integer = integer + romanUnit[char1]! - romanUnit[char2]!
-                    index = index.successor().successor()
+                    index = reversedChars.index(index, offsetBy: 2)
                     
                 } else  {
                     
                     integer += romanUnit[char1]!
-                    index = index.successor()
+                    index = reversedChars.index(after: index)
                     
                 }
             }

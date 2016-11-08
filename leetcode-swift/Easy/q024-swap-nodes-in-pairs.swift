@@ -42,6 +42,6 @@ struct q24 {
         
         let head = LinkedListHelper.buildLinkedList(withNodes: [1,2,3,4,5,6,7,8,9])
         
-        print(Solution().swapPairs(head))
+        print(Solution().swapPairs(head) ?? "")
     }
 }

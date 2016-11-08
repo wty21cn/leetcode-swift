@@ -44,8 +44,8 @@ struct q226 {
     class Solution {
         func invertTree(_ root: TreeNode?) -> TreeNode? {
             if let node = root {
-                invertTree(node.left)
-                invertTree(node.right)
+                _ = invertTree(node.left)
+                _ = invertTree(node.right)
                 
                 (node.left, node.right) = (node.right, node.left)
             }
@@ -60,6 +60,6 @@ struct q226 {
         root.left!.right = TreeNode(2)
         root.left!.right!.right = TreeNode(3)
         
-        print(Solution().invertTree(root))
+        print(Solution().invertTree(root) ?? "")
     }
 }

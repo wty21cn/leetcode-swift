@@ -97,7 +97,7 @@ struct q234 {
     }
     static func getSolution() -> Void {
         let head = LinkedListHelper.buildLinkedList(withNodes: [1,1,2,1,1])
-        print(head)
+        print(head ?? "")
         print(Solution().isPalindrome(head))
     }
 }

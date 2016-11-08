@@ -35,11 +35,11 @@ struct q14 {
             }
             
             if var s = s {
-                var subrange = s.characters.indices
+                var endIndex = s.endIndex
                 for str in strs {
                     while !s.isEmpty && !str.hasPrefix(s) {
-                        subrange.upperBound = <#T##Collection corresponding to your index##Collection#>.index(before: subrange.upperBound)
-                        s = s[subrange]
+                        endIndex = s.index(before: endIndex)
+                        s = s.substring(to: endIndex)
                     }
                 }
                 return s
@@ -50,6 +50,6 @@ struct q14 {
     }
     
     static func getSolution() -> Void {
-        print(Solution().longestCommonPrefix(["ab","ac","abc","abcd"]))
+        print(Solution().longestCommonPrefix(["ab","ab","abc","abcd"]))
     }
 }

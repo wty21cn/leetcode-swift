@@ -43,11 +43,11 @@ struct q345 {
             
             while  headIndex < tailIndex{
                 while !vowels.contains(s[headIndex]) && headIndex < tailIndex {
-                    headIndex = <#T##Collection corresponding to `headIndex`##Collection#>.index(after: headIndex)
+                    headIndex = s.index(after: headIndex)
                 }
                 
                 while !vowels.contains(s[tailIndex]) && headIndex < tailIndex {
-                    tailIndex = <#T##Collection corresponding to `tailIndex`##Collection#>.index(before: tailIndex)
+                    tailIndex = s.index(before: tailIndex)
                 }
                 
                 if headIndex == tailIndex {
@@ -58,8 +58,8 @@ struct q345 {
                 s.replaceSubrange(headIndex...headIndex, with: "\(s[tailIndex])")
                 s.replaceSubrange(tailIndex...tailIndex, with: "\(tmp)")
                 
-                headIndex = <#T##Collection corresponding to `headIndex`##Collection#>.index(after: headIndex)
-                tailIndex = <#T##Collection corresponding to `tailIndex`##Collection#>.index(before: tailIndex)
+                headIndex = s.index(after: headIndex)
+                tailIndex = s.index(before: tailIndex)
             }
             return s
         }

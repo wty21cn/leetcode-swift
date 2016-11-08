@@ -236,16 +236,19 @@
 				B76B78591D2A2DBE0093657C /* q007-reverse-integer.swift */,
 				B76B78571D2A24630093657C /* q009-palindrome-number.swift */,
 				B76B77E51D281C7C0093657C /* q013-roman-to-integer.swift */,
+				B7E9B29F1D2EA75500D78ECC /* q014-longest-common-prefix.swift */,
 				B7B3207C1D2BAA5C004920E2 /* q019-remove-nth-node-from-end-of-list.swift */,
 				B7B320811D2BC6B0004920E2 /* q020-valid-parentheses.swift */,
 				B76B77E61D281C7C0093657C /* q021-merge-two-sorted-lists.swift */,
 				B76B77E71D281C7C0093657C /* q024-swap-nodes-in-pairs.swift */,
 				B76B78511D2A0B2A0093657C /* q026-remove-duplicates-from-sorted-array.swift */,
 				B76B78451D294D910093657C /* q027-remove-element.swift */,
+				B7E9B2A31D2F4B1E00D78ECC /* q028-implement-strstr.swift */,
 				B76B785E1D2A5C330093657C /* q036-valid-sudoku.swift */,
 				B7E9B2951D2CB1A200D78ECC /* q038-count-and-say.swift */,
 				B7E9B2971D2CC3D600D78ECC /* q058-length-of-last-word.swift */,
 				B76B78491D2974370093657C /* q066-plus-one.swift */,
+				B7E9B2A11D2EAEA900D78ECC /* q067-add-binary.swift */,
 				B76B77E81D281C7C0093657C /* q070-climbing-stairs.swift */,
 				B76B77E91D281C7C0093657C /* q083-remove-duplicates-from-sorted-list.swift */,
 				B7B320781D2B8A77004920E2 /* q088-merge-sorted-array.swift */,
@@ -265,11 +268,13 @@
 				B76B77EE1D281C7C0093657C /* q160-majority-element.swift */,
 				B76B77EF1D281C7C0093657C /* q171-excel-sheet-column-number.swift */,
 				B76B78531D2A0EB00093657C /* q172-factorial-trailing-zeroes.swift */,
+				B7E9B29B1D2CE93D00D78ECC /* q190-reverse-bits.swift */,
 				B76B77F01D281C7C0093657C /* q191-number-of-1-bits.py */,
 				B76B77F11D281C7C0093657C /* q191-number-of-1-bits.swift */,
 				B76B78371D28B3A90093657C /* q198-house-robber.swift */,
 				B76B77F21D281C7C0093657C /* q202-happy-number.swift */,
 				B7E9B2991D2CD6DD00D78ECC /* q203-remove-linked-list-elements.swift */,
+				B70C2AAF1D30E810002AC496 /* q204-count-primes.swift */,
 				B7B320761D2B6DD0004920E2 /* q205-isomorphic-strings.swift */,
 				B76B77F31D281C7C0093657C /* q206-reverse-linked-list.swift */,
 				B76B77F41D281C7C0093657C /* q217-contains-duplicate.swift */,
@@ -279,6 +284,7 @@
 				B76B77F51D281C7C0093657C /* q226-invert-binary-tree.swift */,
 				B76B77F61D281C7C0093657C /* q231-power-of-two.swift */,
 				B76B784D1D2A017F0093657C /* q232-implement-queue-using-stacks.swift */,
+				B7E9B29D1D2E5C4600D78ECC /* q234-palindrome-linked-list.swift */,
 				B76B77F71D281C7C0093657C /* q235-lowest-common-ancestor-of-a-binary-search-tree.py */,
 				B76B77F81D281C7C0093657C /* q235-lowest-common-ancestor-of-a-binary-search-tree.swift */,
 				B76B77F91D281C7C0093657C /* q237-delete-node-in-a-linked-list.py */,
@@ -291,6 +297,7 @@
 				B7B3207E1D2BB75E004920E2 /* q290-word-pattern.swift */,
 				B76B77FF1D281C7C0093657C /* q292-nim-games.swift */,
 				B7B320701D2A8EA6004920E2 /* q299-bulls-and-cows.swift */,
+				B72E3A901D2FC2AF003595EE /* q303-range-sum-query-immutable.swift */,
 				B76B78001D281C7C0093657C /* q326-power-of-three.swift */,
 				B76B78011D281C7C0093657C /* q334-reverse-string.swift */,
 				B76B78431D29323D0093657C /* q342-power-of-four.swift */,
@@ -298,13 +305,6 @@
 				B76B78031D281C7C0093657C /* q349-Intersection-of-two-arrays.swift */,
 				B76B78041D281C7C0093657C /* q350-intersection-of-two-arrays-ii.swift */,
 				B76B78051D281C7C0093657C /* q371-sum-of-two-integers.swift */,
-				B7E9B29B1D2CE93D00D78ECC /* q190-reverse-bits.swift */,
-				B7E9B29D1D2E5C4600D78ECC /* q234-palindrome-linked-list.swift */,
-				B7E9B29F1D2EA75500D78ECC /* q014-longest-common-prefix.swift */,
-				B7E9B2A11D2EAEA900D78ECC /* q067-add-binary.swift */,
-				B7E9B2A31D2F4B1E00D78ECC /* q028-implement-strstr.swift */,
-				B72E3A901D2FC2AF003595EE /* q303-range-sum-query-immutable.swift */,
-				B70C2AAF1D30E810002AC496 /* q204-count-primes.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -374,7 +374,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Rain Wang";
 				TargetAttributes = {
 					B76B77D61D281C190093657C = {
@@ -503,8 +503,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -548,8 +550,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -568,6 +572,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};

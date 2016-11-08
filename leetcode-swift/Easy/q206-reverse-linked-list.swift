@@ -79,9 +79,9 @@ struct q206 {
     
     static func getSolution() -> Void {
         let head = LinkedListHelper.buildLinkedList(withNodes: [1,2])
-        print(head)
+        print(head ?? "")
         
         let reversedListHead = Solution2().reverseList(head)
-        print(reversedListHead)
+        print(reversedListHead ?? "")
     }
 }

@@ -55,16 +55,16 @@ struct q21 {
         var l1 = LinkedListHelper.buildLinkedList(withNodes: [1,5,8,9,13])
         var l2 = LinkedListHelper.buildLinkedList(withNodes: [0,2,3,6,11,14])
         
-        print(Solution().mergeTwoLists(l1,l2))
+        print(Solution().mergeTwoLists(l1,l2) ?? "")
         
         l1 = LinkedListHelper.buildLinkedList(withNodes: [1,2,3,4,5])
         l2 = LinkedListHelper.buildLinkedList(withNodes: [1,2,3,4,5,6])
-        print(Solution().mergeTwoLists(l1, l2))
+        print(Solution().mergeTwoLists(l1, l2) ?? "")
         
         
         l1 = LinkedListHelper.buildLinkedList(withNodes: [1,2,3,4,5])
         l2 = nil
-        print(Solution().mergeTwoLists(l1, l2))
+        print(Solution().mergeTwoLists(l1, l2) ?? "")
         
     }
 }

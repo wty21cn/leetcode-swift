@@ -78,25 +78,25 @@ struct q160 {
         var headA = LinkedListHelper.buildLinkedList(withNodes: [1,2,3,7,8,9])
         var headB = LinkedListHelper.buildLinkedList(withNodes: [4,5,6])
         headB?.next?.next?.next = headA?.next?.next?.next
-        print(headA)
-        print(headB)
+        print(headA ?? "")
+        print(headB ?? "")
         
-        print(Solution().getIntersectionNode(headA, headB))
+        print(Solution().getIntersectionNode(headA, headB) ?? "")
         
         headA = LinkedListHelper.buildLinkedList(withNodes: [1,2,3,7,8,9])
         headB = headA?.next?.next
-        print(headA)
-        print(headB)
+        print(headA ?? "")
+        print(headB ?? "")
         
-        print(Solution().getIntersectionNode(headA, headB))
+        print(Solution().getIntersectionNode(headA, headB) ?? "")
         
         headA = LinkedListHelper.buildLinkedList(withNodes: [1,2,3,7,8,9])
         headB = LinkedListHelper.buildLinkedList(withNodes: [4,5,6])
-        print(headA)
-        print(headB)
+        print(headA ?? "")
+        print(headB ?? "")
         
-        print(Solution().getIntersectionNode(headA, headB))
+        print(Solution().getIntersectionNode(headA, headB) ?? "")
         
-        print(Solution().getIntersectionNode(nil, nil))
+        print(Solution().getIntersectionNode(nil, nil) ?? "")
     }
 }
